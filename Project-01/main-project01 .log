@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.2.21)  3 MAR 2026 22:51
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.2.21)  3 MAR 2026 22:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1460,8 +1460,8 @@ LaTeX Warning: Citation `EN1991-1-1-2002(3)' on page 6 undefined on input line 2
 calculation.tex:22: Undefined control sequence.
 \thetable ->\thechapter .\thelesson 
                                     .\arabic {section}.\arabic {table}
-l.22 \begin{longtable}{ccc}
-                           
+l.22 \begin{longtable}[h!]{CCC}
+                               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1642,10 +1642,10 @@ Package lastpage Warning: Rerun to get the references right on input line 75.
 Here is how much of TeX's memory you used:
  40508 strings out of 402982
  817465 string characters out of 5448059
- 1451473 words of memory out of 5000000
+ 1453344 words of memory out of 5000000
  68650 multiletter control sequences out of 15000+600000
  628225 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,18n,118p,597b,2114s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01 .xdv (26 pages, 62668 bytes).
+Output written on main-project01 .xdv (26 pages, 62760 bytes).
