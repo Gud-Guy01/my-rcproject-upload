@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  4 MAR 2026 00:13
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  4 MAR 2026 00:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -233,8 +233,8 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip61
 \thm@headsep=\skip62
 \dth@everypar=\toks30
-) (longtable.sty
-Package: longtable 2025/10/13 v4.24 Multi-page Table package (DPC)
+) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTleft=\skip63
 \LTright=\skip64
 \LTpre=\skip65
@@ -245,19 +245,21 @@ Package: longtable 2025/10/13 v4.24 Multi-page Table package (DPC)
 \LT@firsthead=\box58
 \LT@foot=\box59
 \LT@lastfoot=\box60
+\LT@gbox=\box61
 \LT@cols=\count315
 \LT@rows=\count316
 \c@LT@tables=\count317
 \c@LT@chunks=\count318
+\LT@p@ftn=\toks31
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen187
-\ar@mcellbox=\box61
+\ar@mcellbox=\box62
 \extrarowheight=\dimen188
-\NC@list=\toks31
+\NC@list=\toks32
 \extratabsurround=\skip67
 \backup@length=\skip68
-\ar@cellbox=\box62
+\ar@cellbox=\box63
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip69
@@ -272,7 +274,7 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@target=\dimen193
 \TX@delta=\dimen194
 \TX@cols=\count320
-\TX@ftn=\toks32
+\TX@ftn=\toks33
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tabulary\tabulary.sty
 Package: tabulary 2024/06/04 v0.11 tabulary package (DPC)
 \TY@count=\count321
@@ -284,16 +286,16 @@ Package: tabulary 2024/06/04 v0.11 tabulary package (DPC)
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip71
 \enit@outerparindent=\dimen199
-\enit@toks=\toks33
-\enit@inbox=\box63
+\enit@toks=\toks34
+\enit@inbox=\box64
 \enit@count@id=\count322
 \enitdp@description=\count323
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks34
+\pgfutil@everybye=\toks35
 \pgfutil@tempdima=\dimen256
 \pgfutil@tempdimb=\dimen257
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box64
+\pgfutil@abb=\box65
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
@@ -301,10 +303,10 @@ Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks35
-\pgfkeys@temptoks=\toks36
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks37
+\pgfkeys@tmptoks=\toks38
 ))
 \pgf@x=\dimen258
 \pgf@y=\dimen259
@@ -322,9 +324,9 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 \c@pgf@countb=\count325
 \c@pgf@countc=\count326
 \c@pgf@countd=\count327
-\t@pgf@toka=\toks38
-\t@pgf@tokb=\toks39
-\t@pgf@tokc=\toks40
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
 \pgf@sys@id@count=\count328
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
@@ -349,10 +351,10 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen268
 \pgfmath@count=\count332
-\pgfmath@box=\box65
-\pgfmath@toks=\toks41
-\pgfmath@stack@operand=\toks42
-\pgfmath@stack@operation=\toks43
+\pgfmath@box=\box66
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count333
 )) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
@@ -381,9 +383,9 @@ File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@shorten@start@additional=\dimen286
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box66
-\pgf@hbox=\box67
-\pgf@layerbox@main=\box68
+\pgfpic=\box67
+\pgf@hbox=\box68
+\pgf@layerbox@main=\box69
 \pgf@picture@serial@count=\count334
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -411,7 +413,7 @@ File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box69
+\pgfexternal@startupbox=\box70
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
@@ -422,7 +424,7 @@ File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box70
+\pgfnodeparttextbox=\box71
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
@@ -435,8 +437,8 @@ Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen295
 \pgffor@skip=\dimen296
-\pgffor@stack=\toks44
-\pgffor@toks=\toks45
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
 )) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
@@ -452,10 +454,10 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@lastmovetoy=\dimen303
 \tikzleveldistance=\dimen304
 \tikzsiblingdistance=\dimen305
-\tikz@figbox=\box71
-\tikz@figbox@bg=\box72
-\tikz@tempbox=\box73
-\tikz@tempbox@bg=\box74
+\tikz@figbox=\box72
+\tikz@figbox@bg=\box73
+\tikz@tempbox=\box74
+\tikz@tempbox@bg=\box75
 \tikztreelevel=\count338
 \tikznumberofchildren=\count339
 \tikznumberofcurrentchild=\count340
@@ -472,10 +474,10 @@ File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count346
-\float@exts=\toks46
-\float@box=\box75
-\@float@everytoks=\toks47
-\@floatcapt=\box76
+\float@exts=\toks47
+\float@box=\box76
+\@float@everytoks=\toks48
+\@floatcapt=\box77
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
@@ -498,19 +500,6 @@ Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-
-
-C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty:87: LaTeX Error: Command \LT@makecaption undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87 \renewcommand\LT@makecaption
-                                 [3]{%
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 ))
 Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count349
@@ -543,7 +532,7 @@ Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@qlevel=\count358
 \csq@maxlvl=\count359
 \csq@tshold=\count360
-\csq@ltx@everypar=\toks48
+\csq@ltx@everypar=\toks49
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
@@ -567,13 +556,13 @@ Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
 File: ppxetex.def 2025/07/23 v0.6g Pdfpages driver for XeTeX (AM)
 )
 \pdfpages@includegraphics@status=\count361
-\AM@pagebox=\box77
-\AM@global@opts=\toks49
+\AM@pagebox=\box78
+\AM@global@opts=\toks50
 \AM@pagecnt=\count362
-\AM@toc@title=\toks50
-\AM@lof@heading=\toks51
+\AM@toc@title=\toks51
+\AM@lof@heading=\toks52
 \c@AM@survey=\count363
-\AM@templatesizebox=\box78
+\AM@templatesizebox=\box79
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip72
@@ -590,7 +579,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip83
 \f@nch@widthC=\skip84
 \f@nch@widthR=\skip85
-\@temptokenb=\toks52
+\@temptokenb=\toks53
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
@@ -633,7 +622,7 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \c@tracingmulticols=\count366
-\mult@box=\box79
+\mult@box=\box80
 \multicol@leftmargin=\dimen319
 \c@unbalance=\count367
 \c@collectmore=\count368
@@ -646,15 +635,14 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \postmulticols=\dimen323
 \multicolsep=\skip120
 \multicolbaselineskip=\skip121
-\partial@page=\box80
-\last@line=\box81
-\mc@boxedresult=\box82
+\partial@page=\box81
+\last@line=\box82
+\mc@boxedresult=\box83
 \maxbalancingoverflow=\dimen324
-\mult@rightbox=\box83
-\mult@grightbox=\box84
-\mult@firstbox=\box85
-\mult@gfirstbox=\box86
-\@tempa=\box87
+\mult@rightbox=\box84
+\mult@grightbox=\box85
+\mult@firstbox=\box86
+\mult@gfirstbox=\box87
 \@tempa=\box88
 \@tempa=\box89
 \@tempa=\box90
@@ -690,27 +678,28 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box120
 \@tempa=\box121
 \@tempa=\box122
+\@tempa=\box123
 \c@minrows=\count372
 \c@columnbadness=\count373
 \c@finalcolumnbadness=\count374
 \last@try=\dimen325
 \multicolovershoot=\dimen326
 \multicolundershoot=\dimen327
-\mult@nat@firstbox=\box123
-\colbreak@box=\box124
+\mult@nat@firstbox=\box124
+\colbreak@box=\box125
 \mc@col@check@num=\count375
 \g__mc_curr_col_int=\count376
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen328
 \WF@size=\dimen329
 \c@WF@wrappedlines=\count377
-\WF@box=\box125
-\WF@everypar=\toks53
+\WF@box=\box126
+\WF@everypar=\toks54
 Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks54
-\verbatim@line=\toks55
+\every@verbatim=\toks55
+\verbatim@line=\toks56
 \verbatim@in@stream=\read3
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
 Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
@@ -719,19 +708,19 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box126
-\tcb@upperbox=\box127
-\tcb@lowerbox=\box128
-\tcb@phantombox=\box129
+\tcb@titlebox=\box127
+\tcb@upperbox=\box128
+\tcb@lowerbox=\box129
+\tcb@phantombox=\box130
 \c@tcbbreakpart=\count378
 \c@tcblayer=\count379
 \c@tcolorbox@number=\count380
-\l__tcobox_tmpa_box=\box130
+\l__tcobox_tmpa_box=\box131
 \l__tcobox_tmpa_dim=\dimen330
-\tcb@temp=\box131
 \tcb@temp=\box132
 \tcb@temp=\box133
 \tcb@temp=\box134
+\tcb@temp=\box135
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
 \c@tcbrastercolumn=\count381
@@ -746,7 +735,7 @@ Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
 Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box135
+\l__tikzfill_img_box=\box136
 )) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
 )) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.code.tex
@@ -761,9 +750,9 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
 )
 Package pdfcol Info: pdfTeX's color stacks are not available.
-\tcb@testbox=\box136
-\tcb@totalupperbox=\box137
-\tcb@totallowerbox=\box138
+\tcb@testbox=\box137
+\tcb@totalupperbox=\box138
+\tcb@totallowerbox=\box139
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '6.9.0'
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.code.tex
@@ -780,8 +769,8 @@ Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
 Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
 (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count386
-\lst@gtempboxa=\box139
-\lst@token=\toks56
+\lst@gtempboxa=\box140
+\lst@token=\toks57
 \lst@length=\count387
 \lst@currlwidth=\dimen334
 \lst@column=\count388
@@ -797,7 +786,7 @@ File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count392
 \lst@skipnumbers=\count393
-\lst@framebox=\box140
+\lst@framebox=\box141
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
@@ -831,14 +820,14 @@ File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
 )) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
-\everycr=\toks57
+\everycr=\toks58
 \minrowclearance=\skip122
 \rownum=\count395
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box141
+\@vwid@box=\box142
 \sift@deathcycles=\count396
 \@vwid@loff=\dimen338
 \@vwid@roff=\dimen339
@@ -859,12 +848,12 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \abovetabulinesep=\dimen346
 \belowtabulinesep=\dimen347
 \tabustrutrule=\dimen348
-\tabu@thebody=\toks58
-\tabu@footnotes=\toks59
-\tabu@box=\box142
-\tabu@arstrutbox=\box143
-\tabu@hleads=\box144
-\tabu@vleads=\box145
+\tabu@thebody=\toks59
+\tabu@footnotes=\toks60
+\tabu@box=\box143
+\tabu@arstrutbox=\box144
+\tabu@hleads=\box145
+\tabu@vleads=\box146
 \tabu@cellskip=\skip123
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
@@ -949,16 +938,11 @@ Package hyperref Info: PDF/A mode OFF on input line 6114.
 \Hy@abspage=\count409
 \c@Item=\count410
 \c@Hfootnote=\count411
-
-
-LaTeX Warning: Command \LT@p@ftntext  has changed.
-               Check if current package is valid.
-
 )
 Package hyperref Info: Driver (autodetected): hxetex.
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
 File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
-\pdfm@box=\box146
+\pdfm@box=\box147
 \c@Hy@AnnotLevel=\count412
 \HyField@AnnotCount=\count413
 \Fld@listcount=\count414
@@ -973,10 +957,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip124
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/etoc\etoc.sty
 Package: etoc 2023/10/29 v1.2d Completely customisable TOCs (JFB)
-\Etoc@toctoks=\toks60
+\Etoc@toctoks=\toks61
 \c@etoc@tocid=\count416
-\etoc@framed@titlebox=\box147
-\etoc@framed@contentsbox=\box148
+\etoc@framed@titlebox=\box148
+\etoc@framed@contentsbox=\box149
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.def
@@ -1099,9 +1083,9 @@ Package minitoc Info: I0023
 (minitoc)             part level macros available.
 Package minitoc Info: I0003
 (minitoc)             chapter level macros available.
-\mtc@toks=\toks61
-\mtc@strutbox=\box149
-\mtc@hstrutbox=\box150
+\mtc@toks=\toks62
+\mtc@strutbox=\box150
+\mtc@hstrutbox=\box151
 Package minitoc Info: I0002
 (minitoc)             Autoconfiguration of extensions.
 \openout4 = `"main-project01 .mtc0"'.
@@ -1135,8 +1119,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'american'.
-
-No file "main-project01 ".aux.
+ (main-project01 .aux)
 \openout1 = `"main-project01 .aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -1216,6 +1199,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 14.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1253,18 +1237,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
-
-c:/Drive D/overleaf/RC Projects/Project-01/main-project01 .tex:14: LaTeX Error: Command \LT@array undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \begin{document}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
@@ -1278,11 +1250,7 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 ))
 \c@lstlisting=\count437
 Package hyperref Info: Link coloring ON on input line 14.
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-No file "main-project01 ".toc.
+\Etoc@tf=\read4
 \c@minilofdepth=\count438
 \c@minilotdepth=\count439
 \c@partlofdepth=\count440
@@ -1297,16 +1265,25 @@ Package minitoc(hints) Info: I0047
 (minitoc(hints))             See the minitoc package documentation 
 (minitoc(hints))             for specific precautions.
 
+
 Package minitoc(hints) Warning: W0099
 (minitoc(hints))                --- The titlesec package is loaded. 
 (minitoc(hints))                It is incompatible 
 (minitoc(hints))                with the minitoc package.
 
-
-Package minitoc Warning: W0010
-(minitoc)                No file "main-project01 ".toc. 
-(minitoc)                MINITOCS NOT PREPARED on input line 14.
-
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM "main-project01 ".toc on input line 14.
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Introduction}{\reset@font\mtcSfont 1}{section.0.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Team Organization}{\reset@font\mtcSfont 2}{section.0.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}Meeting Minutes \& Progress Reports}{\reset@font\mtcSfont 3}{section.0.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4}Architectural \& Structural Assumptions}{\reset@font\mtcSfont 4}{section.0.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5}Design \& Optimization Process}{\reset@font\mtcSfont 5}{section.0.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6}Detailed Design Calculations}{\reset@font\mtcSfont 6}{section.0.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1}Load}{\reset@font\mtcSSfont 6}{subsection.0.6.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7}Design Drawings}{\reset@font\mtcSfont 7}{section.0.7}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8}Results, Discussion \& Conclusion}{\reset@font\mtcSfont 8}{section.0.8}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode References}{\reset@font\mtcSfont 9}{section*.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Appendices}{\reset@font\mtcSfont 10}{section*.2}}
 \tf@toc=\write5
 \openout5 = `"main-project01 .toc"'.
 
@@ -1393,22 +1370,28 @@ File: Cover (2).pdf Graphic file (type pdf)
 \tf@toc=\write6
 \openout6 = `"main-project01 .toc"'.
 
- [1
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+ (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+ (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
 
 
-]
-No file "main-project01 ".lof.
+] (main-project01 .lof)
 \tf@lof=\write7
 \openout7 = `"main-project01 .lof"'.
 
-[2
+ [2
 
-]
-No file "main-project01 ".lot.
+] (main-project01 .lot)
 \tf@lot=\write8
 \openout8 = `"main-project01 .lot"'.
 
-[3
+ [3
 
 ] [4
 
@@ -1445,91 +1428,25 @@ No file "main-project01 ".lot.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-) (Intro.tex)
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 23.
-
-[1
+) (Intro.tex) [1
 
 
 
-]
+] [2
 
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 25.
+] [3
 
-[2
+] (Assumption.tex) [4
 
-]
+] [5
 
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 27.
+] (calculation.tex) [6
 
-[3
+] (Designdrawing.tex) [7
 
-] (Assumption.tex)
+] (Result.tex) [8
 
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 30.
-
-[4
-
-]
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 32.
-
-[5
-
-] (calculation.tex
-
-LaTeX Warning: Citation `EN1991-1-1-2002(3)' on page 6 undefined on input line 2.
-
-
-calculation.tex:3: LaTeX Error: Environment longtable undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \begin{longtable}
-                     {|l|l|c|c|}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-calculation.tex:21: LaTeX Error: \begin{document} ended by \end{longtable}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \end{longtable}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-)
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 35.
-
-[6
-
-] (Designdrawing.tex)
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 38.
-
-[7
-
-] (Result.tex)
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 42.
-
-[8
-
-]
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 69.
-
-[9
+] [9
 
 ] (Appendices.tex
 File: plan1.pdf Graphic file (type pdf)
@@ -1538,102 +1455,70 @@ File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 1>
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 1>
-
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 7.
-
-[10
+ [10
 
 ]
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 1>
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 1>
-
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 7.
-
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 1>
-[11
+ [11
 
 ]
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 2>
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 2>
-
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 7.
-
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 2>
-[12
+ [12
 
 ]
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 3>
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 3>
-
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 7.
-
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 3>
-[13
+ [13
 
 ]
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 4>
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 4>
-
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 7.
-
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 4>
-[14
+ [14
 
 ]
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 5>
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 5>
-
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 7.
-
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 5>
-[15
+ [15
 
 ]
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 6>
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 6>
-
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 7.
-
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 6>
-[16
+ [16
 
 ]
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 7>
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 7>
-
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 7.
-
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 7>
-[17
+ [17
 
 ])
 Package minitoc Info: I0009
@@ -1657,9 +1542,6 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the "main-project01 ".log file.
 
-
-LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 76.
-
 [18] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (main-project01 .aux)
@@ -1667,24 +1549,14 @@ enddocument/afterlastpage (AED): lastpage setting LastPage.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package lastpage Warning: Rerun to get the references right on input line 76.
-
  ) 
 Here is how much of TeX's memory you used:
- 40469 strings out of 402982
- 817060 string characters out of 5448060
- 1451965 words of memory out of 5000000
- 68611 multiletter control sequences out of 15000+600000
- 628225 words of font info for 59 fonts, out of 8000000 for 9000
+ 40571 strings out of 402982
+ 818676 string characters out of 5448060
+ 1453875 words of memory out of 5000000
+ 68690 multiletter control sequences out of 15000+600000
+ 631064 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,18n,118p,597b,2114s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01 .xdv (26 pages, 62632 bytes).
+Output written on main-project01 .xdv (26 pages, 83160 bytes).
