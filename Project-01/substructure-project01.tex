@@ -1,0 +1,82 @@
+%------------------------%
+% Front matter
+%------------------------%
+
+\pagestyle{plain} % Default for title page
+% Title page
+\begin{titlepage}
+    \centering
+    \vspace*{\fill}
+    {\fontsize{30}{30}\selectfont\bfseries \color{blue} Reinforcement Concrete \par \fontsize{60}{60}\selectfont\bfseries \color{blue} Project 01\par}
+    \vspace{1cm}
+    {\fontsize{20}{50}\selectfont\bfseries \par}
+    \vspace*{\fill}
+    {\fontsize{16}{16}\selectfont\bfseries \color{red} We can delete this since it no need}
+\end{titlepage}
+\clearpage
+\blankpages{1}
+\clearpage
+\newgeometry{
+  inner=4cm,
+  outer=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm
+}
+\pagenumbering{roman}
+\setcounter{page}{1}
+%------------------------%
+%toc Table of Contents
+%------------------------%
+\markboth{Contents}{Table of Contents}       % Set header text
+\renewcommand{\contentsname}{Table of Contents} %titleoftoc change title of toc
+{\fontsize{14}{18}\selectfont\bfseries \color{blue}
+\tableofcontents}
+\thispagestyle{frontlists}          % Force header on first page
+\clearpage
+
+%------------------------%
+%lof List of Figures
+%------------------------%
+\markboth{List of Figures}{List of Figures}
+\listoffigures
+\thispagestyle{frontlists}          % Force header on first page
+\clearpage
+
+%------------------------%
+%lot List of Tables
+%------------------------%
+\markboth{List of Tables}{List of Tables}
+\listoftables
+\thispagestyle{frontlists}          % Force header on first page
+\clearpage
+\blankpages{2}
+\clearpage
+
+\pagestyle{maincontent}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+%------------------------%
+% Main content
+%------------------------%
+
+     % Use main content headers
+% ------------------------------------------------
+%header: VERY IMPORTANT
+% Make chapter pages use maincontent style
+% ------------------------------------------------
+\makeatletter
+\let\ps@plain\ps@maincontent
+\makeatother
+\renewcommand{\chaptermark}[1]{\markboth{Chapter \thechapter}{#1}}
+% \renewcommand{\subsectionmark}[1]{\markright{\thesubsection\quad #1}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\quad #1}}
+
+
+%starttext...... Start texing.....
+\clearpage
+\newgeometry{
+  inner=4cm,
+  outer=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm
+}

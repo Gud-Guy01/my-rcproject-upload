@@ -1,0 +1,402 @@
+% ██████╗  ██████╗  ██████╗ ██╗   ██╗███╗   ███╗███████╗███╗   ██╗████████╗
+% ██╔══██╗██╔═══██╗██╔═══██╗██║   ██║████╗  ████║██╔════╝████╗  ██║╚══██╔══╝
+% ██████╔╝██║   ██║██║   ██║██║   ██║██╔████╔██║█████╗  ██╔██╗ ██║   ██║
+% ██╔══██╗██║   ██║██║   ██║██║   ██║██║╚██╔╝██║██╔══╝  ██║╚██╗██║   ██║
+% ██║  ██║╚██████╔╝╚██████╔╝╚██████╔╝██║ ╚═╝ ██║███████╗██║ ╚████║   ██║
+% ╚═╝  ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝
+
+% ==================== PACKAGES ====================
+\usepackage{fontspec}           % System fonts
+\usepackage{geometry}            % Margins
+\usepackage{etoolbox}            % Patching commands
+\usepackage{setspace}            % Line spacing
+\usepackage{titlesec}            % Custom heading sizes
+\usepackage{xcolor}              % Colors
+\usepackage{graphicx}            % Images
+\usepackage{amsmath, amssymb, mathtools, amsthm} % Math
+\usepackage{longtable}           % Long tables
+\usepackage{array, multirow}     % Tables
+\usepackage{tabularx, tabulary}  % Advanced tables
+\usepackage{enumitem}            % Lists
+\usepackage{tikz}                % Graphics
+\usepackage{float}               % Figure positioning
+\usepackage{subcaption}          % Subfigures
+\usepackage{lastpage}            % Page numbering
+\usepackage{chngcntr}            % Counter manipulation
+\usepackage{lipsum}              % Placeholder text
+\usepackage{csquotes}            % Quotations
+\usepackage{pdfpages}            % Include PDFs
+\usepackage{fancyhdr}            % Headers and footers
+\usepackage{tocloft}             % Table of contents
+\usepackage{multicol}            % Multiple columns
+\usepackage{wrapfig}             % Wrapped figures
+\usepackage{verbatim}            % Comments
+
+% to counter "Package fancyhdr Warning: \headheight is too small (21.0pt): Make it at least 24.64995pt, for example: \setlength{\headheight}{24.64995pt}. You might also make \topmargin smaller: \addtolength{\topmargin}{-3.64995pt}."
+\setlength{\headheight}{25pt}
+
+% ==================== ToC OPTIMIZATION ====================
+
+
+% ==================== TCOLORBOX ====================
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{breakable, theorems}
+%table ...............
+\usepackage{array, multirow}
+\usepackage[table]{xcolor}
+\usepackage{tabularx, tabulary, tabu,
+longtable}
+\setlength{\tabcolsep}{15pt} %Gap before text Starts
+\renewcommand{\arraystretch}{1.2} %cel1 Height scaling
+\setlength{\arrayrulewidth}{0.01mm} %Tab1e Border Thickness
+\arrayrulecolor{blue} % Table Border Color
+\newcolumntype{s}{>{\columncolor{blue!10}}c}
+%hyperref ==================== HYPERREF (ALWAYS LAST) ====================
+\usepackage[unicode=true,
+            pdfencoding=auto,
+            psdextra,
+            bookmarks=true,
+            bookmarksnumbered=true,
+            bookmarksopen=true,
+            linktoc=all,
+            breaklinks=true,
+            colorlinks=false, %false
+            % pdfborder = {1 1 0.5},  % thickness, {horizontal vertical thickness}
+            % linkbordercolor = blue,
+            allcolors=blue]{hyperref}
+% ================= MINI TOC =================
+\usepackage{etoc}
+
+\usepackage{bookmark}
+%mini toc
+
+% ==================== METADATA ====================
+
+%toc Allow multi-line TOC entries
+\renewcommand{\cftchapafterpnum}{\vspace{5pt}}
+\renewcommand{\cftsecafterpnum}{\vspace{5pt}}
+%figure  Define figure numbering to include chapter.lesson.figure
+\numberwithin{figure}{section}
+\renewcommand{\thefigure}
+{
+\thechapter.\arabic{lesson}.\arabic{section}.\arabic{figure}
+}
+%lof: listoffigure ......
+
+% Redefine List of Figures entries
+\renewcommand{\cftfigpresnum}{Figure } % prefix "Figure "
+\renewcommand{\cftfigaftersnum}{ }      % dot after number
+\setlength{\cftfignumwidth}{2.5cm}       % adjust space for number
+
+%lot Redefine List of Tables entries
+\renewcommand{\cfttabpresnum}{Table } % prefix "Table "
+\renewcommand{\cfttabaftersnum}{:}   % colon after number
+\setlength{\cfttabnumwidth}{2.5cm}     % adjust space for number
+%table Same for tables
+\numberwithin{table}{section}
+\renewcommand{\thetable}
+{
+\thechapter.\arabic{lesson}.\arabic{section}.\arabic{table}
+}
+%language ==================== LANGUAGE ====================
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguage{khmer}
+\newfontfamily\khmerfont[
+Script=Khmer,
+    Scale=MatchLowercase,
+    UprightFont = *,              % Regular font
+    BoldFont = *,                  % Will use fake bold
+    BoldItalicFont = *,            % Will use fake bold + italic
+    ItalicFont = *,                % Regular italic (if available)
+    SmallCapsFont = *,
+    AutoFakeBold = 1.5,            % ← ADD THIS: Simulate bold
+    AutoFakeSlant = 0.2            % ← ADD THIS: Simulate italic if needed
+]{Khmer OS}
+
+
+% ==================== GEOMETRY ====================
+\geometry{
+  inner=4cm,
+  outer=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm
+}
+
+% ==================== MATH SETTINGS ====================
+\numberwithin{equation}{chapter}
+\renewcommand{\theequation}{Eq.\thechapter.\arabic{equation}}
+\everymath{\color{blue}}
+\allowdisplaybreaks
+% Math color (inline + display)
+
+\AtBeginEnvironment{align}{\color{blue}}
+\AtBeginEnvironment{align*}{\color{blue}}
+\AtBeginEnvironment{equation}{\color{blue}}
+\AtBeginEnvironment{equation*}{\color{blue}}
+% Math spacing
+\AtBeginDocument{
+\setlength{\abovedisplayskip}{5pt}
+\setlength{\belowdisplayskip}{5pt}
+\setlength{\jot}{2pt}
+}
+
+% ==================== SECTION FORMATTING ====================
+
+  %chapter: ===== Custom Chapter Style Command =====
+\newcommand{\MyChapterFormat}
+{%
+  \raggedright
+  \fontsize{35}{35}\selectfont
+  \color{blue}{CHAPTER \thechapter }
+  \par\vspace{10pt}
+  \fontsize{70}{70}\selectfont
+}
+
+%chapter: ===== Apply the Style to \chapter =====
+\titleformat{\chapter}[display]
+  {\normalfont}
+  {}
+  {0pt}
+  {\MyChapterFormat}
+\titleformat{\section}
+  {\normalfont\fontsize{16}{20}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\fontsize{14}{18}\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\fontsize{12}{16}\bfseries}{\thesubsubsection}{1em}{}
+
+% \titlespacing{\section}{0pt}{8pt}{4pt}
+% \titlespacing{\subsection}{0pt}{6pt}{3pt}
+% \titlespacing{\subsubsection}{0pt}{4pt}{2pt}
+
+% ==================== COUNTERS ====================
+% \newcounter{lesson}[chapter]
+% \counterwithin{section}{lesson}
+% \counterwithin{equation}{section}
+% \counterwithin{figure}{section}
+% \counterwithin{table}{section}
+
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thefigure}{\thechapter.\thelesson.\arabic{section}.\arabic{figure}}
+\renewcommand{\thetable}{\thechapter.\thelesson.\arabic{section}.\arabic{table}}
+
+% ==================== LESSON COMMAND (FIXED) ====================
+\newcommand{\lesson}[1]{%
+  \refstepcounter{lesson}%
+  \section*{Lesson \thelesson : \textcolor{blue}{#1}}%
+  \addcontentsline{toc}{section}{%
+    \texorpdfstring{%
+      \protect\textcolor{blue}{LESSON} \thelesson : #1%
+    }{%
+      LESSON \thelesson : #1%
+    }%
+  }%
+}
+
+% ==================== TOC STYLING ====================
+\renewcommand{\cftchappresnum}{\color{red}CHAPTER }
+\renewcommand{\cftchapaftersnum}{ }
+\setlength{\cftchapnumwidth}{8em}
+% \setlength{\cftsecnumwidth}{3em}
+% \setlength{\cftsubsecnumwidth}{3em}
+%math.........
+% Equation Set upp
+\numberwithin{equation}{chapter}
+\renewcommand{\theequation}{Eq.\thechapter.\arabic{equation}}
+
+% ==================== LIST SETTINGS ====================
+\setlist{topsep=2pt, itemsep=2pt, parsep=0pt}
+\setlist[enumerate,1]{label=\textcolor{red}{\arabic*}., leftmargin=2em}
+\setlist[enumerate,2]{label=\alph*), leftmargin=3em}
+\setlist[itemize]{label=\textcolor{red}{\textbullet}, leftmargin=2em}
+
+% ==================== TCOLORBOX ENVIRONMENTS ====================
+% Definition
+\newtcbtheorem[number within=section]{definition}{Definition}{
+  colback=blue!5, colframe=blue!50, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{def}
+
+% Example
+\newtcbtheorem[number within=section]{example}{Example}{
+  colback=green!5, colframe=green, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{exa}
+
+% Remark
+\newtcbtheorem[number within=section]{remark}{Remark}{
+  colback=orange!5, colframe=orange!50, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{rem}
+
+% Note
+\newtcbtheorem[number within=section]{note}{Note}{
+  colback=orange!5, colframe=orange!90, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{note}
+
+% Important
+\newtcbtheorem[number within=section]{important}{Important}{
+  colback=red!5, colframe=red!50, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{imp}
+
+% Formula
+\newtcbtheorem[number within=section]{formula}{Formula}{
+  colback=purple!5, colframe=purple!50, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{for}
+% Assume
+\newtcbtheorem[number within=section]{assume}{Assume}{
+  colback=purple!5, colframe=purple!50, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{assume}
+% Tip
+\newtcbtheorem[number within=section]{tip}{Tip}{
+  colback=purple!5, colframe=purple!50, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{tip}
+% General
+\newtcbtheorem[number within=section]{general}{In General}{
+  colback=purple!5, colframe=purple!50, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{gen}
+% Rules
+\newtcbtheorem[number within=section]{rules}{Rules}{
+  colback=purple!5, colframe=purple!50, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{rules}
+% Property
+\newtcbtheorem[number within=section]{property}{Properties}{
+  colback=purple!5, colframe=purple!50, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{prop}
+
+% Translate
+\newtcolorbox{translate}{
+  colback=gray!5, colframe=gray!50, fonttitle=\bfseries,
+  title=Translation, enhanced, breakable
+}
+% Objective
+\newtcolorbox{objective}{
+  colback=gray!5, colframe=gray!50, fonttitle=\bfseries,
+  title=Objective, enhanced, breakable
+}
+% Solutioin
+\newtcbtheorem[number within=section]{solution}{Solution}{
+  colback=purple!5, colframe=purple!50, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{sol}
+% Theorem
+\newtcbtheorem[number within=section]{theorem}{Theorem}{
+  colback=purple!5, colframe=purple!50, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{the}
+% exercise
+\newtcbtheorem[number within=section]{exercise}{Exercise}{
+  colback=black!5, colframe=black!10, fonttitle=\bfseries,
+  sharp corners, breakable, separator sign={:}
+}{the}
+
+%blankpage
+\newcommand{\blankpages}[1]{\foreach \i in {1,...,#1}{\newpage\thispagestyle{empty}\null}}
+% ==================== MINI-TOC SETTINGS ====================
+%mini toc
+% ==================== MINI-TOC (PER CHAPTER) ====================
+
+\usepackage{minitoc}
+%mini toc depth auto control
+% ────────────── Global depth toggle ──────────────
+%mini Configuration
+\AtBeginDocument{
+\dominitoc
+\faketableofcontents
+\setcounter{minitocdepth}{3}
+\mtcsetrules{*}{on}                % rules
+% \mtcsetrules{minitoc}{off}                % no rules
+\setlength{\mtcindent}{0pt}               % no indent
+\setlength{\mtcskipamount}{8pt}           % space above
+% Title font & text – THIS WORKS
+\renewcommand{\mtcfont}{\large\bfseries\color{black}}
+\renewcommand{\mtctitle}{Contents of Chapter~\thechapter}
+}
+
+% ==================== OTHER USEFUL PACKAGES ====================
+
+
+
+%---------------------------------------------%
+%---------------------------------------------%
+\author{\Large HENG Bunleab}
+\date{\today}
+
+%-------------------------------%
+
+%-------------------------------%
+%main Main content header/footer
+%-------------------------------%
+% Header font (Unicode-safe)
+
+\fancypagestyle{maincontent}
+{
+    \fancyhf{} % clear all headers/footers
+
+    % ---------- HEADER ----------
+    \fancyhead[RO,LE]
+    {
+    {\begingroup
+    \selectlanguage{english}\scshape\rightmark
+    \endgroup}
+    }
+
+    \fancyhead[LO,RE]
+    {\scshape\color{blue} Analysis
+    }
+
+
+    % \fancyhead[RO,LE]{\normalfont\scshape\rightmark} % Section number + title
+    % \fancyhead[LO,RE]{\color{blue}\normalfont\scshape\leftmark} % Chapter N only
+
+    % ---------- FOOTER ----------
+    \fancyfoot[C]{{\begingroup \selectlanguage{english}\color{blue}{\thepage\ /\ \pageref{LastPage}}\endgroup}}
+    \fancyfoot[LO,RE]{{\begingroup \selectlanguage{english}\color{blue}{\textit{prepared by} | HENG Bunleab}\endgroup}}
+    \fancyfoot[RO,LE]{\begingroup
+    \selectlanguage{english}\scshape\leftmark
+    \endgroup}
+    % \fancyfoot[C]{}
+    % \fancyfoot[LO,RE]{\color{blue}{\textit{prepared by} | HENG Bunleab}}
+    % \fancyfoot[RO,LE]{\color{blue}{Page | \thepage\ /\ \pageref{LastPage}}}
+
+    % ---------- RULES ----------
+    \renewcommand{\headrulewidth}{0.4pt}
+    \renewcommand{\footrulewidth}{0.4pt}
+    \renewcommand{\headrule}{\color{blue}\hrule width\headwidth height\headrulewidth \vskip-0.4pt}
+    \renewcommand{\footrule}{\color{red}\hrule width\headwidth height\footrulewidth \vskip-0.4pt}
+}
+
+%------------------------%
+%toc TOC / LoF / LoT header/footer
+%------------------------%
+\fancypagestyle{frontlists}
+{
+    \fancyhf{}
+    \fancyhead[RO,LE]
+    {
+    {\begingroup \selectlanguage{english}\normalfont\scshape\rightmark
+    \endgroup}
+    } % Header text
+    \fancyfoot[C]
+    {
+    {\begingroup
+    \selectlanguage{english}\color{blue}{\thepage}
+    \endgroup}
+    }  % Page number
+    \renewcommand{\headrulewidth}{0.4pt}
+    \renewcommand{\footrulewidth}{0.4pt}
+    % Set the color
+    \renewcommand{\headrule}{\color{blue}\hrule width\headwidth height\headrulewidth \vskip-0.4pt}
+    \renewcommand{\footrule}{\color{red}\hrule width\headwidth height\footrulewidth \vskip-0.4pt}
+}
+
+
