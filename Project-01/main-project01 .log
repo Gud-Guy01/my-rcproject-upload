@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.2.21)  3 MAR 2026 17:17
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.2.21)  3 MAR 2026 19:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1279,6 +1279,7 @@ Package minitoc Info: I0024
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4}Architectural \& Structural Assumptions}{\reset@font\mtcSfont 4}{section.0.4}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5}Design \& Optimization Process}{\reset@font\mtcSfont 5}{section.0.5}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6}Detailed Design Calculations}{\reset@font\mtcSfont 6}{section.0.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1}Load}{\reset@font\mtcSSfont 6}{subsection.0.6.1}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7}Design Drawings}{\reset@font\mtcSfont 7}{section.0.7}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8}Results, Discussion \& Conclusion}{\reset@font\mtcSfont 8}{section.0.8}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode References}{\reset@font\mtcSfont 9}{section*.1}}
@@ -1550,12 +1551,12 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 40563 strings out of 402982
- 818560 string characters out of 5448059
+ 40567 strings out of 402982
+ 818619 string characters out of 5448059
  1453829 words of memory out of 5000000
- 68682 multiletter control sequences out of 15000+600000
+ 68686 multiletter control sequences out of 15000+600000
  631064 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,18n,118p,597b,2114s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01 .xdv (26 pages, 80384 bytes).
+Output written on main-project01 .xdv (26 pages, 82412 bytes).

@@ -60,6 +60,7 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \contentsline {section}{\numberline {6}Detailed Design Calculations}{6}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1}Load}{6}{subsection.0.6.1}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
