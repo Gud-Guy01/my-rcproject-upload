@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  5 MAR 2026 19:03
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  5 MAR 2026 19:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1417,12 +1417,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] (detaildesigncalculation.tex
-Overfull \hbox (4.8228pt too wide) in alignment at lines 6--25
+Overfull \hbox (4.8228pt too wide) in alignment at lines 5--24
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 25
+Underfull \vbox (badness 10000) detected at line 24
  []
 
 [2
@@ -1464,10 +1464,10 @@ L3 programming layer <2026-01-19>
 Here is how much of TeX's memory you used:
  40530 strings out of 402982
  817679 string characters out of 5448060
- 1466287 words of memory out of 5000000
+ 1467287 words of memory out of 5000000
  68653 multiletter control sequences out of 15000+600000
  635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,11n,118p,596b,2086s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (12 pages, 65192 bytes).
+Output written on main-project01.xdv (12 pages, 65524 bytes).
