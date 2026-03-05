@@ -23,7 +23,8 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
-\contentsline {section}{References}{2}{section*.1}%
+\contentsline {section}{\numberline {2}Detailed Design Calculations}{2}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1}Load}{2}{subsection.0.2.1}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
@@ -32,7 +33,24 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
-\contentsline {section}{Appendices}{3}{section*.2}%
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\contentsline {section}{References}{4}{section*.1}%
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\contentsline {section}{Appendices}{5}{section*.2}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
