@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  5 MAR 2026 18:56
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  5 MAR 2026 18:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1279,6 +1279,7 @@ Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM main-project01.toc on input line 14.
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Introduction}{\reset@font\mtcSfont 1}{section.0.1}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode References}{\reset@font\mtcSfont 2}{section*.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Appendices}{\reset@font\mtcSfont 3}{section*.2}}
 \tf@toc=\write5
 \openout5 = `main-project01.toc'.
 
@@ -1413,6 +1414,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
+] [2
+
 ]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
@@ -1435,7 +1438,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main-project01.log file.
 
-[2
+[3
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -1446,12 +1449,12 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 40482 strings out of 402982
- 816866 string characters out of 5448060
+ 40483 strings out of 402982
+ 816871 string characters out of 5448060
  1453287 words of memory out of 5000000
- 68619 multiletter control sequences out of 15000+600000
+ 68620 multiletter control sequences out of 15000+600000
  631064 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,11n,118p,596b,2053s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (9 pages, 36920 bytes).
+Output written on main-project01.xdv (10 pages, 40524 bytes).
