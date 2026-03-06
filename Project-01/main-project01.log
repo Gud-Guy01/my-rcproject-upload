@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 12:15
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 12:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1063,19 +1063,6 @@ Package fontspec Info:
 (fontspec)             OS/OT:script=khmr;language=dflt;embolden=1.5;slant=0.2;"
 
 \c@tcb@cnt@definition=\count419
-\c@tcb@cnt@example=\count420
-\c@tcb@cnt@remark=\count421
-\c@tcb@cnt@note=\count422
-\c@tcb@cnt@important=\count423
-\c@tcb@cnt@formula=\count424
-\c@tcb@cnt@assume=\count425
-\c@tcb@cnt@tip=\count426
-\c@tcb@cnt@general=\count427
-\c@tcb@cnt@rules=\count428
-\c@tcb@cnt@property=\count429
-\c@tcb@cnt@solution=\count430
-\c@tcb@cnt@theorem=\count431
-\c@tcb@cnt@exercise=\count432
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\minitoc.sty
 Package: minitoc 2018/07/12 v62 Package minitoc
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\mtcmess.sty
@@ -1111,10 +1098,10 @@ Package minitoc Info: I0031
 
 \openout4 = `main-project01.mtc0'.
 
-\c@mtc=\count433
-\c@minitocdepth=\count434
-\c@ptc=\count435
-\c@parttocdepth=\count436
+\c@mtc=\count420
+\c@minitocdepth=\count421
+\c@ptc=\count422
+\c@parttocdepth=\count423
 \ptcindent=\skip127
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
@@ -1123,9 +1110,7 @@ Package minitoc Info: I0010
 File: english.mld 2006/01/13
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
 File: english.mld 2006/01/13
-))) (headerfooter-project01.tex
-\LT@savedmark=\toks64
-)
+))) (headerfooter-project01.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
@@ -1259,19 +1244,15 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 ))
-\c@lstlisting=\count437
+\c@lstlisting=\count424
 Package hyperref Info: Link coloring ON on input line 14.
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 \Etoc@tf=\read4
-\c@minilofdepth=\count438
-\c@minilotdepth=\count439
-\c@partlofdepth=\count440
-\c@partlotdepth=\count441
-\c@sectlofdepth=\count442
-\c@sectlotdepth=\count443
+\c@minilofdepth=\count425
+\c@minilotdepth=\count426
+\c@partlofdepth=\count427
+\c@partlotdepth=\count428
+\c@sectlofdepth=\count429
+\c@sectlotdepth=\count430
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -1280,6 +1261,7 @@ Package minitoc(hints) Info: I0047
 (minitoc(hints))             See the minitoc package documentation 
 (minitoc(hints))             for specific precautions.
 
+
 Package minitoc(hints) Warning: W0099
 (minitoc(hints))                --- The titlesec package is loaded. 
 (minitoc(hints))                It is incompatible 
@@ -1287,6 +1269,11 @@ Package minitoc(hints) Warning: W0099
 
 Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM main-project01.toc on input line 14.
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Introduction}{\reset@font\mtcSfont 1}{section.0.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Detailed Design Calculations}{\reset@font\mtcSfont 3}{section.0.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1}Load}{\reset@font\mtcSSfont 3}{subsection.0.2.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode References}{\reset@font\mtcSfont 6}{section*.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Appendices}{\reset@font\mtcSfont 7}{section*.2}}
 \tf@toc=\write5
 \openout5 = `main-project01.toc'.
 
@@ -1359,7 +1346,15 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 \tf@toc=\write6
 \openout6 = `main-project01.toc'.
 
- [1
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+ (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+ (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
 
 
 ] (main-project01.lof)
@@ -1409,4 +1404,92 @@ If that doesn't work, type  X <return>  to quit.
 * \topskip=12.0pt
 * \footskip=30.0pt
 * \marginparwidth=85.0pt
-* \ma
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+) [1
+
+
+
+] (Intro.tex) [2] (detaildesigncalculation.tex
+Overfull \hbox (4.8228pt too wide) in alignment at lines 5--9
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (4.8228pt too wide) in alignment at lines 9--13
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (4.8228pt too wide) in alignment at lines 13--15
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (4.8228pt too wide) in alignment at lines 15--16
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (4.8228pt too wide) in alignment at lines 16--33
+ [] [] [] [] 
+ []
+
+[3
+
+] [4]) [5] [6
+
+] [7
+
+]
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the main-project01.maf file.
+\openout4 = `main-project01.maf'.
+
+
+
+Package minitoc(hints) Warning: W0078
+(minitoc(hints))                You have used \dominitoc, 
+(minitoc(hints))                but not \minitoc.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the main-project01.log file.
+
+[8
+
+] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(main-project01.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 40254 strings out of 402982
+ 812565 string characters out of 5448060
+ 1467946 words of memory out of 5000000
+ 68374 multiletter control sequences out of 15000+600000
+ 635725 words of font info for 93 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 89i,12n,118p,596b,2098s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main-project01.xdv (15 pages, 145400 bytes).
