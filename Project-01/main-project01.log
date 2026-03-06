@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  5 MAR 2026 19:44
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 09:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1417,18 +1417,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] (detaildesigncalculation.tex
-Overfull \hbox (4.8228pt too wide) in alignment at lines 5--24
+Overfull \hbox (4.8228pt too wide) in alignment at lines 6--25
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 24
+Underfull \vbox (badness 10000) detected at line 25
  []
 
 [2
 
 ]
-Underfull \vbox (badness 10000) detected at line 48
+Underfull \vbox (badness 10000) detected at line 49
  []
 
 )
