@@ -70,11 +70,12 @@
 % %\renewcommand{\chaptermark}[1]{\markboth{Chapter \thechapter}{#1}}
 % \renewcommand{\subsectionmark}[1]{\markright{\thesubsection\quad #1}}
 % \renewcommand{\sectionmark}[1]{\markright{\thesection\quad #1}}
+
 \renewcommand{\sectionmark}[1]{%
     \markright{\thesection\quad #1}%
     \extramarks{\thesection\quad #1}{\thesection\quad #1}%
 }
-
+\renewcommand{\subsectionmark}[1]{} % keep this empty so subsection doesn't override
 %starttext...... Start texing.....
 \clearpage
 \newgeometry{
