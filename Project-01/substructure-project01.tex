@@ -70,8 +70,10 @@
 % %\renewcommand{\chaptermark}[1]{\markboth{Chapter \thechapter}{#1}}
 % \renewcommand{\subsectionmark}[1]{\markright{\thesubsection\quad #1}}
 % \renewcommand{\sectionmark}[1]{\markright{\thesection\quad #1}}
-\renewcommand{\subsectionmark}[1]{} % do nothing, keep section mark
-
+\renewcommand{\sectionmark}[1]{%
+    \markright{\thesection\quad #1}%
+    \extramarks{\thesection\quad #1}{\thesection\quad #1}%
+}
 
 %starttext...... Start texing.....
 \clearpage
