@@ -27,8 +27,8 @@
 \input{detaildesigncalculation.tex}
 hello there
 \clearpage
-
 %referennces
+\markboth{References}{References}   % set mark BEFORE the page
 \phantomsection %Creates a hyperlink anchor (jump to that page when click)
 \renewcommand{\chapter}{\section}
 \renewcommand{\thechapter}{} % edit chapter numbering from here.
@@ -56,11 +56,12 @@ CEN, \textit{Eurocode 1: Actions on structures - Part 1-4: General actions - Win
 
 \noindent \textcolor{red}{\textit{Note that :} We may use the referennces provide by professor (check in telegram group) if it still not enought we can add more maybe.}
 \lipsum[]
-\markboth{Appendices}{Appendices}
-\clearpage
 
+\clearpage
 \phantomsection %Creates a hyperlink anchor (jump to that page when click)
 \section*{Appendices}
+\markboth{Appendices}{Appendices}
+
 %\markright{Appendices} % still make markright work eventhough using \section*{}
 \addcontentsline{toc}{section}{Appendices}
 \lipsum[2] \\
