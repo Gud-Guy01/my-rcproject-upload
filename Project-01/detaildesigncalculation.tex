@@ -1,4 +1,3 @@
-\markright{\thesection\ Very Long Table Section}  % ADD HERE
 \subsection{Load}
 For imposed laods on floor according to Table $6.1 - 6.4$ in EN 1991-1-1:2002 \cite{EN1991-1-1-2002(3)}:
 % Please add the following required packages to your document preamble:
@@ -6,6 +5,9 @@ For imposed laods on floor according to Table $6.1 - 6.4$ in EN 1991-1-1:2002 \c
 \begin{longtable}{|L|L|C|C|}
 \hline
 \multicolumn{1}{|C|}{\textbf{Category}} & \multicolumn{1}{C|}{\textbf{Sub-category / Use}}                                                                                 & \textbf{\begin{tabular}[C]{@{}C@{}}$q_k$ \\ {[}kN/m²{]}\end{tabular}} & \textbf{\begin{tabular}[C]{@{}C@{}}$Q_k$\\  {[}kN{]}\end{tabular}} \\ \hline
+\endfirsthead
+\multicolumn{2}{c}{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+\hline
 \multirow{4}{*}{\textbf{Category A}}    & \begin{tabular}[C]{@{}L@{}}Areas for domestic and \\ residential activities\end{tabular}                                         &                                                                      &                                                                   \\ \cline{2-4}
                                         & - Floors                                                                                                                         & 1,5 to 2,0                                                           & 2,0 to 3,0                                                        \\ \cline{2-4}
                                         & - Stairs                                                                                                                         & 2,0 to 4,0                                                           & 2,0 to 4,0                                                        \\ \cline{2-4}
@@ -52,3 +54,135 @@ D2                                      & Areas in department stores            
 22           & Share Space                                                                 & C3                                                                        & 4                                                                \\ \hline
 \caption{Imposed Loads On Second Floor}
 \end{longtable}
+
+\section{Very Long Table Section}
+% Manually set the mark before the longtable
+\markright{\thesection\ Very Long Table Section}
+
+\begin{longtable}{|c|c|}
+\caption{This is a very long table that spans multiple pages} \label{tab:long}\\
+\hline
+\textbf{Column 1} & \textbf{Column 2} \\
+\hline
+\endfirsthead
+
+\multicolumn{2}{c}{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+\hline
+\textbf{Column 1} & \textbf{Column 2} \\
+\hline
+\endhead
+
+\hline
+\multicolumn{2}{r}{{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+% Your data here - repeat \markright if table is extremely long
+Row 1 & Data \\
+Row 2 & Data \\
+% ... many rows ...
+Row 100 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+Row 1 & Data \\
+Row 2 & Data \\
+
+\end{longtable}
+
+% After table ends, section marks will resume automatically
+Next section content here.
+
+
+
+

@@ -1,0 +1,16 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "detaildesigncalculation.xdv" "detaildesigncalculation.pdf" "detaildesigncalculation" 0 -1
+  "detaildesigncalculation.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "detaildesigncalculation.pdf"
+  (rewritten before read)
+["xelatex"] 1772765348.7202 "c:/Drive D/overleaf/RC Projects/Project-01/detaildesigncalculation.tex" "detaildesigncalculation.xdv" "detaildesigncalculation" 1772765349.47316 2
+  "C:/Users/GooDGuy/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1772554966 27177916 94eef3718ad1bee72652c58dee9dceeb ""
+  "c:/Drive D/overleaf/RC Projects/Project-01/detaildesigncalculation.tex" 1772765347 11255 fe92b2601781ab587a7ded57aedf4044 ""
+  "detaildesigncalculation.aux" 1772765340 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "detaildesigncalculation.tex" 1772765347 11255 fe92b2601781ab587a7ded57aedf4044 ""
+  (generated)
+  "detaildesigncalculation.aux"
+  "detaildesigncalculation.log"
+  "detaildesigncalculation.xdv"
+  (rewritten before read)
