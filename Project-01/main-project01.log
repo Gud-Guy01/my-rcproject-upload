@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 23:16
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 23:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -238,8 +238,8 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip61
 \thm@headsep=\skip62
 \dth@everypar=\toks31
-) (longtable.sty
-Package: longtable 2026/03/06 Patched for fancyhdr marks
+) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTleft=\skip63
 \LTright=\skip64
 \LTpre=\skip65
@@ -250,33 +250,21 @@ Package: longtable 2026/03/06 Patched for fancyhdr marks
 \LT@firsthead=\box60
 \LT@foot=\box61
 \LT@lastfoot=\box62
+\LT@gbox=\box63
 \LT@cols=\count315
 \LT@rows=\count316
 \c@LT@tables=\count317
 \c@LT@chunks=\count318
-\LT@savedmark=\toks32
-
-
-longtable.sty:70: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 \let\longtable\LT@
-                       original
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+\LT@p@ftn=\toks32
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen187
-\ar@mcellbox=\box63
+\ar@mcellbox=\box64
 \extrarowheight=\dimen188
 \NC@list=\toks33
 \extratabsurround=\skip67
 \backup@length=\skip68
-\ar@cellbox=\box64
+\ar@cellbox=\box65
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip69
@@ -304,7 +292,7 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip71
 \enit@outerparindent=\dimen199
 \enit@toks=\toks35
-\enit@inbox=\box65
+\enit@inbox=\box66
 \enit@count@id=\count322
 \enitdp@description=\count323
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
@@ -312,7 +300,7 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \pgfutil@tempdima=\dimen256
 \pgfutil@tempdimb=\dimen257
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box66
+\pgfutil@abb=\box67
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
@@ -368,7 +356,7 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen268
 \pgfmath@count=\count332
-\pgfmath@box=\box67
+\pgfmath@box=\box68
 \pgfmath@toks=\toks43
 \pgfmath@stack@operand=\toks44
 \pgfmath@stack@operation=\toks45
@@ -400,9 +388,9 @@ File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@shorten@start@additional=\dimen286
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box68
-\pgf@hbox=\box69
-\pgf@layerbox@main=\box70
+\pgfpic=\box69
+\pgf@hbox=\box70
+\pgf@layerbox@main=\box71
 \pgf@picture@serial@count=\count334
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -430,7 +418,7 @@ File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box71
+\pgfexternal@startupbox=\box72
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
@@ -441,7 +429,7 @@ File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box72
+\pgfnodeparttextbox=\box73
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
@@ -471,10 +459,10 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@lastmovetoy=\dimen303
 \tikzleveldistance=\dimen304
 \tikzsiblingdistance=\dimen305
-\tikz@figbox=\box73
-\tikz@figbox@bg=\box74
-\tikz@tempbox=\box75
-\tikz@tempbox@bg=\box76
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
 \tikztreelevel=\count338
 \tikznumberofchildren=\count339
 \tikznumberofcurrentchild=\count340
@@ -492,9 +480,9 @@ File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count346
 \float@exts=\toks48
-\float@box=\box77
+\float@box=\box78
 \@float@everytoks=\toks49
-\@floatcapt=\box78
+\@floatcapt=\box79
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
@@ -517,19 +505,6 @@ Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-
-
-C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty:87: LaTeX Error: Command \LT@makecaption undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87 \renewcommand\LT@makecaption
-                                 [3]{%
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 ))
 Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count349
@@ -586,13 +561,13 @@ Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
 File: ppxetex.def 2025/07/23 v0.6g Pdfpages driver for XeTeX (AM)
 )
 \pdfpages@includegraphics@status=\count361
-\AM@pagebox=\box79
+\AM@pagebox=\box80
 \AM@global@opts=\toks51
 \AM@pagecnt=\count362
 \AM@toc@title=\toks52
 \AM@lof@heading=\toks53
 \c@AM@survey=\count363
-\AM@templatesizebox=\box80
+\AM@templatesizebox=\box81
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
@@ -652,7 +627,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \c@tracingmulticols=\count366
-\mult@box=\box81
+\mult@box=\box82
 \multicol@leftmargin=\dimen319
 \c@unbalance=\count367
 \c@collectmore=\count368
@@ -665,15 +640,14 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \postmulticols=\dimen323
 \multicolsep=\skip120
 \multicolbaselineskip=\skip121
-\partial@page=\box82
-\last@line=\box83
-\mc@boxedresult=\box84
+\partial@page=\box83
+\last@line=\box84
+\mc@boxedresult=\box85
 \maxbalancingoverflow=\dimen324
-\mult@rightbox=\box85
-\mult@grightbox=\box86
-\mult@firstbox=\box87
-\mult@gfirstbox=\box88
-\@tempa=\box89
+\mult@rightbox=\box86
+\mult@grightbox=\box87
+\mult@firstbox=\box88
+\mult@gfirstbox=\box89
 \@tempa=\box90
 \@tempa=\box91
 \@tempa=\box92
@@ -709,21 +683,22 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box122
 \@tempa=\box123
 \@tempa=\box124
+\@tempa=\box125
 \c@minrows=\count372
 \c@columnbadness=\count373
 \c@finalcolumnbadness=\count374
 \last@try=\dimen325
 \multicolovershoot=\dimen326
 \multicolundershoot=\dimen327
-\mult@nat@firstbox=\box125
-\colbreak@box=\box126
+\mult@nat@firstbox=\box126
+\colbreak@box=\box127
 \mc@col@check@num=\count375
 \g__mc_curr_col_int=\count376
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen328
 \WF@size=\dimen329
 \c@WF@wrappedlines=\count377
-\WF@box=\box127
+\WF@box=\box128
 \WF@everypar=\toks55
 Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
@@ -751,7 +726,7 @@ Package: supertabular 2025/06/26 v4.2d the supertabular environment
 \ST@prevht=\dimen337
 \ST@toadd=\dimen338
 \ST@dimen=\dimen339
-\ST@pbox=\box128
+\ST@pbox=\box129
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
 Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
@@ -759,19 +734,19 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box129
-\tcb@upperbox=\box130
-\tcb@lowerbox=\box131
-\tcb@phantombox=\box132
+\tcb@titlebox=\box130
+\tcb@upperbox=\box131
+\tcb@lowerbox=\box132
+\tcb@phantombox=\box133
 \c@tcbbreakpart=\count379
 \c@tcblayer=\count380
 \c@tcolorbox@number=\count381
-\l__tcobox_tmpa_box=\box133
+\l__tcobox_tmpa_box=\box134
 \l__tcobox_tmpa_dim=\dimen340
-\tcb@temp=\box134
 \tcb@temp=\box135
 \tcb@temp=\box136
 \tcb@temp=\box137
+\tcb@temp=\box138
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
 \c@tcbrastercolumn=\count382
@@ -786,7 +761,7 @@ Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
 Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box138
+\l__tikzfill_img_box=\box139
 )) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
 )) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.code.tex
@@ -801,9 +776,9 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
 )
 Package pdfcol Info: pdfTeX's color stacks are not available.
-\tcb@testbox=\box139
-\tcb@totalupperbox=\box140
-\tcb@totallowerbox=\box141
+\tcb@testbox=\box140
+\tcb@totalupperbox=\box141
+\tcb@totallowerbox=\box142
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '6.9.0'
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.code.tex
@@ -820,7 +795,7 @@ Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
 Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
 (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count387
-\lst@gtempboxa=\box142
+\lst@gtempboxa=\box143
 \lst@token=\toks58
 \lst@length=\count388
 \lst@currlwidth=\dimen344
@@ -837,7 +812,7 @@ File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count393
 \lst@skipnumbers=\count394
-\lst@framebox=\box143
+\lst@framebox=\box144
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
@@ -874,11 +849,13 @@ Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 \everycr=\toks59
 \minrowclearance=\skip125
 \rownum=\count396
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
+)
+\LT@savedmark=\toks60
+ (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box144
+\@vwid@box=\box145
 \sift@deathcycles=\count397
 \@vwid@loff=\dimen348
 \@vwid@roff=\dimen349
@@ -899,12 +876,12 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \abovetabulinesep=\dimen356
 \belowtabulinesep=\dimen357
 \tabustrutrule=\dimen358
-\tabu@thebody=\toks60
-\tabu@footnotes=\toks61
-\tabu@box=\box145
-\tabu@arstrutbox=\box146
-\tabu@hleads=\box147
-\tabu@vleads=\box148
+\tabu@thebody=\toks61
+\tabu@footnotes=\toks62
+\tabu@box=\box146
+\tabu@arstrutbox=\box147
+\tabu@hleads=\box148
+\tabu@vleads=\box149
 \tabu@cellskip=\skip126
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
@@ -989,16 +966,11 @@ Package hyperref Info: PDF/A mode OFF on input line 6114.
 \Hy@abspage=\count410
 \c@Item=\count411
 \c@Hfootnote=\count412
-
-
-LaTeX Warning: Command \LT@p@ftntext  has changed.
-               Check if current package is valid.
-
 )
 Package hyperref Info: Driver (autodetected): hxetex.
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
 File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
-\pdfm@box=\box149
+\pdfm@box=\box150
 \c@Hy@AnnotLevel=\count413
 \HyField@AnnotCount=\count414
 \Fld@listcount=\count415
@@ -1013,10 +985,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip127
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/etoc\etoc.sty
 Package: etoc 2023/10/29 v1.2d Completely customisable TOCs (JFB)
-\Etoc@toctoks=\toks62
+\Etoc@toctoks=\toks63
 \c@etoc@tocid=\count417
-\etoc@framed@titlebox=\box150
-\etoc@framed@contentsbox=\box151
+\etoc@framed@titlebox=\box151
+\etoc@framed@contentsbox=\box152
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.def
@@ -1126,9 +1098,9 @@ Package minitoc Info: I0023
 (minitoc)             part level macros available.
 Package minitoc Info: I0003
 (minitoc)             chapter level macros available.
-\mtc@toks=\toks63
-\mtc@strutbox=\box152
-\mtc@hstrutbox=\box153
+\mtc@toks=\toks64
+\mtc@strutbox=\box153
+\mtc@hstrutbox=\box154
 Package minitoc Info: I0002
 (minitoc)             Autoconfiguration of extensions.
 \openout4 = `main-project01.mtc0'.
@@ -1157,11 +1129,7 @@ Package minitoc Info: I0010
 File: english.mld 2006/01/13
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
 File: english.mld 2006/01/13
-))) (headerfooter-project01.tex
-
-Package longtable-fix Warning: Failed on input line 102.
-
-)
+))) (headerfooter-project01.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
@@ -1169,26 +1137,26 @@ Package csquotes Info: Redefining alias 'default' -> 'american'.
  (main-project01.aux)
 \openout1 = `main-project01.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1196,56 +1164,56 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 14.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 14.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 14.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 14.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 14.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 14.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 14.
-LaTeX Font Info:    Redeclaring math accent \check on input line 14.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 14.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 14.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 14.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 14.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 15.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 15.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 15.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 15.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 15.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 15.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 15.
+LaTeX Font Info:    Redeclaring math accent \check on input line 15.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 15.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 15.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 15.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 15.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 14.
+(Font)              `operators' in the math version `normal' on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 14.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 15.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 14.
+(Font)              `operators' in the math version `bold' on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 14.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 14.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 14.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 14.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 14.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 14.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 14.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 14.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 14.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 14.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1284,18 +1252,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
-
-c:/Drive D/overleaf/RC Projects/Project-01/main-project01.tex:14: LaTeX Error: Command \LT@array undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \begin{document}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package caption Info: supertabular package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1309,7 +1265,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 ))
 \c@lstlisting=\count425
-Package hyperref Info: Link coloring ON on input line 14.
+Package hyperref Info: Link coloring ON on input line 15.
 \Etoc@tf=\read4
 \c@minilofdepth=\count426
 \c@minilotdepth=\count427
@@ -1332,7 +1288,7 @@ Package minitoc(hints) Warning: W0099
 (minitoc(hints))                with the minitoc package.
 
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main-project01.toc on input line 14.
+(minitoc)             PREPARING MINITOCS FROM main-project01.toc on input line 15.
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Introduction}{\reset@font\mtcSfont 1}{section.0.1}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Detailed Design Calculations}{\reset@font\mtcSfont 3}{section.0.2}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1}Load}{\reset@font\mtcSSfont 3}{subsection.0.2.1}}
@@ -1344,36 +1300,36 @@ Package minitoc Info: I0024
 
 Package minitoc Info: I0007
 (minitoc)             Horizontal rules are activated 
-(minitoc)             for the parttocs on input line 14.
+(minitoc)             for the parttocs on input line 15.
 Package minitoc Info: I0007
 (minitoc)             Horizontal rules are activated 
-(minitoc)             for the partlofs on input line 14.
+(minitoc)             for the partlofs on input line 15.
 Package minitoc Info: I0007
 (minitoc)             Horizontal rules are activated 
-(minitoc)             for the partlots on input line 14.
+(minitoc)             for the partlots on input line 15.
 Package minitoc Info: I0007
 (minitoc)             Horizontal rules are activated 
-(minitoc)             for the minitocs on input line 14.
+(minitoc)             for the minitocs on input line 15.
 Package minitoc Info: I0007
 (minitoc)             Horizontal rules are activated 
-(minitoc)             for the minilofs on input line 14.
+(minitoc)             for the minilofs on input line 15.
 Package minitoc Info: I0007
 (minitoc)             Horizontal rules are activated 
-(minitoc)             for the minilots on input line 14.
+(minitoc)             for the minilots on input line 15.
 Package minitoc Info: I0007
 (minitoc)             Horizontal rules are activated 
-(minitoc)             for the secttocs on input line 14.
+(minitoc)             for the secttocs on input line 15.
 Package minitoc Info: I0007
 (minitoc)             Horizontal rules are activated 
-(minitoc)             for the sectlofs on input line 14.
+(minitoc)             for the sectlofs on input line 15.
 Package minitoc Info: I0007
 (minitoc)             Horizontal rules are activated 
-(minitoc)             for the sectlots on input line 14.
+(minitoc)             for the sectlots on input line 15.
 (substructure-project01.tex (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 ) [1
 
-] [1] [2
+] [2
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1474,2764 +1430,36 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] (Intro.tex) [2] (detaildesigncalculation.tex
-
-detaildesigncalculation.tex:4: LaTeX Error: Environment longtable undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \begin{longtable}
-                     {|L|L|C|C|}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-detaildesigncalculation.tex:5: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \caption
-            {Imposed Loads On Floor Base On EN 1991-1-1:2002} \label{tab:imp...
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-detaildesigncalculation.tex:6: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.6 \hline
-          
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:7: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.7 \multicolumn{1}{|C|}{\textbf{Category}}
-                                            & \multicolumn{1}{C|}{\textbf{Su...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:7: Misplaced alignment tab character &.
-l.7 \multicolumn{1}{|C|}{\textbf{Category}} &
-                                              \multicolumn{1}{C|}{\textbf{Su...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:7: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.7 ...icolumn{1}{C|}{\textbf{Sub-category / Use}}
-                                                                            ...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:7: Misplaced alignment tab character &.
-l.7 ...                                          &
-                                                   \textbf{\begin{tabular}[C...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:7: Misplaced alignment tab character &.
-l.7 ...{}C@{}}$q_k$ \\ {[}kN/m²{]}\end{tabular}} &
-                                                   \textbf{\begin{tabular}[C...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:7: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.7 ...}}$Q_k$\\  {[}kN{]}\end{tabular}} \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:8: Undefined control sequence.
-<recently read> \endfirsthead 
-                              
-l.8 \endfirsthead
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-detaildesigncalculation.tex:9: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.9 ...d Loads On Floor Base On EN 1991-1-1:2002}}
-                                                   \\[2mm]
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:9: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.9 ...d Loads On Floor Base On EN 1991-1-1:2002}}
-                                                   \\[2mm]
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:9: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.9 ...d Loads On Floor Base On EN 1991-1-1:2002}}
-                                                   \\[2mm]
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:9: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.9 ...d Loads On Floor Base On EN 1991-1-1:2002}}
-                                                   \\[2mm]
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:9: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.9 ...d Loads On Floor Base On EN 1991-1-1:2002}}
-                                                   \\[2mm]
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:9: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.9 ...d Loads On Floor Base On EN 1991-1-1:2002}}
-                                                   \\[2mm]
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:9: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.9 ...d Loads On Floor Base On EN 1991-1-1:2002}}
-                                                   \\[2mm]
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:10: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.10 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:11: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.11 \multicolumn{1}{|C|}{\textbf{Category}}
-                                             & \multicolumn{1}{C|}{\textbf{S...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:11: Misplaced alignment tab character &.
-l.11 \multicolumn{1}{|C|}{\textbf{Category}} &
-                                               \multicolumn{1}{C|}{\textbf{S...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:11: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.11 ...column{1}{C|}{\textbf{Sub-category / Use}}
-                                                                            ...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:11: Misplaced alignment tab character &.
-l.11 ...                                         &
-                                                   \textbf{\begin{tabular}[C...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:11: Misplaced alignment tab character &.
-l.11 ...}C@{}}$q_k$ \\ {[}kN/m²{]}\end{tabular}} &
-                                                   \textbf{\begin{tabular}[C...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:11: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.11 ...}$Q_k$\\  {[}kN{]}\end{tabular}} \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:12: Undefined control sequence.
-<recently read> \endhead 
-                         
-l.12 \endhead
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-detaildesigncalculation.tex:13: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.13 \multicolumn{4}{r}{{Continued on next page}}
-                                                  \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:13: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.13 \multicolumn{4}{r}{{Continued on next page}}
-                                                  \\
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:13: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.13 \multicolumn{4}{r}{{Continued on next page}}
-                                                  \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:13: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.13 \multicolumn{4}{r}{{Continued on next page}}
-                                                  \\
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:13: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.13 \multicolumn{4}{r}{{Continued on next page}}
-                                                  \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:13: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.13 \multicolumn{4}{r}{{Continued on next page}}
-                                                  \\
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:13: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.13 \multicolumn{4}{r}{{Continued on next page}}
-                                                  \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:14: Undefined control sequence.
-<recently read> \endfoot 
-                         
-l.14 \endfoot
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-detaildesigncalculation.tex:15: Undefined control sequence.
-l.15 \endlastfoot
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--16
-
+Overfull \hbox (4.8228pt too wide) in alignment at lines 4--8
+ [] [] [] [] 
  []
 
 
-Overfull \vbox (14.49998pt too high) detected at line 17
+Overfull \hbox (4.8228pt too wide) in alignment at lines 8--12
+ [] [] [] [] 
  []
 
-detaildesigncalculation.tex:17: Misplaced alignment tab character &.
-l.17 \multirow{4}{*}{\textbf{Category A}}    &
-                                               \begin{tabular}[C]{@{}L@{}}Ar...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-detaildesigncalculation.tex:17: Misplaced alignment tab character &.
-l.17 ...                                         &
-                                                                            ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+Overfull \hbox (4.8228pt too wide) in alignment at lines 12--14
+ [] [] [] [] 
+ []
 
-detaildesigncalculation.tex:17: Misplaced alignment tab character &.
-l.17 ...                                         &
-                                                                            ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-detaildesigncalculation.tex:17: Misplaced \omit.
-\@cline #1-#2\@nil ->\omit 
-                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
-l.17 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
+Overfull \hbox (4.8228pt too wide) in alignment at lines 14--15
+ [] [] [] [] 
+ []
 
-detaildesigncalculation.tex:17: Misplaced alignment tab character &.
-<argument> &
-            \omit 
-l.17 ...                            \\ \cline{2-4}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-detaildesigncalculation.tex:17: Misplaced \omit.
-<argument> &\omit 
-                  
-l.17 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
+Overfull \hbox (4.8228pt too wide) in alignment at lines 15--32
+ [] [] [] [] 
+ []
 
-detaildesigncalculation.tex:17: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.17 ...                            \\ \cline{2-4}
-                                                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:17: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.17 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:17: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.17 ...                            \\ \cline{2-4}
-                                                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:17: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.17 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:17: Misplaced \cr.
-\@cline ...e \@height \arrayrulewidth \hfill }\cr 
-                                                  \noalign {\vskip -\arrayru...
-l.17 ...                            \\ \cline{2-4}
-                                                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:17: Misplaced \noalign.
-\@cline ...t \arrayrulewidth \hfill }\cr \noalign 
-                                                  {\vskip -\arrayrulewidth }
-l.17 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:18: Misplaced alignment tab character &.
-l.18                                         &
-                                               - Floors                     ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:18: Misplaced alignment tab character &.
-l.18 ...                                         &
-                                                   1,5 to 2,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:18: Misplaced alignment tab character &.
-l.18 ...                                         &
-                                                   2,0 to 3,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:18: Misplaced \omit.
-\@cline #1-#2\@nil ->\omit 
-                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
-l.18 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:18: Misplaced alignment tab character &.
-<argument> &
-            \omit 
-l.18 ...                            \\ \cline{2-4}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:18: Misplaced \omit.
-<argument> &\omit 
-                  
-l.18 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:18: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.18 ...                            \\ \cline{2-4}
-                                                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:18: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.18 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:18: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.18 ...                            \\ \cline{2-4}
-                                                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:18: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.18 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:18: Misplaced \cr.
-\@cline ...e \@height \arrayrulewidth \hfill }\cr 
-                                                  \noalign {\vskip -\arrayru...
-l.18 ...                            \\ \cline{2-4}
-                                                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:18: Misplaced \noalign.
-\@cline ...t \arrayrulewidth \hfill }\cr \noalign 
-                                                  {\vskip -\arrayrulewidth }
-l.18 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:19: Misplaced alignment tab character &.
-l.19                                         &
-                                               - Stairs                     ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:19: Misplaced alignment tab character &.
-l.19 ...                                         &
-                                                   2,0 to 4,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:19: Misplaced alignment tab character &.
-l.19 ...                                         &
-                                                   2,0 to 4,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:19: Misplaced \omit.
-\@cline #1-#2\@nil ->\omit 
-                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
-l.19 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:19: Misplaced alignment tab character &.
-<argument> &
-            \omit 
-l.19 ...                            \\ \cline{2-4}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:19: Misplaced \omit.
-<argument> &\omit 
-                  
-l.19 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:19: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.19 ...                            \\ \cline{2-4}
-                                                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:19: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.19 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:19: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.19 ...                            \\ \cline{2-4}
-                                                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:19: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.19 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:19: Misplaced \cr.
-\@cline ...e \@height \arrayrulewidth \hfill }\cr 
-                                                  \noalign {\vskip -\arrayru...
-l.19 ...                            \\ \cline{2-4}
-                                                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:19: Misplaced \noalign.
-\@cline ...t \arrayrulewidth \hfill }\cr \noalign 
-                                                  {\vskip -\arrayrulewidth }
-l.19 ...                            \\ \cline{2-4}
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:20: Misplaced alignment tab character &.
-l.20                                         &
-                                               - Balconies                  ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:20: Misplaced alignment tab character &.
-l.20 ...                                         &
-                                                   2,5 to 4,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:20: Misplaced alignment tab character &.
-l.20 ...                                         &
-                                                   2,0 to 3,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:20: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.20 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:21: Misplaced alignment tab character &.
-l.21 \textbf{Category B}                     &
-                                               Office areas                 ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:21: Misplaced alignment tab character &.
-l.21 ...                                         &
-                                                   2,0 to 3,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:21: Misplaced alignment tab character &.
-l.21 ...                                         &
-                                                   1,5 to 4,5               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:21: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.21 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:22: Misplaced alignment tab character &.
-l.22 \textbf{Category C}                     &
-                                               \begin{tabular}[C]{@{}L@{}}Ar...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:22: Misplaced alignment tab character &.
-l.22 ...                                         &
-                                                                            ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:22: Misplaced alignment tab character &.
-l.22 ...                                         &
-                                                                            ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:22: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.22 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:23: Misplaced alignment tab character &.
-l.23 C1                                      &
-                                               \begin{tabular}[C]{@{}L@{}}Ar...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:23: Misplaced alignment tab character &.
-l.23 ... reading rooms)\end{tabular}             &
-                                                   2,0 to 3,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:23: Misplaced alignment tab character &.
-l.23 ...                                         &
-                                                   3,0 to 4,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:23: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.23 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:24: Misplaced alignment tab character &.
-l.24 C2                                      &
-                                               \begin{tabular}[C]{@{}L@{}}Ar...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:24: Misplaced alignment tab character &.
-l.24 ...ches)\end{tabular}                       &
-                                                   3,0 to 4,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:24: Misplaced alignment tab character &.
-l.24 ...                                         &
-                                                   \begin{tabular}[C]{@{}C@{...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:24: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.24 ... 7,0 \\ (4,0)\end{tabular}       \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:25: Misplaced alignment tab character &.
-l.25 C3                                      &
-                                               \begin{tabular}[C]{@{}L@{}}Ar...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:25: Misplaced alignment tab character &.
-l.25 ...\\ entrance halls)\end{tabular}          &
-                                                   3,0 to 5,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:25: Misplaced alignment tab character &.
-l.25 ...                                         &
-                                                   4,0 to 7,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:25: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.25 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:26: Misplaced alignment tab character &.
-l.26 C4                                      &
-                                               \begin{tabular}[C]{@{}L@{}}Ar...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:26: Misplaced alignment tab character &.
-l.26 ...s, gyms)\end{tabular}                    &
-                                                   3,5 to 5,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:26: Misplaced alignment tab character &.
-l.26 ...                                         &
-                                                   3,5 to 7,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:26: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.26 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:27: Misplaced alignment tab character &.
-l.27 C5                                      &
-                                               \begin{tabular}[C]{@{}L@{}}Ar...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:27: Misplaced alignment tab character &.
-l.27 ...\ sports halls with stands)\end{tabular} &
-                                                   5,0 to 7,5               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:27: Misplaced alignment tab character &.
-l.27 ...                                         &
-                                                   3,5 to 4,5               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:27: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.27 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:27: You can't use `\hrule' here except with leaders.
-\size@update ...p \setbox \strutbox \hbox {\vrule 
-                                                  \@height .7\baselineskip \...
-l.27 ...                                 \\ \hline
-                                                  
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-detaildesigncalculation.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   d
-l.27 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.27 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   h
-l.27 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   h
-l.27 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.27 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.27 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:27: You can't use `\hrule' here except with leaders.
-\size@update ...p \setbox \strutbox \hbox {\vrule 
-                                                  \@height .7\baselineskip \...
-l.27 ...                                 \\ \hline
-                                                  
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-detaildesigncalculation.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   d
-l.27 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.27 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   h
-l.27 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   h
-l.27 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.27 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.27 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:27: You can't use `\hrule' here except with leaders.
-\size@update ...p \setbox \strutbox \hbox {\vrule 
-                                                  \@height .7\baselineskip \...
-l.27 ...                                 \\ \hline
-                                                  
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-detaildesigncalculation.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   d
-l.27 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.27 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   h
-l.27 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   h
-l.27 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.27 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.27 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-[3
+detaildesigncalculation.tex:32: ignored: Infinite glue shrinkage found in box being split [3
 
 ]
-detaildesigncalculation.tex:28: Misplaced alignment tab character &.
-l.28 \textbf{Category D}                     &
-                                               Shopping areas               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:28: Misplaced alignment tab character &.
-l.28 ...                                         &
-                                                                            ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:28: Misplaced alignment tab character &.
-l.28 ...                                         &
-                                                                            ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:28: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.28 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:29: Misplaced alignment tab character &.
-l.29 D1                                      &
-                                               Areas in general retail shops...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:29: Misplaced alignment tab character &.
-l.29 ...                                         &
-                                                   4,0 to 5,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:29: Misplaced alignment tab character &.
-l.29 ...                                         &
-                                                   \begin{tabular}[C]{@{}C@{...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:29: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.29 ... 7,0 \\ (4,0)\end{tabular}       \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:30: Misplaced alignment tab character &.
-l.30 D2                                      &
-                                               Areas in department stores   ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:30: Misplaced alignment tab character &.
-l.30 ...                                         &
-                                                   4,0 to 5,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:30: Misplaced alignment tab character &.
-l.30 ...                                         &
-                                                   3,5 to 7,0               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:30: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.30 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:31: Misplaced alignment tab character &.
-l.31 \textbf{Category E}                     &
-                                               \begin{tabular}[C]{@{}L@{}}St...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:31: Misplaced alignment tab character &.
-l.31 ...cessible areas)\end{tabular}             &
-                                                   7,5                      ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:31: Misplaced alignment tab character &.
-l.31 ...                                         &
-                                                   7,0                      ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:31: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.31 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-detaildesigncalculation.tex:32: LaTeX Error: \begin{document} ended by \end{longtable}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 \end{longtable}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-detaildesigncalculation.tex:36: LaTeX Error: Environment longtable undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \begin{longtable}
-                      {|C|L|C|C|}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-detaildesigncalculation.tex:37: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 \caption
-             {Imposed Loads On Second Floor} \label{tab:imposedloadsecondfl}\\
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-detaildesigncalculation.tex:38: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.38 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:39: Misplaced alignment tab character &.
-l.39 \textbf{No.} &
-                    \multicolumn{1}{c|}{\textbf{Room / Area}}               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:39: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.39 ... \multicolumn{1}{c|}{\textbf{Room / Area}}
-                                                                            ...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:39: Misplaced alignment tab character &.
-l.39 ...Area}}                                   &
-                                                   \textbf{\begin{tabular}[C...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:39: Misplaced alignment tab character &.
-l.39 ...}}Category\\ (EN 1991-1-1)\end{tabular}} &
-                                                   \textbf{\begin{tabular}[C...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:39: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.39 ...}}$q_k$\\  (kN/m2)\end{tabular}} \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:40: Undefined control sequence.
-<recently read> \endfirsthead 
-                              
-l.40 \endfirsthead
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-detaildesigncalculation.tex:41: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.41 ...thetable{:} Imposed Loads On Second Floor}
-                                                   \\[2mm]
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:41: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.41 ...thetable{:} Imposed Loads On Second Floor}
-                                                   \\[2mm]
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:41: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.41 ...thetable{:} Imposed Loads On Second Floor}
-                                                   \\[2mm]
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:41: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.41 ...thetable{:} Imposed Loads On Second Floor}
-                                                   \\[2mm]
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:41: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.41 ...thetable{:} Imposed Loads On Second Floor}
-                                                   \\[2mm]
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:41: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.41 ...thetable{:} Imposed Loads On Second Floor}
-                                                   \\[2mm]
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:41: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.41 ...thetable{:} Imposed Loads On Second Floor}
-                                                   \\[2mm]
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:42: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.42 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:43: Misplaced alignment tab character &.
-l.43 \textbf{No.} &
-                    \multicolumn{1}{c|}{\textbf{Room / Area}}               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:43: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.43 ... \multicolumn{1}{c|}{\textbf{Room / Area}}
-                                                                            ...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:43: Misplaced alignment tab character &.
-l.43 ...Area}}                                   &
-                                                   \textbf{\begin{tabular}[C...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:43: Misplaced alignment tab character &.
-l.43 ...}}Category\\ (EN 1991-1-1)\end{tabular}} &
-                                                   \textbf{\begin{tabular}[C...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:43: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.43 ...}}$q_k$\\  (kN/m2)\end{tabular}} \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:44: Undefined control sequence.
-<recently read> \endhead 
-                         
-l.44 \endhead
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-detaildesigncalculation.tex:45: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.45 \multicolumn{4}{r}{Continued on next page}
-                                                \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:45: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.45 \multicolumn{4}{r}{Continued on next page}
-                                                \\
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:45: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.45 \multicolumn{4}{r}{Continued on next page}
-                                                \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:45: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.45 \multicolumn{4}{r}{Continued on next page}
-                                                \\
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:45: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.45 \multicolumn{4}{r}{Continued on next page}
-                                                \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:45: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.45 \multicolumn{4}{r}{Continued on next page}
-                                                \\
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:45: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.45 \multicolumn{4}{r}{Continued on next page}
-                                                \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:46: Undefined control sequence.
-<recently read> \endfoot 
-                         
-l.46 \endfoot
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-detaildesigncalculation.tex:47: Undefined control sequence.
-l.47 \endlastfoot
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-detaildesigncalculation.tex:48: Misplaced alignment tab character &.
-l.48 1            &
-                    \begin{tabular}[C]{@{}L@{}}Receptionist/\\  Reception\en...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:48: Misplaced alignment tab character &.
-l.48 ...nist/\\  Reception\end{tabular}          &
-                                                   B                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:48: Misplaced alignment tab character &.
-l.48 ...                                         &
-                                                   3                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:48: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.48 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:49: Misplaced alignment tab character &.
-l.49 2            &
-                    \begin{tabular}[C]{@{}L@{}}Workstation /\\ Open office\e...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:49: Misplaced alignment tab character &.
-l.49 ...ion /\\ Open office\end{tabular}         &
-                                                   B                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:49: Misplaced alignment tab character &.
-l.49 ...                                         &
-                                                   3                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:49: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.49 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:50: Misplaced alignment tab character &.
-l.50 3            &
-                    Meeting   Room                                          ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:50: Misplaced alignment tab character &.
-l.50 ...                                         &
-                                                   C1                       ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:50: Misplaced alignment tab character &.
-l.50 ...                                         &
-                                                   3                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:50: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.50 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:51: Misplaced alignment tab character &.
-l.51 4            &
-                    President   Office                                      ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:51: Misplaced alignment tab character &.
-l.51 ...                                         &
-                                                   B                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:51: Misplaced alignment tab character &.
-l.51 ...                                         &
-                                                   3                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:51: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.51 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:52: Misplaced alignment tab character &.
-l.52 5            &
-                    Vice   President Offices                                ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:52: Misplaced alignment tab character &.
-l.52 ...                                         &
-                                                   B                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:52: Misplaced alignment tab character &.
-l.52 ...                                         &
-                                                   3                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:52: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.52 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:53: Misplaced alignment tab character &.
-l.53 6            &
-                    Accounting                                              ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:53: Misplaced alignment tab character &.
-l.53 ...                                         &
-                                                   B                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:53: Misplaced alignment tab character &.
-l.53 ...                                         &
-                                                   3                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:53: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.53 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:54: Misplaced alignment tab character &.
-l.54 7            &
-                    \begin{tabular}[C]{@{}L@{}}General   Sale \&\\  Administ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:54: Misplaced alignment tab character &.
-l.54 ...  Sale \&\\  Administration\end{tabular} &
-                                                   B                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:54: Misplaced alignment tab character &.
-l.54 ...                                         &
-                                                   3                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:54: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.54 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:55: Misplaced alignment tab character &.
-l.55 8            &
-                    \begin{tabular}[C]{@{}L@{}}Copy   / \\ Printer Area\end{...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:55: Misplaced alignment tab character &.
-l.55 ... \\ Printer Area\end{tabular}            &
-                                                   B                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:55: Misplaced alignment tab character &.
-l.55 ...                                         &
-                                                   3                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:55: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.55 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:56: Misplaced alignment tab character &.
-l.56 9            &
-                    Storages                                                ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:56: Misplaced alignment tab character &.
-l.56 ...                                         &
-                                                   E1                       ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:56: Misplaced alignment tab character &.
-l.56 ...                                         &
-                                                   5                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:56: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.56 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:57: Misplaced alignment tab character &.
-l.57 10           &
-                    \begin{tabular}[C]{@{}L@{}}Lift   Lobby /\\ Lift Area\en...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:57: Misplaced alignment tab character &.
-l.57 ...obby /\\ Lift Area\end{tabular}          &
-                                                   C3                       ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:57: Misplaced alignment tab character &.
-l.57 ...                                         &
-                                                   4                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:57: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.57 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:58: Misplaced alignment tab character &.
-l.58 11           &
-                    Stair   (Main Stair)                                    ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:58: Misplaced alignment tab character &.
-l.58 ...                                         &
-                                                   A                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:58: Misplaced alignment tab character &.
-l.58 ...                                         &
-                                                   4                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:58: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.58 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:58: You can't use `\hrule' here except with leaders.
-\size@update ...p \setbox \strutbox \hbox {\vrule 
-                                                  \@height .7\baselineskip \...
-l.58 ...                                 \\ \hline
-                                                  
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-detaildesigncalculation.tex:58: Missing number, treated as zero.
-<to be read again> 
-                   d
-l.58 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:58: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.58 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:58: Missing number, treated as zero.
-<to be read again> 
-                   h
-l.58 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:58: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   h
-l.58 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:58: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.58 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:58: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.58 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:58: You can't use `\hrule' here except with leaders.
-\size@update ...p \setbox \strutbox \hbox {\vrule 
-                                                  \@height .7\baselineskip \...
-l.58 ...                                 \\ \hline
-                                                  
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-detaildesigncalculation.tex:58: Missing number, treated as zero.
-<to be read again> 
-                   d
-l.58 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:58: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.58 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:58: Missing number, treated as zero.
-<to be read again> 
-                   h
-l.58 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:58: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   h
-l.58 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:58: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.58 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:58: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.58 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:58: You can't use `\hrule' here except with leaders.
-\size@update ...p \setbox \strutbox \hbox {\vrule 
-                                                  \@height .7\baselineskip \...
-l.58 ...                                 \\ \hline
-                                                  
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-detaildesigncalculation.tex:58: Missing number, treated as zero.
-<to be read again> 
-                   d
-l.58 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:58: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.58 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:58: Missing number, treated as zero.
-<to be read again> 
-                   h
-l.58 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:58: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   h
-l.58 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-detaildesigncalculation.tex:58: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.58 ...                                 \\ \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-detaildesigncalculation.tex:58: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.58 ...                                 \\ \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-[4]
-detaildesigncalculation.tex:59: Misplaced alignment tab character &.
-l.59 12           &
-                    Restroom   (Men)                                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:59: Misplaced alignment tab character &.
-l.59 ...                                         &
-                                                   B                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:59: Misplaced alignment tab character &.
-l.59 ...                                         &
-                                                   3                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:59: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.59 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:60: Misplaced alignment tab character &.
-l.60 13           &
-                    Restroom   (Women)                                      ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:60: Misplaced alignment tab character &.
-l.60 ...                                         &
-                                                   B                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:60: Misplaced alignment tab character &.
-l.60 ...                                         &
-                                                   3                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:60: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.60 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:61: Misplaced alignment tab character &.
-l.61 14           &
-                    \multicolumn{1}{c|}{—}                                  ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:61: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.61 14           & \multicolumn{1}{c|}{—}
-                                                                            ...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:61: Misplaced alignment tab character &.
-l.61 ...                                         &
-                                                   —                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:61: Misplaced alignment tab character &.
-l.61 ...                                         &
-                                                   —                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:61: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.61 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:62: Misplaced alignment tab character &.
-l.62 15           &
-                    \multicolumn{1}{c|}{—}                                  ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:62: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.62 15           & \multicolumn{1}{c|}{—}
-                                                                            ...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:62: Misplaced alignment tab character &.
-l.62 ...                                         &
-                                                   —                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:62: Misplaced alignment tab character &.
-l.62 ...                                         &
-                                                   —                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:62: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.62 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:63: Misplaced alignment tab character &.
-l.63 16           &
-                    \multicolumn{1}{c|}{—}                                  ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:63: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.63 16           & \multicolumn{1}{c|}{—}
-                                                                            ...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:63: Misplaced alignment tab character &.
-l.63 ...                                         &
-                                                   —                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:63: Misplaced alignment tab character &.
-l.63 ...                                         &
-                                                   —                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:63: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.63 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:64: Misplaced alignment tab character &.
-l.64 17           &
-                    Entrance                                                ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:64: Misplaced alignment tab character &.
-l.64 ...                                         &
-                                                   C3                       ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:64: Misplaced alignment tab character &.
-l.64 ...                                         &
-                                                   4                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:64: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.64 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:65: Misplaced alignment tab character &.
-l.65 18           &
-                    Emergency Stair                                         ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:65: Misplaced alignment tab character &.
-l.65 ...                                         &
-                                                   A                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:65: Misplaced alignment tab character &.
-l.65 ...                                         &
-                                                   4                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:65: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.65 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:66: Misplaced alignment tab character &.
-l.66 19           &
-                    \begin{tabular}[C]{@{}L@{}}Server\&\\ Technical Room\end...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:66: Misplaced alignment tab character &.
-l.66 ...\\ Technical Room\end{tabular}           &
-                                                   \begin{tabular}[C]{@{}C@{...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:66: Misplaced alignment tab character &.
-l.66 ...  (conservative)\end{tabular}            &
-                                                   5                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:66: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.66 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:67: Misplaced alignment tab character &.
-l.67 20           &
-                    \begin{tabular}[C]{@{}L@{}}Kitchen /\\ Pantry\end{tabula...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:67: Misplaced alignment tab character &.
-l.67 .../\\ Pantry\end{tabular}                  &
-                                                   C1                       ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:67: Misplaced alignment tab character &.
-l.67 ...                                         &
-                                                   3                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:67: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.67 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:68: Misplaced alignment tab character &.
-l.68 21           &
-                    Library                                                 ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:68: Misplaced alignment tab character &.
-l.68 ...                                         &
-                                                   C3                       ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:68: Misplaced alignment tab character &.
-l.68 ...                                         &
-                                                   4                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:68: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.68 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:69: Misplaced alignment tab character &.
-l.69 22           &
-                    Share Space                                             ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:69: Misplaced alignment tab character &.
-l.69 ...                                         &
-                                                   C3                       ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:69: Misplaced alignment tab character &.
-l.69 ...                                         &
-                                                   4                        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-detaildesigncalculation.tex:69: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.69 ...                                 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-detaildesigncalculation.tex:70: LaTeX Error: \begin{document} ended by \end{longtable}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 \end{longtable}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+DEBUG LT@output: leftmark=2.\ Detailed Design Calculations, rightmark=2.\ Detailed Design Calculations
+detaildesigncalculation.tex:70: ignored: Infinite glue shrinkage found in box being split [4]
+DEBUG LT@output: leftmark=2.\ Detailed Design Calculations, rightmark=2.\ Detailed Design Calculations
 ) [5] [6
 
 ] [7] [8
@@ -4269,12 +1497,12 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 40510 strings out of 402982
- 820947 string characters out of 5448060
- 1456217 words of memory out of 5000000
- 68624 multiletter control sequences out of 15000+600000
+ 40558 strings out of 402982
+ 821613 string characters out of 5448060
+ 1473181 words of memory out of 5000000
+ 68672 multiletter control sequences out of 15000+600000
  635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,11n,118p,596b,2055s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,12n,118p,1074b,2131s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (17 pages, 192552 bytes).
+Output written on main-project01.xdv (16 pages, 211408 bytes).
