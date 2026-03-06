@@ -21,6 +21,9 @@
 \lipsum
 \input{Intro.tex}
 \clearpage
+\markboth{lefthead}{righthead}
+\leavevmode
+\markright{tt}
 \section{Detailed Design Calculations}
 
 \input{detaildesigncalculation.tex}
@@ -52,8 +55,9 @@ CEN, \textit{Eurocode 1: Actions on structures - Part 1-4: General actions - Win
 
 \end{thebibliography}
 
-\noindent \textcolor{red}{\textit{Note that :} We may use the referennces provide by professor (check in telegram group) if it still not enought we can add more maybe.}
 
+\noindent \textcolor{red}{\textit{Note that :} We may use the referennces provide by professor (check in telegram group) if it still not enought we can add more maybe.}
+\markboth{lefthead}{righthead}
 \clearpage
 
 \phantomsection %Creates a hyperlink anchor (jump to that page when click)
@@ -64,10 +68,12 @@ CEN, \textit{Eurocode 1: Actions on structures - Part 1-4: General actions - Win
 \lipsum[2]
 \subsection{Load}
 For imposed laods on floor according to Table $6.1 - 6.4$ in EN 1991-1-1:2002 \cite{EN1991-1-1-2002(3)}. Is summary in Table \ref{tab:imposedload}.
+\textbf{DEBUG:} leftmark=[\leftmark] rightmark=[\rightmark]
 
 \begin{longtable}{|L|L|C|C|}
 g & h & g
 \end{longtable}
 
+\clearpage
 \end{document}
 %...existing code...
