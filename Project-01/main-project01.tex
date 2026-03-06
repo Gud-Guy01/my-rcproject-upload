@@ -23,8 +23,11 @@
 \clearpage
 \section{Detailed Design Calculations}
 \clearpage
-\markboth{lefthead}{righthead}
+\begingroup
+\let\clearpage\relax  % make \clearpage do nothing inside this group
 \input{detaildesigncalculation.tex}
+\endgroup
+\clearpage
 hello there
 \clearpage
 %referennces
