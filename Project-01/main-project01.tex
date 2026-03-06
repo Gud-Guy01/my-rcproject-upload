@@ -18,10 +18,10 @@
 % Include substructure file if present; otherwise continue without error
 \input{substructure-project01.tex}
 \section{Introduction}
+\lipsum
 \input{Intro.tex}
 \clearpage
 \section{Detailed Design Calculations}
-\sectionmark{dd}
 \input{detaildesigncalculation.tex}
 \clearpage
 
@@ -58,5 +58,8 @@ CEN, \textit{Eurocode 1: Actions on structures - Part 1-4: General actions - Win
 \section*{Appendices}
 \markright{Appendices} % still make markright work eventhough using \section*{}
 \addcontentsline{toc}{section}{Appendices}
+\clearpage
+
+
 \end{document}
 %...existing code...
