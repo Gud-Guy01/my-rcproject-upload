@@ -57,12 +57,16 @@ longtable}
 \setlength{\arrayrulewidth}{0.01mm} %Tab1e Border Thickness
 \arrayrulecolor{blue} % Table Border Color
 % Custom column type with background + text color
-\newcolumntype{C}{>{\color{black}}c}
-\newcolumntype{L}{>{\color{black}}l}
-\newcolumntype{R}{>{\color{black}}r}
-\newcolumntype{P}[1]{>{\color{black}}p{#1}} % top-aligned paragraph
-\newcolumntype{M}[1]{>{\color{black}}m{#1}} % middle-aligned paragraph
-\newcolumntype{B}[1]{>{\color{black}}b{#1}} % bottom-aligned paragraph
+% ==========================
+% Column type definitions
+% ==========================
+\newcolumntype{C}{>{\color{black}}c}      % centered
+\newcolumntype{L}{>{\color{black}}l}      % left
+\newcolumntype{R}{>{\color{black}}r}      % right
+\newcolumntype{P}[1]{>{\color{black}\raggedright\arraybackslash}p{#1}} % top-aligned paragraph
+\newcolumntype{M}[1]{>{\color{black}\centering\arraybackslash}m{#1}}   % middle-aligned paragraph
+\newcolumntype{B}[1]{>{\color{black}\raggedleft\arraybackslash}b{#1}}  % bottom-aligned paragraph
+
 %hyperref ==================== HYPERREF (ALWAYS LAST) ====================
 \usepackage[unicode=true,
             pdfencoding=auto,
