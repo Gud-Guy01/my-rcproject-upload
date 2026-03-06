@@ -86,8 +86,8 @@ INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup
 INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
 INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
 INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
-INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
-INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT .\longtable.sty
+INPUT longtable.sty
 INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
