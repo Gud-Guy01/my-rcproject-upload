@@ -1,0 +1,147 @@
+\documentclass[12pt,twoside,a4paper,openany]{report}
+\usepackage{fancyhdr}
+\usepackage{longtable}
+\usepackage{lipsum}
+\usepackage{etoolbox}
+
+% ============================================
+% SETUP HEADERS WITH \leftmark INSTEAD
+% ============================================
+\pagestyle{fancy}
+\fancyhf{} % clear all headers/footers
+
+    % ---------- HEADER ----------
+    \fancyhead[R]
+    {
+    {\begingroup
+    \scshape\rightmark%
+    \endgroup}
+    }
+
+    \fancyhead[L]
+    {\scshape Project 01
+    }
+% \fancyhf{}
+% \fancyhead[LO,RE]{\rightmark}  % Use leftmark instead of rightmark
+% \fancyhead[RO,LE]{\thepage}
+
+% Use \markboth for sections (sets both left and right marks)
+\renewcommand{\sectionmark}[1]{%
+    \markboth{\thesection.\ #1}{\thesection.\ #1}}
+
+% ============================================
+% MORE AGGRESSIVE FIX USING \markboth
+% ============================================
+\makeatletter
+
+% Create storage for marks
+\newtoks\LT@savedmark
+\LT@savedmark=\expandafter{\leftmark}
+
+% Patch section command to save mark
+\pretocmd{\section}{%
+    \LT@savedmark=\expandafter{\leftmark}%
+}{}{}
+
+% Patch longtable's start
+\pretocmd{\LT@start}{%
+    \LT@savedmark=\expandafter{\leftmark}%
+}{}{}
+
+% Replace every occurrence of \markright with \markboth in output
+\patchcmd{\LT@output}{%
+    \copy\LT@head\nobreak
+}{%
+    \copy\LT@head\nobreak
+    \markboth{\the\LT@savedmark}{\the\LT@savedmark}%
+}{}{}
+
+% Also patch the final page case
+\patchcmd{\LT@output}{%
+    \vbox
+        {\unvbox\z@\box\ifvoid\LT@lastfoot\LT@foot\else\LT@lastfoot\fi}%
+}{%
+    \vbox
+        {\unvbox\z@\box\ifvoid\LT@lastfoot\LT@foot\else\LT@lastfoot\fi}%
+    \markboth{\the\LT@savedmark}{\the\LT@savedmark}%
+}{}{}
+
+% Force mark at every table header
+\pretocmd{\endhead}{%
+    \noalign{\markboth{\the\LT@savedmark}{\the\LT@savedmark}}%
+}{}{}
+
+\makeatother
+
+% ============================================
+% DOCUMENT
+% ============================================
+\begin{document}
+
+\section{First Section}
+\lipsum[1-2]
+\clearpage
+\section{Long Table Section}
+\lipsum[3]
+
+\begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|}
+\caption{Multi-page table}\\
+\hline
+\textbf{Col 1} & \textbf{Col 2} & \textbf{Col 3} \\
+\hline
+\endfirsthead
+
+\hline
+\multicolumn{3}{|c|}{\tablename\ \thetable\ -- continued} \\
+\hline
+\textbf{Col 1} & \textbf{Col 2} & \textbf{Col 3} \\
+\hline
+\endhead
+
+\hline
+\multicolumn{3}{|r|}{Continued...} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+% % 150 rows to force multiple pages
+% \newcount\rowcount
+% \rowcount=1
+% \loop\ifnum\rowcount<150
+% Row \the\rowcount & Data \the\rowcount & Value \the\rowcount \\
+% \advance\rowcount by 1
+% \repeat
+
+\end{longtable}
+\clearpage
+\section{Third Section}
+\lipsum[4-5]
+\begin{longtable}{|c|l|c|c|}
+\hline
+\textbf{No.} & \multicolumn{1}{c|}{\textbf{Room / Area}}                                   & \textbf{\begin{tabular}[c]{@{}c@{}}Category\\ (EN 1991-1-1)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}q\_k\\  (kN/m2)\end{tabular}} \\ \hline
+1            & \begin{tabular}[c]{@{}l@{}}Receptionist/\\  Reception\end{tabular}          & B                                                                         & 3                                                                \\ \hline
+2            & \begin{tabular}[c]{@{}l@{}}Workstation /\\ Open office\end{tabular}         & B                                                                         & 3                                                                \\ \hline
+3            & Meeting   Room                                                              & C1                                                                        & 3                                                                \\ \hline
+4            & President   Office                                                          & B                                                                         & 3                                                                \\ \hline
+5            & Vice   President Offices                                                    & B                                                                         & 3                                                                \\ \hline
+6            & Accounting                                                                  & B                                                                         & 3                                                                \\ \hline
+7            & \begin{tabular}[c]{@{}l@{}}General   Sale \&\\  Administration\end{tabular} & B                                                                         & 3                                                                \\ \hline
+8            & \begin{tabular}[c]{@{}l@{}}Copy   / \\ Printer Area\end{tabular}            & B                                                                         & 3                                                                \\ \hline
+9            & Storages                                                                    & E1                                                                        & 5                                                                \\ \hline
+10           & \begin{tabular}[c]{@{}l@{}}Lift   Lobby /\\ Lift Area\end{tabular}          & C3                                                                        & 4                                                                \\ \hline
+11           & Stair   (Main Stair)                                                        & A                                                                         & 4                                                                \\ \hline
+12           & Restroom   (Men)                                                            & B                                                                         & 3                                                                \\ \hline
+13           & Restroom   (Women)                                                          & B                                                                         & 3                                                                \\ \hline
+14           & \multicolumn{1}{c|}{—}                                                      & —                                                                         & —                                                                \\ \hline
+15           & \multicolumn{1}{c|}{—}                                                      & —                                                                         & —                                                                \\ \hline
+16           & \multicolumn{1}{c|}{—}                                                      & —                                                                         & —                                                                \\ \hline
+17           & Entrance                                                                    & C3                                                                        & 4                                                                \\ \hline
+18           & Emergency Stair                                                             & A                                                                         & 4                                                                \\ \hline
+19           & \begin{tabular}[c]{@{}l@{}}Server\&\\ Technical Room\end{tabular}           & \begin{tabular}[c]{@{}c@{}}E1  \\  (conservative)\end{tabular}            & 5                                                                \\ \hline
+20           & \begin{tabular}[c]{@{}l@{}}Kitchen /\\ Pantry\end{tabular}                  & C1                                                                        & 3                                                                \\ \hline
+21           & Library                                                                     & C3                                                                        & 4                                                                \\ \hline
+22           & Share Space                                                                 & C3                                                                        & 4                                                                \\ \hline
+\end{longtable}
+
+\end{document}

@@ -1,0 +1,14 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "test1.xdv" "test1.pdf" "test1" 0 -1
+  "test1.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "test1.pdf"
+  (rewritten before read)
+["xelatex"] 0 "c:/Drive D/overleaf/RC Projects/Project-01/test1.tex" "test1.xdv" "test1" 0 -1
+  "c:/Drive D/overleaf/RC Projects/Project-01/test1.tex" 0 -1 0 ""
+  "test1.aux" 0 -1 0 "xelatex"
+  (generated)
+  "test1.aux"
+  "test1.log"
+  "test1.xdv"
+  (rewritten before read)
