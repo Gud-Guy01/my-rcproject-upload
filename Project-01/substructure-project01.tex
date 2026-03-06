@@ -72,6 +72,29 @@
 \renewcommand{\sectionmark}[1]{\markright{\thesection\quad #1}}
 
 
+% % Store the current section title whenever \sectionmark is called
+% \newcommand{\currentsectiontitle}{}
+% \let\oldsectionmark\sectionmark
+% \renewcommand{\sectionmark}[1]{%
+%   \oldsectionmark{#1}%
+%   \renewcommand{\currentsectiontitle}{\thesection\quad #1}%
+% }
+
+% % Also store subsection
+% \let\oldsubsectionmark\subsectionmark
+% \renewcommand{\subsectionmark}[1]{%
+%   \oldsubsectionmark{#1}%
+%   \renewcommand{\currentsectiontitle}{\thesubsection\quad #1}%
+% }
+
+% % Patch longtable to restore the mark on each page
+% \makeatletter
+% \patchcmd{\LT@output}
+%   {\global\advance\c@LT@tables\@ne}
+%   {\global\advance\c@LT@tables\@ne
+%    \ifx\currentsectiontitle\@empty\else\markright{\currentsectiontitle}\fi}
+%   {}{}
+% \makeatother
 %starttext...... Start texing.....
 \clearpage
 \newgeometry{
