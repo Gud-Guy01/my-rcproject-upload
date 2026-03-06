@@ -1,0 +1,71 @@
+\NeedsTeXFormat{LaTeX2e}[1995/06/01]
+\ProvidesPackage{longtable}[2026/03/06 Patched for fancyhdr marks]
+
+% ---------------------
+% Original longtable setup
+% ---------------------
+\def\LT@err{\PackageError{longtable}}
+\def\LT@warn{\PackageWarning{longtable}}
+\def\LT@final@warn{%
+  \AtEndDocument{%
+    \LT@warn{Table \@width s have changed. Rerun LaTeX.\@gobbletwo}}%
+  \global\let\LT@final@warn\relax}
+\newskip\LTleft       \LTleft=\fill
+\newskip\LTright      \LTright=\fill
+\newskip\LTpre        \LTpre=\bigskipamount
+\newskip\LTpost       \LTpost=\bigskipamount
+\newcount\LTchunksize \LTchunksize=20
+\let\c@LTchunksize\LTchunksize
+\newdimen\LTcapwidth  \LTcapwidth=4in
+\newbox\LT@head
+\newbox\LT@firsthead
+\newbox\LT@foot
+\newbox\LT@lastfoot
+\newcount\LT@cols
+\newcount\LT@rows
+\newcounter{LT@tables}
+\newcounter{LT@chunks}[LT@tables]
+
+% ---------------------
+% Save \leftmark to restore in table
+% ---------------------
+\newtoks\LT@savedmark
+\LT@savedmark=\expandafter{\leftmark}
+
+\makeatletter
+% Patch \section to always save the current mark
+\pretocmd{\section}{\LT@savedmark=\expandafter{\leftmark}}{}{}
+
+% Patch longtable start to save mark
+\pretocmd{\LT@start}{\LT@savedmark=\expandafter{\leftmark}}{}{}
+
+% Force mark at output
+\patchcmd{\LT@output}{%
+  \copy\LT@head\nobreak
+}{%
+  \copy\LT@head\nobreak
+  \markboth{\the\LT@savedmark}{\the\LT@savedmark}%
+}{}{}
+
+% Patch final output
+\patchcmd{\LT@output}{%
+  \vbox
+        {\unvbox\z@\box\ifvoid\LT@lastfoot\LT@foot\else\LT@lastfoot\fi}%
+}{%
+  \vbox
+        {\unvbox\z@\box\ifvoid\LT@lastfoot\LT@foot\else\LT@lastfoot\fi}%
+  \markboth{\the\LT@savedmark}{\the\LT@savedmark}%
+}{}{}
+
+% Force mark at every table header
+\pretocmd{\endhead}{%
+    \noalign{\markboth{\the\LT@savedmark}{\the\LT@savedmark}}%
+}{}{}
+
+\makeatother
+
+% ---------------------
+% Keep original longtable definitions
+% ---------------------
+\let\longtable\LT@original
+\let\endlongtable\LT@endlongtable
