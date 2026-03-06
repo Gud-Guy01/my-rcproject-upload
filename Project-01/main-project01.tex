@@ -22,6 +22,7 @@
 \input{Intro.tex}
 \clearpage
 \section{Detailed Design Calculations}
+
 \input{detaildesigncalculation.tex}
 hello there
 \clearpage
@@ -59,84 +60,13 @@ CEN, \textit{Eurocode 1: Actions on structures - Part 1-4: General actions - Win
 \section*{Appendices}
 \markright{Appendices} % still make markright work eventhough using \section*{}
 \addcontentsline{toc}{section}{Appendices}
-\clearpage
+\leavevmode % <-- forces LaTeX to start the paragraph, flushing the mark
+\lipsum[2]
 \subsection{Load}
 For imposed laods on floor according to Table $6.1 - 6.4$ in EN 1991-1-1:2002 \cite{EN1991-1-1-2002(3)}. Is summary in Table \ref{tab:imposedload}.
 
 \begin{longtable}{|L|L|C|C|}
-\caption{Imposed Loads On Floor Base On EN 1991-1-1:2002} \label{tab:imposedload} \\
-\hline
-\multicolumn{1}{|C|}{\textbf{Category}} & \multicolumn{1}{C|}{\textbf{Sub-category / Use}} & \textbf{\begin{tabular}[C]{@{}C@{}}$q_k$ \\ {[}kN/m²{]}\end{tabular}} & \textbf{\begin{tabular}[C]{@{}C@{}}$Q_k$\\  {[}kN{]}\end{tabular}} \\ \hline
-\endfirsthead
-
-\multicolumn{4}{c}{{\tablename\ \thetable{:} Imposed Loads On Floor Base On EN 1991-1-1:2002}} \\[2mm]
-\hline
-\multicolumn{1}{|C|}{\textbf{Category}} & \multicolumn{1}{C|}{\textbf{Sub-category / Use}} & \textbf{\begin{tabular}[C]{@{}C@{}}$q_k$ \\ {[}kN/m²{]}\end{tabular}} & \textbf{\begin{tabular}[C]{@{}C@{}}$Q_k$\\  {[}kN{]}\end{tabular}} \\ \hline
-\noalign{\markright{\thesection\quad Detailed Design Calculations}}
-\endhead
-
-\multicolumn{4}{r}{{Continued on next page}} \\
-\endfoot
-\endlastfoot
-
-\multirow{4}{*}{\textbf{Category A}}    & \begin{tabular}[C]{@{}L@{}}Areas for domestic and \\ residential activities\end{tabular}                                         &                                                                      &                                                                   \\ \cline{2-4}
-                                        & - Floors                                                                                                                         & 1,5 to 2,0                                                           & 2,0 to 3,0                                                        \\ \cline{2-4}
-                                        & - Stairs                                                                                                                         & 2,0 to 4,0                                                           & 2,0 to 4,0                                                        \\ \cline{2-4}
-                                        & - Balconies                                                                                                                      & 2,5 to 4,0                                                           & 2,0 to 3,0                                                        \\ \hline
-\textbf{Category B}                     & Office areas                                                                                                                     & 2,0 to 3,0                                                           & 1,5 to 4,5                                                        \\ \hline
-\textbf{Category C}                     & \begin{tabular}[C]{@{}L@{}}Areas where people \\ may congregate\end{tabular}                                                     &                                                                      &                                                                   \\ \hline
-C1                                      & \begin{tabular}[C]{@{}L@{}}Areas with tables \\ (e.g. schools, cafes,\\  restaurants, \\ reading rooms)\end{tabular}             & 2,0 to 3,0                                                           & 3,0 to 4,0                                                        \\ \hline
-C2                                      & \begin{tabular}[C]{@{}L@{}}Areas with fixed seats \\ (e.g. theatres,\\  cinemas,\\  churches)\end{tabular}                       & 3,0 to 4,0                                                           & \begin{tabular}[C]{@{}C@{}}2,5 to 7,0 \\ (4,0)\end{tabular}       \\ \hline
-C3                                      & \begin{tabular}[C]{@{}L@{}}Areas without obstacles\\ for moving people\\ (e.g. museums, \\ entrance halls)\end{tabular}          & 3,0 to 5,0                                                           & 4,0 to 7,0                                                        \\ \hline
-C4                                      & \begin{tabular}[C]{@{}L@{}}Areas with possible physical\\ activities \\ (e.g. dance halls, gyms)\end{tabular}                    & 3,5 to 5,0                                                           & 3,5 to 7,0                                                        \\ \hline
-C5                                      & \begin{tabular}[C]{@{}L@{}}Areas susceptible to \\ large crowds\\ (e.g. concert halls, \\ sports halls with stands)\end{tabular} & 5,0 to 7,5                                                           & 3,5 to 4,5                                                        \\ \hline
-\textbf{Category D}                     & Shopping areas                                                                                                                   &                                                                      &                                                                   \\ \hline
-D1                                      & Areas in general retail shops                                                                                                    & 4,0 to 5,0                                                           & \begin{tabular}[C]{@{}C@{}}3,5 to 7,0 \\ (4,0)\end{tabular}       \\ \hline
-D2                                      & Areas in department stores                                                                                                       & 4,0 to 5,0                                                           & 3,5 to 7,0                                                        \\ \hline
-\textbf{Category E}                     & \begin{tabular}[C]{@{}L@{}}Storage and industrial\\ activities\\ (general storage,\\  accessible areas)\end{tabular}             & 7,5                                                                  & 7,0                                                               \\ \hline
-\end{longtable}
-
-\vspace*{2em}
-\noindent And this is the imposed loads on second floor that we assumed. which shown in Table \ref{tab:imposedloadsecondfl}.
-
-\begin{longtable}{|C|L|C|C|}
-\caption{Imposed Loads On Second Floor} \label{tab:imposedloadsecondfl}\\
-\hline
-\textbf{No.} & \multicolumn{1}{c|}{\textbf{Room / Area}} & \textbf{\begin{tabular}[C]{@{}C@{}}Category\\ (EN 1991-1-1)\end{tabular}} & \textbf{\begin{tabular}[C]{@{}C@{}}$q_k$\\  (kN/m2)\end{tabular}} \\ \hline
-\endfirsthead
-
-\multicolumn{4}{C}{\tablename\ \thetable{:} Imposed Loads On Second Floor} \\[2mm]
-\hline
-\textbf{No.} & \multicolumn{1}{c|}{\textbf{Room / Area}} & \textbf{\begin{tabular}[C]{@{}C@{}}Category\\ (EN 1991-1-1)\end{tabular}} & \textbf{\begin{tabular}[C]{@{}C@{}}$q_k$\\  (kN/m2)\end{tabular}} \\ \hline
-\noalign{\markright{\thesection\quad Detailed Design Calculations}}
-\endhead
-
-\multicolumn{4}{r}{Continued on next page} \\
-\endfoot
-\endlastfoot
-
-1            & \begin{tabular}[C]{@{}L@{}}Receptionist/\\  Reception\end{tabular}          & B                                                                         & 3                                                                \\ \hline
-2            & \begin{tabular}[C]{@{}L@{}}Workstation /\\ Open office\end{tabular}         & B                                                                         & 3                                                                \\ \hline
-3            & Meeting   Room                                                              & C1                                                                        & 3                                                                \\ \hline
-4            & President   Office                                                          & B                                                                         & 3                                                                \\ \hline
-5            & Vice   President Offices                                                    & B                                                                         & 3                                                                \\ \hline
-6            & Accounting                                                                  & B                                                                         & 3                                                                \\ \hline
-7            & \begin{tabular}[C]{@{}L@{}}General   Sale \&\\  Administration\end{tabular} & B                                                                         & 3                                                                \\ \hline
-8            & \begin{tabular}[C]{@{}L@{}}Copy   / \\ Printer Area\end{tabular}            & B                                                                         & 3                                                                \\ \hline
-9            & Storages                                                                    & E1                                                                        & 5                                                                \\ \hline
-10           & \begin{tabular}[C]{@{}L@{}}Lift   Lobby /\\ Lift Area\end{tabular}          & C3                                                                        & 4                                                                \\ \hline
-11           & Stair   (Main Stair)                                                        & A                                                                         & 4                                                                \\ \hline
-12           & Restroom   (Men)                                                            & B                                                                         & 3                                                                \\ \hline
-13           & Restroom   (Women)                                                          & B                                                                         & 3                                                                \\ \hline
-14           & \multicolumn{1}{c|}{—}                                                      & —                                                                         & —                                                                \\ \hline
-15           & \multicolumn{1}{c|}{—}                                                      & —                                                                         & —                                                                \\ \hline
-16           & \multicolumn{1}{c|}{—}                                                      & —                                                                         & —                                                                \\ \hline
-17           & Entrance                                                                    & C3                                                                        & 4                                                                \\ \hline
-18           & Emergency Stair                                                             & A                                                                         & 4                                                                \\ \hline
-19           & \begin{tabular}[C]{@{}L@{}}Server\&\\ Technical Room\end{tabular}           & \begin{tabular}[C]{@{}C@{}}E1  \\  (conservative)\end{tabular}            & 5                                                                \\ \hline
-20           & \begin{tabular}[C]{@{}L@{}}Kitchen /\\ Pantry\end{tabular}                  & C1                                                                        & 3                                                                \\ \hline
-21           & Library                                                                     & C3                                                                        & 4                                                                \\ \hline
-22           & Share Space                                                                 & C3                                                                        & 4                                                                \\ \hline
+g & h & g
 \end{longtable}
 
 \end{document}
