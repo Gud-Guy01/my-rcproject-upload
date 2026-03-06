@@ -47,7 +47,9 @@
 \usepackage[table]{xcolor}
 \usepackage{tabularx, tabulary, tabu,
 longtable}
-
+\makeatletter
+\pretocmd{\LT@start}{\let\markboth\@gobbletwo \let\markright\@gobble}{}{}
+\makeatother
 \setlength{\tabcolsep}{15pt} %Gap before text Starts
 \renewcommand{\arraystretch}{1.2} %cel1 Height scaling
 \setlength{\arrayrulewidth}{0.01mm} %Tab1e Border Thickness

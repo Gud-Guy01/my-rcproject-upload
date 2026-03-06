@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 20:52
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 21:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1731,10 +1731,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  40556 strings out of 402982
  821516 string characters out of 5448060
- 1472538 words of memory out of 5000000
+ 1472559 words of memory out of 5000000
  68670 multiletter control sequences out of 15000+600000
  635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,13n,118p,596b,2098s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,13n,118p,596b,2102s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (18 pages, 229776 bytes).
+Output written on main-project01.xdv (18 pages, 228172 bytes).
