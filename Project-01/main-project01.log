@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 11:25
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 11:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1128,11 +1128,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'american'.
- (main-project01.aux
-
-LaTeX Warning: Label `tab:imposedload' multiply defined.
-
-)
+ (main-project01.aux)
 \openout1 = `main-project01.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -1485,18 +1481,14 @@ enddocument/afterlastpage (AED): lastpage setting LastPage.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 40574 strings out of 402982
- 818511 string characters out of 5448060
- 1477881 words of memory out of 5000000
- 68694 multiletter control sequences out of 15000+600000
+ 40570 strings out of 402982
+ 818445 string characters out of 5448060
+ 1477829 words of memory out of 5000000
+ 68690 multiletter control sequences out of 15000+600000
  635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,12n,118p,596b,2098s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (13 pages, 100072 bytes).
+Output written on main-project01.xdv (13 pages, 101504 bytes).
