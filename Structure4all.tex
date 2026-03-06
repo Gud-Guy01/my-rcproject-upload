@@ -45,15 +45,6 @@
 %table ...............
 \usepackage{array, multirow}
 \usepackage[table]{xcolor}
-\makeatletter
-% Save section marks for longtable
-\newtoks\LT@savedmark
-\pretocmd{\section}{\LT@savedmark=\expandafter{\leftmark}}{}{}
-\pretocmd{\LT@start}{\LT@savedmark=\expandafter{\leftmark}}{}{}
-\pretocmd{\endhead}{%
-  \noalign{\markboth{\the\LT@savedmark}{\the\LT@savedmark}}%
-}{}{}
-\makeatother
 \usepackage{tabularx, tabulary, tabu,
 longtable}
 % \makeatletter
@@ -267,5 +258,4 @@ Script=Khmer,
 
 %---------------------------------------------%
 %---------------------------------------------%
-
 

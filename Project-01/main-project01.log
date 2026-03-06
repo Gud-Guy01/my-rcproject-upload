@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 23:25
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -849,9 +849,7 @@ Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 \everycr=\toks59
 \minrowclearance=\skip125
 \rownum=\count396
-)
-\LT@savedmark=\toks60
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
+) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
@@ -876,8 +874,8 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \abovetabulinesep=\dimen356
 \belowtabulinesep=\dimen357
 \tabustrutrule=\dimen358
-\tabu@thebody=\toks61
-\tabu@footnotes=\toks62
+\tabu@thebody=\toks60
+\tabu@footnotes=\toks61
 \tabu@box=\box146
 \tabu@arstrutbox=\box147
 \tabu@hleads=\box148
@@ -985,7 +983,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip127
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/etoc\etoc.sty
 Package: etoc 2023/10/29 v1.2d Completely customisable TOCs (JFB)
-\Etoc@toctoks=\toks63
+\Etoc@toctoks=\toks62
 \c@etoc@tocid=\count417
 \etoc@framed@titlebox=\box151
 \etoc@framed@contentsbox=\box152
@@ -1098,7 +1096,7 @@ Package minitoc Info: I0023
 (minitoc)             part level macros available.
 Package minitoc Info: I0003
 (minitoc)             chapter level macros available.
-\mtc@toks=\toks64
+\mtc@toks=\toks63
 \mtc@strutbox=\box153
 \mtc@hstrutbox=\box154
 Package minitoc Info: I0002
@@ -1497,12 +1495,12 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 40558 strings out of 402982
- 821613 string characters out of 5448060
- 1473181 words of memory out of 5000000
- 68672 multiletter control sequences out of 15000+600000
+ 40557 strings out of 402982
+ 821601 string characters out of 5448060
+ 1473157 words of memory out of 5000000
+ 68671 multiletter control sequences out of 15000+600000
  635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,12n,118p,1074b,2131s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,12n,118p,1074b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main-project01.xdv (16 pages, 211408 bytes).
