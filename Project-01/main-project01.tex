@@ -21,11 +21,9 @@
 \lipsum
 \input{Intro.tex}
 \clearpage
-\markboth{lefthead}{righthead}
-\clearpage
-
 \section{Detailed Design Calculations}
-\textbf{DEBUG counter:} section=[\thesection] leftmark=[\leftmark]
+\clearpage
+\markboth{lefthead}{righthead}
 \input{detaildesigncalculation.tex}
 hello there
 \clearpage
@@ -57,16 +55,16 @@ CEN, \textit{Eurocode 1: Actions on structures - Part 1-4: General actions - Win
 
 
 \noindent \textcolor{red}{\textit{Note that :} We may use the referennces provide by professor (check in telegram group) if it still not enought we can add more maybe.}
-\markboth{lefthead}{righthead}
+\lipsum[]
+\markboth{Appendices}{Appendices}
 \clearpage
 
 \phantomsection %Creates a hyperlink anchor (jump to that page when click)
 \section*{Appendices}
-\markright{Appendices} % still make markright work eventhough using \section*{}
+%\markright{Appendices} % still make markright work eventhough using \section*{}
 \addcontentsline{toc}{section}{Appendices}
-\leavevmode % <-- forces LaTeX to start the paragraph, flushing the mark
-\lipsum[2]
-\subsection{Load}
+\lipsum[2] \\
+Still work even using long table.
 For imposed laods on floor according to Table $6.1 - 6.4$ in EN 1991-1-1:2002 \cite{EN1991-1-1-2002(3)}. Is summary in Table \ref{tab:imposedload}.
 \textbf{DEBUG:} leftmark=[\leftmark] rightmark=[\rightmark]
 
