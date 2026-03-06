@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 21:43
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 21:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1431,40 +1431,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-] (Intro.tex) [2]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: xetex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(99.58464pt, 426.79135pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=426.79135pt
-* \textheight=702.78308pt
-* \oddsidemargin=27.31465pt
-* \evensidemargin=-1.1381pt
-* \topmargin=-51.1381pt
-* \headheight=25.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=85.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- (detaildesigncalculation.tex
+] (Intro.tex) [2] (detaildesigncalculation.tex
 Overfull \hbox (4.8228pt too wide) in alignment at lines 4--8
  [] [] [] [] 
  []
@@ -1491,76 +1458,53 @@ Overfull \hbox (4.8228pt too wide) in alignment at lines 15--32
 
 [3
 
+]
+DEBUG LT@output: leftmark=1.\ Introduction, rightmark=1.\ Introduction
+[4]
+DEBUG LT@output: leftmark=1.\ Introduction, rightmark=1.\ Introduction
+) [5] [6
+
+] [7] [8
 
 ]
-detaildesigncalculation.tex:32: Undefined control sequence.
-<argument> ...N \g__mark_int }{\the \LT@savedmark 
-                                                  }}\__mark_debug:n {\iow_te...
-l.32 \end{longtable}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the main-project01.maf file.
+\openout4 = `main-project01.maf'.
 
-detaildesigncalculation.tex:32: You can't use `end-group character }' after \the.
-<argument> ... \g__mark_int }{\the \LT@savedmark }
-                                                  }\__mark_debug:n {\iow_ter...
-l.32 \end{longtable}
-                    
-I'm forgetting what you said and using zero instead.
 
-detaildesigncalculation.tex:32: Undefined control sequence.
-<argument> \the \LT@savedmark 
-                              
-l.32 \end{longtable}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-detaildesigncalculation.tex:32: You can't use `end-group character }' after \the.
-\markboth  ...t}{#1}\mark_insert:nn {2e-right}{#2}
-                                                  \tl_if_empty:nF {#2}{\mark...
-l.32 \end{longtable}
-                    
-I'm forgetting what you said and using zero instead.
+Package minitoc(hints) Warning: W0078
+(minitoc(hints))                You have used \dominitoc, 
+(minitoc(hints))                but not \minitoc.
 
-detaildesigncalculation.tex:32: Undefined control sequence.
-<argument> ...-right-nonempty}{\the \LT@savedmark 
-                                                  }
-l.32 \end{longtable}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
 
-detaildesigncalculation.tex:32: You can't use `end-group character }' after \the.
-<argument> ...right-nonempty}{\the \LT@savedmark }
-                                                  
-l.32 \end{longtable}
-                    
-I'm forgetting what you said and using zero instead.
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the main-project01.log file.
 
-detaildesigncalculation.tex:32: Emergency stop.
-<output> {\LT@output }
-                      
-l.32 \end{longtable}
-                    
-Unbalanced output routine
+[9
 
- 
+] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(main-project01.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 40536 strings out of 402982
- 821074 string characters out of 5448060
- 1465556 words of memory out of 5000000
- 68655 multiletter control sequences out of 15000+600000
- 635717 words of font info for 92 fonts, out of 8000000 for 9000
+ 40551 strings out of 402982
+ 821416 string characters out of 5448060
+ 1472590 words of memory out of 5000000
+ 68665 multiletter control sequences out of 15000+600000
+ 635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,12n,118p,914b,2098s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on main-project01.xdv (10 pages, 102076 bytes).
+
+Output written on main-project01.xdv (16 pages, 210396 bytes).

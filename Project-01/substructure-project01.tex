@@ -71,8 +71,8 @@
 
 %\renewcommand{\chaptermark}[1]{\markboth{Chapter \thechapter}{#1}}
 % \renewcommand{\subsectionmark}[1]{\markright{\thesubsection\quad #1}}
-% \renewcommand{\sectionmark}[1]{\markright{\thesection\quad #1}}
-
+\renewcommand{\sectionmark}[1]{%
+    \markboth{\thesection.\ #1}{\thesection.\ #1}}
 
 %starttext...... Start texing.....
 \clearpage
