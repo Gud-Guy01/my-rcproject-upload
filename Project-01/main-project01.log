@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 11:44
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 11:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -584,61 +584,22 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip84
 \f@nch@widthR=\skip85
 \@temptokenb=\toks54
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
-Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
-Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip86
-\cftbeforetoctitleskip=\skip87
-\cftaftertoctitleskip=\skip88
-\cftbeforepartskip=\skip89
-\cftpartnumwidth=\skip90
-\cftpartindent=\skip91
-\cftbeforechapskip=\skip92
-\cftchapindent=\skip93
-\cftchapnumwidth=\skip94
-\cftbeforesecskip=\skip95
-\cftsecindent=\skip96
-\cftsecnumwidth=\skip97
-\cftbeforesubsecskip=\skip98
-\cftsubsecindent=\skip99
-\cftsubsecnumwidth=\skip100
-\cftbeforesubsubsecskip=\skip101
-\cftsubsubsecindent=\skip102
-\cftsubsubsecnumwidth=\skip103
-\cftbeforeparaskip=\skip104
-\cftparaindent=\skip105
-\cftparanumwidth=\skip106
-\cftbeforesubparaskip=\skip107
-\cftsubparaindent=\skip108
-\cftsubparanumwidth=\skip109
-\cftbeforeloftitleskip=\skip110
-\cftafterloftitleskip=\skip111
-\cftbeforefigskip=\skip112
-\cftfigindent=\skip113
-\cftfignumwidth=\skip114
-\c@lofdepth=\count364
-\c@lotdepth=\count365
-\cftbeforelottitleskip=\skip115
-\cftafterlottitleskip=\skip116
-\cftbeforetabskip=\skip117
-\cfttabindent=\skip118
-\cfttabnumwidth=\skip119
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count366
+\c@tracingmulticols=\count364
 \mult@box=\box81
 \multicol@leftmargin=\dimen319
-\c@unbalance=\count367
-\c@collectmore=\count368
-\doublecol@number=\count369
-\multicoltolerance=\count370
-\multicolpretolerance=\count371
+\c@unbalance=\count365
+\c@collectmore=\count366
+\doublecol@number=\count367
+\multicoltolerance=\count368
+\multicolpretolerance=\count369
 \full@width=\dimen320
 \page@free=\dimen321
 \premulticols=\dimen322
 \postmulticols=\dimen323
-\multicolsep=\skip120
-\multicolbaselineskip=\skip121
+\multicolsep=\skip86
+\multicolbaselineskip=\skip87
 \partial@page=\box82
 \last@line=\box83
 \mc@boxedresult=\box84
@@ -683,20 +644,20 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box122
 \@tempa=\box123
 \@tempa=\box124
-\c@minrows=\count372
-\c@columnbadness=\count373
-\c@finalcolumnbadness=\count374
+\c@minrows=\count370
+\c@columnbadness=\count371
+\c@finalcolumnbadness=\count372
 \last@try=\dimen325
 \multicolovershoot=\dimen326
 \multicolundershoot=\dimen327
 \mult@nat@firstbox=\box125
 \colbreak@box=\box126
-\mc@col@check@num=\count375
-\g__mc_curr_col_int=\count376
+\mc@col@check@num=\count373
+\g__mc_curr_col_int=\count374
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen328
 \WF@size=\dimen329
-\c@WF@wrappedlines=\count377
+\c@WF@wrappedlines=\count375
 \WF@box=\box127
 \WF@everypar=\toks55
 Package: wrapfig 2003/01/31  v 3.6
@@ -716,9 +677,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box129
 \tcb@lowerbox=\box130
 \tcb@phantombox=\box131
-\c@tcbbreakpart=\count378
-\c@tcblayer=\count379
-\c@tcolorbox@number=\count380
+\c@tcbbreakpart=\count376
+\c@tcblayer=\count377
+\c@tcolorbox@number=\count378
 \l__tcobox_tmpa_box=\box132
 \l__tcobox_tmpa_dim=\dimen330
 \tcb@temp=\box133
@@ -727,10 +688,10 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box136
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
-\c@tcbrastercolumn=\count381
-\c@tcbrasterrow=\count382
-\c@tcbrasternum=\count383
-\c@tcbraster=\count384
+\c@tcbrastercolumn=\count379
+\c@tcbrasterrow=\count380
+\c@tcbrasternum=\count381
+\c@tcbraster=\count382
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
 (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image.sty
@@ -766,30 +727,30 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '6.9.0'
 \tcbfitdim=\dimen331
 \tcb@lowerfitdim=\dimen332
 \tcb@upperfitdim=\dimen333
-\tcb@cur@hbadness=\count385
+\tcb@cur@hbadness=\count383
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
 (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
 (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count386
+\lst@mode=\count384
 \lst@gtempboxa=\box141
 \lst@token=\toks58
-\lst@length=\count387
+\lst@length=\count385
 \lst@currlwidth=\dimen334
-\lst@column=\count388
-\lst@pos=\count389
+\lst@column=\count386
+\lst@pos=\count387
 \lst@lostspace=\dimen335
 \lst@width=\dimen336
-\lst@newlines=\count390
-\lst@lineno=\count391
+\lst@newlines=\count388
+\lst@lineno=\count389
 \lst@maxwidth=\dimen337
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count392
-\lst@skipnumbers=\count393
+\c@lstnumber=\count390
+\lst@skipnumbers=\count391
 \lst@framebox=\box142
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
@@ -807,7 +768,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '6.9.0'
 (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.9.0'
 )
-\c@tcblisting=\count394
+\c@tcblisting=\count392
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. Library `listings` is loaded instead. on input line 29.
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal.code.tex
@@ -825,24 +786,24 @@ Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
 )) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 \everycr=\toks59
-\minrowclearance=\skip122
-\rownum=\count395
+\minrowclearance=\skip88
+\rownum=\count393
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box143
-\sift@deathcycles=\count396
+\sift@deathcycles=\count394
 \@vwid@loff=\dimen338
 \@vwid@roff=\dimen339
 )
 ==> First Aid for varwidth.sty applied!
-\c@taburow=\count397
-\tabu@nbcols=\count398
-\tabu@cnt=\count399
-\tabu@Xcol=\count400
-\tabu@alloc=\count401
-\tabu@nested=\count402
+\c@taburow=\count395
+\tabu@nbcols=\count396
+\tabu@cnt=\count397
+\tabu@Xcol=\count398
+\tabu@alloc=\count399
+\tabu@nested=\count400
 \tabu@target=\dimen340
 \tabu@spreadtarget=\dimen341
 \tabu@naturalX=\dimen342
@@ -858,7 +819,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@arstrutbox=\box145
 \tabu@hleads=\box146
 \tabu@vleads=\box147
-\tabu@cellskip=\skip123
+\tabu@cellskip=\skip89
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
@@ -883,19 +844,19 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count403
+\c@section@level=\count401
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen349
-\Hy@linkcounter=\count404
-\Hy@pagecounter=\count405
+\Hy@linkcounter=\count402
+\Hy@pagecounter=\count403
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count406
+\Hy@SavedSpaceFactor=\count404
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 )
@@ -917,7 +878,7 @@ Package hyperref Info: Plain pages OFF on input line 4216.
 Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
-\c@Hy@tempcnt=\count407
+\c@Hy@tempcnt=\count405
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -929,7 +890,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count408
+\Fld@menulength=\count406
 \Field@Width=\dimen351
 \Fld@charsize=\dimen352
 Package hyperref Info: Hyper figures OFF on input line 6084.
@@ -939,9 +900,9 @@ Package hyperref Info: backreferencing OFF on input line 6099.
 Package hyperref Info: Link coloring ON on input line 6102.
 Package hyperref Info: Link coloring with OCG OFF on input line 6109.
 Package hyperref Info: PDF/A mode OFF on input line 6114.
-\Hy@abspage=\count409
-\c@Item=\count410
-\c@Hfootnote=\count411
+\Hy@abspage=\count407
+\c@Item=\count408
+\c@Hfootnote=\count409
 
 
 LaTeX Warning: Command \LT@p@ftntext  has changed.
@@ -952,10 +913,10 @@ Package hyperref Info: Driver (autodetected): hxetex.
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
 File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
 \pdfm@box=\box148
-\c@Hy@AnnotLevel=\count412
-\HyField@AnnotCount=\count413
-\Fld@listcount=\count414
-\c@bookmark@seq@number=\count415
+\c@Hy@AnnotLevel=\count410
+\HyField@AnnotCount=\count411
+\Fld@listcount=\count412
+\c@bookmark@seq@number=\count413
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -963,21 +924,158 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip124
+\Hy@SectionHShift=\skip90
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/etoc\etoc.sty
 Package: etoc 2023/10/29 v1.2d Completely customisable TOCs (JFB)
 \Etoc@toctoks=\toks62
-\c@etoc@tocid=\count416
+\c@etoc@tocid=\count414
 \etoc@framed@titlebox=\box149
 \etoc@framed@contentsbox=\box150
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
-\BKM@id=\count417
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\polyglossia.sty
+\BKM@id=\count415
+))
+
+../Structure4all.tex:77: LaTeX Error: Command \cftchapafterpnum undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \renewcommand{\cftchapafterpnum}
+                                     {\vspace{5pt}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+../Structure4all.tex:78: LaTeX Error: Command \cftsecafterpnum undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 \renewcommand{\cftsecafterpnum}
+                                    {\vspace{5pt}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+../Structure4all.tex:88: LaTeX Error: Command \cftfigpresnum undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 \renewcommand{\cftfigpresnum}
+                                  {Figure } % prefix "Figure "
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+../Structure4all.tex:89: LaTeX Error: Command \cftfigaftersnum undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 \renewcommand{\cftfigaftersnum}
+                                    { }      % dot after number
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+../Structure4all.tex:90: Undefined control sequence.
+<argument> \cftfignumwidth 
+                           
+l.90 \setlength{\cftfignumwidth}{2.5cm}
+                                              % adjust space for number
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+../Structure4all.tex:91: Missing number, treated as zero.
+<to be read again> 
+                   \scan_stop: 
+l.91 
+     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+../Structure4all.tex:91: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \scan_stop: 
+l.91 
+     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+../Structure4all.tex:93: LaTeX Error: Command \cfttabpresnum undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 \renewcommand{\cfttabpresnum}
+                                  {Table } % prefix "Table "
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+../Structure4all.tex:94: LaTeX Error: Command \cfttabaftersnum undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 \renewcommand{\cfttabaftersnum}
+                                    {:}   % colon after number
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+../Structure4all.tex:95: Undefined control sequence.
+<argument> \cfttabnumwidth 
+                           
+l.95 \setlength{\cfttabnumwidth}{2.5cm}
+                                            % adjust space for number
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+../Structure4all.tex:97: Missing number, treated as zero.
+<to be read again> 
+                   \xparse function is not expandable 
+l.97 \numberwithin
+                  {table}{section}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+../Structure4all.tex:97: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \xparse function is not expandable 
+l.97 \numberwithin
+                  {table}{section}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\polyglossia.sty
 Package: polyglossia 2025/12/01 v2.9 Modern multilingual typesetting with XeLaTeX and LuaLaTeX
-\l_xpg_alias_keyvals_int=\count418
+\l_xpg_alias_keyvals_int=\count416
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-latex.ldf
 File: gloss-latex.ldf polyglossia: module for default language
 )) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-english.ldf
@@ -1062,21 +1160,78 @@ Package fontspec Info:
 (fontspec)             <->s*[0.8826852013406216]"Khmer
 (fontspec)             OS/OT:script=khmr;language=dflt;embolden=1.5;slant=0.2;"
 
-\c@tcb@cnt@definition=\count419
-\c@tcb@cnt@example=\count420
-\c@tcb@cnt@remark=\count421
-\c@tcb@cnt@note=\count422
-\c@tcb@cnt@important=\count423
-\c@tcb@cnt@formula=\count424
-\c@tcb@cnt@assume=\count425
-\c@tcb@cnt@tip=\count426
-\c@tcb@cnt@general=\count427
-\c@tcb@cnt@rules=\count428
-\c@tcb@cnt@property=\count429
-\c@tcb@cnt@solution=\count430
-\c@tcb@cnt@theorem=\count431
-\c@tcb@cnt@exercise=\count432
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\minitoc.sty
+
+
+../Structure4all.tex:199: LaTeX Error: Command \cftchappresnum undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.199 \renewcommand{\cftchappresnum}
+                                    {\color{red}CHAPTER }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+../Structure4all.tex:200: LaTeX Error: Command \cftchapaftersnum undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \renewcommand{\cftchapaftersnum}
+                                      { }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+../Structure4all.tex:201: Undefined control sequence.
+<argument> \cftchapnumwidth 
+                            
+l.201 \setlength{\cftchapnumwidth}{8em}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+../Structure4all.tex:206: Missing number, treated as zero.
+<to be read again> 
+                   \xparse function is not expandable 
+l.206 \numberwithin
+                   {equation}{chapter}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+../Structure4all.tex:206: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \xparse function is not expandable 
+l.206 \numberwithin
+                   {equation}{chapter}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+\c@tcb@cnt@definition=\count417
+\c@tcb@cnt@example=\count418
+\c@tcb@cnt@remark=\count419
+\c@tcb@cnt@note=\count420
+\c@tcb@cnt@important=\count421
+\c@tcb@cnt@formula=\count422
+\c@tcb@cnt@assume=\count423
+\c@tcb@cnt@tip=\count424
+\c@tcb@cnt@general=\count425
+\c@tcb@cnt@rules=\count426
+\c@tcb@cnt@property=\count427
+\c@tcb@cnt@solution=\count428
+\c@tcb@cnt@theorem=\count429
+\c@tcb@cnt@exercise=\count430
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\minitoc.sty
 Package: minitoc 2018/07/12 v62 Package minitoc
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\mtcmess.sty
 Package: mtcmess 2006/03/14
@@ -1084,8 +1239,8 @@ Package: mtcmess 2006/03/14
 Package minitoc Info: I0001
 (minitoc)             *** minitoc package, version 62 ***.
 \tf@mtc=\write4
-\mtcindent=\skip125
-\mtcskipamount=\skip126
+\mtcindent=\skip91
+\mtcskipamount=\skip92
 Package minitoc Info: I0005
 (minitoc)             compatible with hyperref.
 Package minitoc Info: I0023
@@ -1111,11 +1266,11 @@ Package minitoc Info: I0031
 
 \openout4 = `main-project01.mtc0'.
 
-\c@mtc=\count433
-\c@minitocdepth=\count434
-\c@ptc=\count435
-\c@parttocdepth=\count436
-\ptcindent=\skip127
+\c@mtc=\count431
+\c@minitocdepth=\count432
+\c@ptc=\count433
+\c@parttocdepth=\count434
+\ptcindent=\skip93
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
 (minitoc)              on input line 4910.
@@ -1257,36 +1412,27 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 ))
-\c@lstlisting=\count437
+\c@lstlisting=\count435
 Package hyperref Info: Link coloring ON on input line 14.
-\Etoc@tf=\read4
-\c@minilofdepth=\count438
-\c@minilotdepth=\count439
-\c@partlofdepth=\count440
-\c@partlotdepth=\count441
-\c@sectlofdepth=\count442
-\c@sectlotdepth=\count443
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+No file main-project01.toc.
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
-Package minitoc(hints) Info: I0047
-(minitoc(hints))             --- The tocloft package is loaded. 
-(minitoc(hints))             See the minitoc package documentation 
-(minitoc(hints))             for specific precautions.
-
 
 Package minitoc(hints) Warning: W0099
 (minitoc(hints))                --- The titlesec package is loaded. 
 (minitoc(hints))                It is incompatible 
 (minitoc(hints))                with the minitoc package.
 
-Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main-project01.toc on input line 14.
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Introduction}{\reset@font\mtcSfont 1}{section.0.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Detailed Design Calculations}{\reset@font\mtcSfont 2}{section.0.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1}Load}{\reset@font\mtcSSfont 2}{subsection.0.2.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode References}{\reset@font\mtcSfont 5}{section*.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Appendices}{\reset@font\mtcSfont 6}{section*.2}}
+
+Package minitoc Warning: W0010
+(minitoc)                No file main-project01.toc. 
+(minitoc)                MINITOCS NOT PREPARED on input line 14.
+
 \tf@toc=\write5
 \openout5 = `main-project01.toc'.
 
@@ -1359,28 +1505,25 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 \tf@toc=\write6
 \openout6 = `main-project01.toc'.
 
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 33.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+ [1
 
 
-] (main-project01.lof)
+
+]
+No file main-project01.lof.
 \tf@lof=\write7
 \openout7 = `main-project01.lof'.
 
- [2
+[2
 
-] (main-project01.lot)
+
+]
+No file main-project01.lot.
 \tf@lot=\write8
 \openout8 = `main-project01.lot'.
 
- [3
+[3
+
 
 ] [4
 
@@ -1417,38 +1560,64 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-) (Intro.tex) [1
+) (Intro.tex)
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 22.
+
+[1
 
 
 
 ] (detaildesigncalculation.tex
-Overfull \hbox (4.8228pt too wide) in alignment at lines 5--9
- [] [] [] [] 
- []
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+ (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Citation `EN1991-1-1-2002(3)' on page 2 undefined on input line 2.
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 9--13
- [] [] [] [] 
- []
-
-
-Overfull \hbox (4.8228pt too wide) in alignment at lines 13--15
- [] [] [] [] 
- []
-
-
-Overfull \hbox (4.8228pt too wide) in alignment at lines 15--16
- [] [] [] [] 
- []
+LaTeX Warning: Reference `tab:imposedload' on page 2 undefined on input line 2.
 
 
 Overfull \hbox (4.8228pt too wide) in alignment at lines 16--33
  [] [] [] [] 
  []
 
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 2.1 on input line 33.
+
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 33.
+
 [2
 
-] [3]) [4] [5
+]
+
+LaTeX Warning: Reference `tab:imposedloadsecondfl' on page 3 undefined on input line 35.
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 70.
+
+[3]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 2.2 on input line 70.
+
+)
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 26.
+
+[4]
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 55.
+
+[5
 
 ]
 Package minitoc Info: I0009
@@ -1472,6 +1641,12 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main-project01.log file.
 
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 61.
+
 [6
 
 ] 
@@ -1481,14 +1656,24 @@ enddocument/afterlastpage (AED): lastpage setting LastPage.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package lastpage Warning: Rerun to get the references right on input line 61.
+
  ) 
 Here is how much of TeX's memory you used:
- 40570 strings out of 402982
- 818445 string characters out of 5448060
- 1477829 words of memory out of 5000000
- 68690 multiletter control sequences out of 15000+600000
- 635725 words of font info for 93 fonts, out of 8000000 for 9000
+ 40258 strings out of 402982
+ 813484 string characters out of 5448060
+ 1472915 words of memory out of 5000000
+ 68389 multiletter control sequences out of 15000+600000
+ 632886 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,12n,118p,596b,2098s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,12n,118p,596b,2165s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (13 pages, 101504 bytes).
+Output written on main-project01.xdv (13 pages, 84848 bytes).
