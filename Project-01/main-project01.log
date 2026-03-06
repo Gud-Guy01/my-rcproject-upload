@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 11:22
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 11:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1128,8 +1128,11 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'american'.
+ (main-project01.aux
 
-No file main-project01.aux.
+LaTeX Warning: Label `tab:imposedload' multiply defined.
+
+)
 \openout1 = `main-project01.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -1209,6 +1212,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 14.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1259,11 +1263,7 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 ))
 \c@lstlisting=\count437
 Package hyperref Info: Link coloring ON on input line 14.
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-No file main-project01.toc.
+\Etoc@tf=\read4
 \c@minilofdepth=\count438
 \c@minilotdepth=\count439
 \c@partlofdepth=\count440
@@ -1278,16 +1278,19 @@ Package minitoc(hints) Info: I0047
 (minitoc(hints))             See the minitoc package documentation 
 (minitoc(hints))             for specific precautions.
 
+
 Package minitoc(hints) Warning: W0099
 (minitoc(hints))                --- The titlesec package is loaded. 
 (minitoc(hints))                It is incompatible 
 (minitoc(hints))                with the minitoc package.
 
-
-Package minitoc Warning: W0010
-(minitoc)                No file main-project01.toc. 
-(minitoc)                MINITOCS NOT PREPARED on input line 14.
-
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM main-project01.toc on input line 14.
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Introduction}{\reset@font\mtcSfont 1}{section.0.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Detailed Design Calculations}{\reset@font\mtcSfont 2}{section.0.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1}Load}{\reset@font\mtcSSfont 2}{subsection.0.2.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode References}{\reset@font\mtcSfont 5}{section*.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Appendices}{\reset@font\mtcSfont 6}{section*.2}}
 \tf@toc=\write5
 \openout5 = `main-project01.toc'.
 
@@ -1360,22 +1363,28 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 \tf@toc=\write6
 \openout6 = `main-project01.toc'.
 
- [1
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+ (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+ (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
 
 
-]
-No file main-project01.lof.
+] (main-project01.lof)
 \tf@lof=\write7
 \openout7 = `main-project01.lof'.
 
-[2
+ [2
 
-]
-No file main-project01.lot.
+] (main-project01.lot)
 \tf@lot=\write8
 \openout8 = `main-project01.lot'.
 
-[3
+ [3
 
 ] [4
 
@@ -1412,89 +1421,38 @@ No file main-project01.lot.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-) (Intro.tex)
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 22.
-
-[1
+) (Intro.tex) [1
 
 
 
 ] (detaildesigncalculation.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: Citation `EN1991-1-1-2002(3)' on page 2 undefined on input line 2.
-
-
-LaTeX Warning: Reference `tab:imposedload' on page 2 undefined on input line 2.
-
-DEBUG: Section title is: \spacefactor \@m {}currentsectiontitle
-detaildesigncalculation.tex:8: Misplaced \noalign.
-\caption ->\noalign 
-                    \bgroup \@ifnextchar [{\egroup \LT@c@ption \@firstofone ...
-l.8 \caption
-            {Imposed Loads On Floor Base On EN 1991-1-1:2002} \label{tab:imp...
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:8: Misplaced \noalign.
-\caption@LT@make #1->\noalign 
-                              {\caption@LT@config }\expandafter \LT@mcol \ex...
-l.8 ...ed Loads On Floor Base On EN 1991-1-1:2002}
-                                                   \label{tab:imposedload} \\
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-detaildesigncalculation.tex:8: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.8 ...ed Loads On Floor Base On EN 1991-1-1:2002}
-                                                   \label{tab:imposedload} \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (4.8228pt too wide) in alignment at lines 18--35
+Overfull \hbox (4.8228pt too wide) in alignment at lines 5--9
  [] [] [] [] 
  []
 
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table 2.1 on input line 35.
+Overfull \hbox (4.8228pt too wide) in alignment at lines 9--13
+ [] [] [] [] 
+ []
 
 
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 35.
+Overfull \hbox (4.8228pt too wide) in alignment at lines 13--15
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (4.8228pt too wide) in alignment at lines 15--16
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (4.8228pt too wide) in alignment at lines 16--33
+ [] [] [] [] 
+ []
 
 [2
 
-]
-
-LaTeX Warning: Reference `tab:imposedloadsecondfl' on page 3 undefined on input line 37.
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 72.
-
-[3]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 2.2 on input line 72.
-
-)
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 26.
-
-[4]
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 55.
-
-[5
+] [3]) [4] [5
 
 ]
 Package minitoc Info: I0009
@@ -1518,12 +1476,6 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main-project01.log file.
 
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 62.
-
 [6
 
 ] 
@@ -1535,22 +1487,16 @@ L3 programming layer <2026-01-19>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package lastpage Warning: Rerun to get the references right on input line 62.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 40540 strings out of 402982
- 817842 string characters out of 5448060
- 1477920 words of memory out of 5000000
- 68670 multiletter control sequences out of 15000+600000
- 632886 words of font info for 79 fonts, out of 8000000 for 9000
+ 40574 strings out of 402982
+ 818511 string characters out of 5448060
+ 1477881 words of memory out of 5000000
+ 68694 multiletter control sequences out of 15000+600000
+ 635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,12n,118p,596b,2165s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,12n,118p,596b,2098s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (13 pages, 84136 bytes).
+Output written on main-project01.xdv (13 pages, 100072 bytes).

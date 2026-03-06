@@ -50,7 +50,7 @@ longtable}
 
 \makeatletter
 
-% Store the current section/subsection title
+% Store the current section title
 \newcommand{\@currentsectiontitle}{}
 
 % Patch \sectionmark to store the title
@@ -72,7 +72,6 @@ longtable}
   \ifx\LT@output\@undefined\else
     \let\@oldLT@output\LT@output
     \def\LT@output{%
-      % Restore the mark before outputting the page
       \ifx\@currentsectiontitle\@empty\else
         \markright{\@currentsectiontitle}%
       \fi
@@ -82,15 +81,6 @@ longtable}
 }
 
 \makeatother
-
-% Command for longtable with correct headers
-\newenvironment{fixedlongtable}[2]{%
-  % #1 = section title, #2 = column spec
-  \markright{\thesection\quad #1}%
-  \begin{longtable}{#2}%
-}{%
-  \end{longtable}%
-}
 
 \setlength{\tabcolsep}{15pt} %Gap before text Starts
 \renewcommand{\arraystretch}{1.2} %cel1 Height scaling
