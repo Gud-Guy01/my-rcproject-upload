@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 20:20
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 20:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1136,7 +1136,11 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'american'.
- (main-project01.aux)
+ (main-project01.aux
+
+LaTeX Warning: Label `tab:imposedload' multiply defined.
+
+)
 \openout1 = `main-project01.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -1296,6 +1300,7 @@ Package minitoc Info: I0024
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1}Load}{\reset@font\mtcSSfont 3}{subsection.0.2.1}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode References}{\reset@font\mtcSfont 6}{section*.1}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Appendices}{\reset@font\mtcSfont 8}{section*.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}supertabular}{\reset@font\mtcSfont 9}{section.0.3}}
 \tf@toc=\write5
 \openout5 = `main-project01.toc'.
 
@@ -1462,6 +1467,21 @@ Overfull \hbox (4.8228pt too wide) in alignment at lines 17--34
 ] [7] [8
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 78--98
+
+ []
+
+
+Overfull \hbox (4.8228pt too wide) in paragraph at lines 102--121
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9
+
+]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main-project01.maf file.
@@ -1483,23 +1503,25 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main-project01.log file.
 
-[9
-
-] 
+[10] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (main-project01.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 40550 strings out of 402982
- 821411 string characters out of 5448060
+ 40557 strings out of 402982
+ 821576 string characters out of 5448060
  1472538 words of memory out of 5000000
- 68664 multiletter control sequences out of 15000+600000
+ 68671 multiletter control sequences out of 15000+600000
  635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,12n,118p,596b,2098s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,16n,118p,596b,2098s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (16 pages, 200928 bytes).
+Output written on main-project01.xdv (17 pages, 234156 bytes).
