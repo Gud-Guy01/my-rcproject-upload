@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 10:57
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 11:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1422,27 +1422,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] (detaildesigncalculation.tex
-Overfull \hbox (4.8228pt too wide) in alignment at lines 7--11
+Overfull \hbox (4.8228pt too wide) in alignment at lines 6--10
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 11--15
+Overfull \hbox (4.8228pt too wide) in alignment at lines 10--14
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 15--17
+Overfull \hbox (4.8228pt too wide) in alignment at lines 14--16
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 17--18
+Overfull \hbox (4.8228pt too wide) in alignment at lines 16--17
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 18--35
+Overfull \hbox (4.8228pt too wide) in alignment at lines 17--34
  [] [] [] [] 
  []
 
@@ -1489,6 +1489,6 @@ Here is how much of TeX's memory you used:
  68689 multiletter control sequences out of 15000+600000
  635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,12n,118p,596b,2102s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,12n,118p,596b,2098s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main-project01.xdv (13 pages, 97924 bytes).
