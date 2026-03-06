@@ -76,50 +76,78 @@ For imposed laods on floor according to Table $6.1 - 6.4$ in EN 1991-1-1:2002 \c
 \clearpage
 
 % Make sure you have \usepackage{caption} in Structure4all.tex
-\section{table test}
-% ---- PART 1 ----
-\begin{table}[h]
+\section{supertabular}
+\lipsum[1]
+\begin{table}[H]
+\centering
 \caption{Imposed Loads On Floor Base On EN 1991-1-1:2002}
 \label{tab:imposedload}
-\begin{tabular}{|L|L|C|C|}
+
+\tablefirsthead{
 \hline
 \multicolumn{1}{|C|}{\textbf{Category}} &
 \multicolumn{1}{C|}{\textbf{Sub-category / Use}} &
 \textbf{\begin{tabular}[C]{@{}C@{}}$q_k$ \\ {[}kN/m²{]}\end{tabular}} &
 \textbf{\begin{tabular}[C]{@{}C@{}}$Q_k$\\ {[}kN{]}\end{tabular}} \\ \hline
+}
 
-\multirow{4}{*}{\textbf{Category A}} & \begin{tabular}[C]{@{}L@{}}Areas for domestic and \\ residential activities\end{tabular} & & \\ \cline{2-4}
-                                     & - Floors    & 1,5 to 2,0 & 2,0 to 3,0 \\ \cline{2-4}
-                                     & - Stairs    & 2,0 to 4,0 & 2,0 to 4,0 \\ \cline{2-4}
-                                     & - Balconies & 2,5 to 4,0 & 2,0 to 3,0 \\ \hline
+\tablehead{
+\multicolumn{4}{c}{\tablename\ \thetable\ -- continued} \\[2mm]
+\hline
+\multicolumn{1}{|C|}{\textbf{Category}} &
+\multicolumn{1}{C|}{\textbf{Sub-category / Use}} &
+\textbf{\begin{tabular}[C]{@{}C@{}}$q_k$ \\ {[}kN/m²{]}\end{tabular}} &
+\textbf{\begin{tabular}[C]{@{}C@{}}$Q_k$\\ {[}kN{]}\end{tabular}} \\ \hline
+}
+
+\begin{supertabular}{|L|L|C|C|}
+\multirow{4}{*}{\textbf{Category A}} &
+\begin{tabular}[C]{@{}L@{}}Areas for domestic and \\ residential activities\end{tabular} &
+& \\ \cline{2-4}
+
+& - Floors & 1,5 to 2,0 & 2,0 to 3,0 \\ \cline{2-4}
+& - Stairs & 2,0 to 4,0 & 2,0 to 4,0 \\ \cline{2-4}
+& - Balconies & 2,5 to 4,0 & 2,0 to 3,0 \\ \hline
+
 \textbf{Category B} & Office areas & 2,0 to 3,0 & 1,5 to 4,5 \\ \hline
-\textbf{Category C} & \begin{tabular}[C]{@{}L@{}}Areas where people \\ may congregate\end{tabular} & & \\ \hline
-C1 & \begin{tabular}[C]{@{}L@{}}Areas with tables \\ (e.g. schools, cafes,\\  restaurants, \\ reading rooms)\end{tabular} & 2,0 to 3,0 & 3,0 to 4,0 \\ \hline
-C2 & \begin{tabular}[C]{@{}L@{}}Areas with fixed seats \\ (e.g. theatres,\\  cinemas,\\  churches)\end{tabular} & 3,0 to 4,0 & \begin{tabular}[C]{@{}C@{}}2,5 to 7,0 \\ (4,0)\end{tabular} \\ \hline
-\multicolumn{4}{r}{\textit{Continued on next page}} \\
-\end{tabular}
-\end{table}
 
-% ---- PART 2 ----
-\begin{table}[h]
-\ContinuedFloat
-\caption{Imposed Loads On Floor Base On EN 1991-1-1:2002 (continued)}
-\begin{tabular}{|L|L|C|C|}
-\hline
-\multicolumn{1}{|C|}{\textbf{Category}} &
-\multicolumn{1}{C|}{\textbf{Sub-category / Use}} &
-\textbf{\begin{tabular}[C]{@{}C@{}}$q_k$ \\ {[}kN/m²{]}\end{tabular}} &
-\textbf{\begin{tabular}[C]{@{}C@{}}$Q_k$\\ {[}kN{]}\end{tabular}} \\ \hline
+\textbf{Category C} &
+\begin{tabular}[C]{@{}L@{}}Areas where people \\ may congregate\end{tabular} &
+& \\ \hline
 
-C3 & \begin{tabular}[C]{@{}L@{}}Areas without obstacles\\ for moving people\\ (e.g. museums, \\ entrance halls)\end{tabular} & 3,0 to 5,0 & 4,0 to 7,0 \\ \hline
-C4 & \begin{tabular}[C]{@{}L@{}}Areas with possible physical\\ activities \\ (e.g. dance halls, gyms)\end{tabular} & 3,5 to 5,0 & 3,5 to 7,0 \\ \hline
-C5 & \begin{tabular}[C]{@{}L@{}}Areas susceptible to \\ large crowds\\ (e.g. concert halls, \\ sports halls with stands)\end{tabular} & 5,0 to 7,5 & 3,5 to 4,5 \\ \hline
+C1 &
+\begin{tabular}[C]{@{}L@{}}Areas with tables \\ (e.g. schools, cafes,\\ restaurants, \\ reading rooms)\end{tabular} &
+2,0 to 3,0 & 3,0 to 4,0 \\ \hline
+
+C2 &
+\begin{tabular}[C]{@{}L@{}}Areas with fixed seats \\ (e.g. theatres,\\ cinemas,\\ churches)\end{tabular} &
+3,0 to 4,0 &
+\begin{tabular}[C]{@{}C@{}}2,5 to 7,0 \\ (4,0)\end{tabular} \\ \hline
+
+C3 &
+\begin{tabular}[C]{@{}L@{}}Areas without obstacles\\ for moving people\\ (e.g. museums, \\ entrance halls)\end{tabular} &
+3,0 to 5,0 & 4,0 to 7,0 \\ \hline
+
+C4 &
+\begin{tabular}[C]{@{}L@{}}Areas with possible physical\\ activities \\ (e.g. dance halls, gyms)\end{tabular} &
+3,5 to 5,0 & 3,5 to 7,0 \\ \hline
+
+C5 &
+\begin{tabular}[C]{@{}L@{}}Areas susceptible to \\ large crowds\\ (e.g. concert halls, \\ sports halls with stands)\end{tabular} &
+5,0 to 7,5 & 3,5 to 4,5 \\ \hline
+
 \textbf{Category D} & Shopping areas & & \\ \hline
-D1 & Areas in general retail shops & 4,0 to 5,0 & \begin{tabular}[C]{@{}C@{}}3,5 to 7,0 \\ (4,0)\end{tabular} \\ \hline
-D2 & Areas in department stores & 4,0 to 5,0 & 3,5 to 7,0 \\ \hline
-\textbf{Category E} & \begin{tabular}[C]{@{}L@{}}Storage and industrial\\ activities\\ (general storage,\\  accessible areas)\end{tabular} & 7,5 & 7,0 \\ \hline
 
-\end{tabular}
+D1 & Areas in general retail shops & 4,0 to 5,0 &
+\begin{tabular}[C]{@{}C@{}}3,5 to 7,0 \\ (4,0)\end{tabular} \\ \hline
+
+D2 & Areas in department stores & 4,0 to 5,0 & 3,5 to 7,0 \\ \hline
+
+\textbf{Category E} &
+\begin{tabular}[C]{@{}L@{}}Storage and industrial\\ activities\\ (general storage,\\ accessible areas)\end{tabular} &
+7,5 & 7,0 \\ \hline
+
+\end{supertabular}
 \end{table}
 \end{document}
 %...existing code...

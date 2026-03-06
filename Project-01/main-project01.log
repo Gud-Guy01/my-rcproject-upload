@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 20:30
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  6 MAR 2026 20:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1300,7 +1300,7 @@ Package minitoc Info: I0024
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1}Load}{\reset@font\mtcSSfont 3}{subsection.0.2.1}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode References}{\reset@font\mtcSfont 6}{section*.1}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Appendices}{\reset@font\mtcSfont 8}{section*.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}table test}{\reset@font\mtcSfont 9}{section.0.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}supertabular}{\reset@font\mtcSfont 9}{section.0.3}}
 \tf@toc=\write5
 \openout5 = `main-project01.toc'.
 
@@ -1436,27 +1436,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] (Intro.tex) [2] (detaildesigncalculation.tex
-Overfull \hbox (4.8228pt too wide) in alignment at lines 6--10
+Overfull \hbox (4.8228pt too wide) in alignment at lines 4--8
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 10--14
+Overfull \hbox (4.8228pt too wide) in alignment at lines 8--12
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 14--16
+Overfull \hbox (4.8228pt too wide) in alignment at lines 12--14
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 16--17
+Overfull \hbox (4.8228pt too wide) in alignment at lines 14--15
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 17--34
+Overfull \hbox (4.8228pt too wide) in alignment at lines 15--32
  [] [] [] [] 
  []
 
@@ -1467,17 +1467,21 @@ Overfull \hbox (4.8228pt too wide) in alignment at lines 17--34
 ] [7] [8
 
 ]
-Overfull \hbox (4.8228pt too wide) in paragraph at lines 107--123
-[][] 
+Overfull \hbox (4.8228pt too wide) in paragraph at lines 103--151
+ [] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [9
+
+]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main-project01.maf file.
 \openout4 = `main-project01.maf'.
+
 
 
 Package minitoc(hints) Warning: W0078
@@ -1494,9 +1498,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main-project01.log file.
 
-[9
-
-] [10] 
+[10] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (main-project01.aux)
  ***********
@@ -1509,12 +1511,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 40558 strings out of 402982
- 821585 string characters out of 5448060
+ 40559 strings out of 402982
+ 821596 string characters out of 5448060
  1472538 words of memory out of 5000000
- 68672 multiletter control sequences out of 15000+600000
+ 68673 multiletter control sequences out of 15000+600000
  635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,17n,118p,596b,2098s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,19n,118p,596b,2098s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (17 pages, 230892 bytes).
+Output written on main-project01.xdv (17 pages, 232716 bytes).
