@@ -99,13 +99,13 @@ longtable}
 %lof: listoffigure ......
 
 % Redefine List of Figures entries
-\renewcommand{\cftfigpresnum}{Figure } % prefix "Figure "
-\renewcommand{\cftfigaftersnum}{ }      % dot after number
+\renewcommand{\cftfigpresnum}{\textit{Figure} } % prefix "Figure "
+\renewcommand{\cftfigaftersnum}{.}      % dot after number
 \setlength{\cftfignumwidth}{2.5cm}       % adjust space for number
 
 %lot Redefine List of Tables entries
-\renewcommand{\cfttabpresnum}{Table } % prefix "Table "
-\renewcommand{\cfttabaftersnum}{:}   % colon after number
+\renewcommand{\cfttabpresnum}{\textit{Table} } % prefix "Table "
+\renewcommand{\cfttabaftersnum}{.}   % colon after number
 \setlength{\cfttabnumwidth}{2.5cm}     % adjust space for number
 %table Same for tables
 \numberwithin{table}{section}
