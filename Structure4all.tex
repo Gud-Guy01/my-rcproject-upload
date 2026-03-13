@@ -31,6 +31,7 @@
 \usepackage{multicol}            % Multiple columns
 \usepackage{wrapfig}             % Wrapped figures
 \usepackage{verbatim}            % Comments
+\usepackage{booktabs}
 \usepackage{extramarks}
 \usepackage{supertabular}
 \usepackage{makecell}   % for multi-line cells
@@ -149,11 +150,23 @@ Script=Khmer,
 \AtBeginEnvironment{align*}{\color{blue}}
 \AtBeginEnvironment{equation}{\color{blue}}
 \AtBeginEnvironment{equation*}{\color{blue}}
-% Math spacing
-\AtBeginDocument{
-\setlength{\abovedisplayskip}{5pt}
-\setlength{\belowdisplayskip}{5pt}
-\setlength{\jot}{2pt}
+
+%math Math spacing
+% \AtBeginDocument{
+% \setlength{\abovedisplayskip}{8pt}
+% \setlength{\belowdisplayskip}{8pt}
+% \setlength{\jot}{5pt}
+% }
+%math sapcing
+\AtBeginDocument{%
+  % Space above displayed equations
+  \setlength{\abovedisplayskip}{10pt plus 2pt minus 2pt}
+
+  % Space below displayed equations
+  \setlength{\belowdisplayskip}{10pt plus 2pt minus 2pt}
+
+  % Space between lines in multi-line equations
+  \setlength{\jot}{6pt}
 }
 
 % ==================== SECTION FORMATTING ====================
