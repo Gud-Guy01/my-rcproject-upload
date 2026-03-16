@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  13 MAR 2026 20:53
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  16 MAR 2026 13:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1311,11 +1311,12 @@ Package minitoc(hints) Warning: W0099
 
 Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM main-project01.toc on input line 16.
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Introduction}{\reset@font\mtcSfont 1}{section.0.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Detailed Design Calculations}{\reset@font\mtcSfont 2}{section.0.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1}Load}{\reset@font\mtcSSfont 2}{subsection.0.2.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode References}{\reset@font\mtcSfont 5}{section*.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Appendices}{\reset@font\mtcSfont 6}{section*.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}How to Design}{\reset@font\mtcSfont 1}{section.0.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Introduction}{\reset@font\mtcSfont 2}{section.0.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}Detailed Design Calculations}{\reset@font\mtcSfont 3}{section.0.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1}Load}{\reset@font\mtcSSfont 3}{subsection.0.3.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode References}{\reset@font\mtcSfont 6}{section*.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Appendices}{\reset@font\mtcSfont 7}{section*.2}}
 \tf@toc=\write5
 \openout5 = `main-project01.toc'.
 
@@ -1446,9 +1447,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-) (Intro.tex) [1
+) [1
 
 
+
+] (Intro.tex) [2
 
 ] (detaildesigncalculation.tex
 Overfull \hbox (4.8228pt too wide) in alignment at lines 4--8
@@ -1475,13 +1478,13 @@ Overfull \hbox (4.8228pt too wide) in alignment at lines 15--32
  [] [] [] [] 
  []
 
-detaildesigncalculation.tex:32: ignored: Infinite glue shrinkage found in box being split [2
+detaildesigncalculation.tex:32: ignored: Infinite glue shrinkage found in box being split [3
 
 ]
-DEBUG LT@output: leftmark=2.\ Detailed Design Calculations, rightmark=2.\ Detailed Design Calculations
-detaildesigncalculation.tex:70: ignored: Infinite glue shrinkage found in box being split [3]
-DEBUG LT@output: leftmark=2.\ Detailed Design Calculations, rightmark=2.\ Detailed Design Calculations
-) [4] [5
+DEBUG LT@output: leftmark=3.\ Detailed Design Calculations, rightmark=3.\ Detailed Design Calculations
+detaildesigncalculation.tex:70: ignored: Infinite glue shrinkage found in box being split [4]
+DEBUG LT@output: leftmark=3.\ Detailed Design Calculations, rightmark=3.\ Detailed Design Calculations
+) [5] [6
 
 ]
 Package minitoc Info: I0009
@@ -1505,7 +1508,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main-project01.log file.
 
-[6
+[7
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -1516,12 +1519,12 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 40789 strings out of 402982
- 824539 string characters out of 5448060
+ 40790 strings out of 402982
+ 824544 string characters out of 5448060
  1477108 words of memory out of 5000000
- 68897 multiletter control sequences out of 15000+600000
+ 68898 multiletter control sequences out of 15000+600000
  635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,12n,118p,1074b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (13 pages, 98976 bytes).
+Output written on main-project01.xdv (14 pages, 102512 bytes).

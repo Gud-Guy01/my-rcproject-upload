@@ -14,7 +14,7 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
-\contentsline {section}{\numberline {1}Introduction}{1}{section.0.1}%
+\contentsline {section}{\numberline {1}How to Design}{1}{section.0.1}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
@@ -23,8 +23,17 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
-\contentsline {section}{\numberline {2}Detailed Design Calculations}{2}{section.0.2}%
-\contentsline {subsection}{\numberline {2.1}Load}{2}{subsection.0.2.1}%
+\contentsline {section}{\numberline {2}Introduction}{2}{section.0.2}%
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\contentsline {section}{\numberline {3}Detailed Design Calculations}{3}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1}Load}{3}{subsection.0.3.1}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
@@ -49,7 +58,7 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
-\contentsline {section}{References}{5}{section*.1}%
+\contentsline {section}{References}{6}{section*.1}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
@@ -58,7 +67,7 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
-\contentsline {section}{Appendices}{6}{section*.2}%
+\contentsline {section}{Appendices}{7}{section*.2}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
