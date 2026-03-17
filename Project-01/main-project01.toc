@@ -60,7 +60,7 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
-\contentsline {section}{References}{6}{section*.1}%
+\contentsline {section}{References}{6}{section*.2}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
@@ -69,7 +69,7 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
-\contentsline {section}{Appendices}{7}{section*.2}%
+\contentsline {section}{Appendices}{7}{section*.3}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
