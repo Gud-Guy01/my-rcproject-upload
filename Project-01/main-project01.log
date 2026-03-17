@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  17 MAR 2026 13:55
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 04:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1314,7 +1314,9 @@ Package minitoc Info: I0024
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}How to Design}{\reset@font\mtcSfont 1}{section.0.1}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Introduction}{\reset@font\mtcSfont 2}{section.0.2}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}Detailed Design Calculations}{\reset@font\mtcSfont 3}{section.0.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1}Load}{\reset@font\mtcSSfont 3}{subsection.0.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1}Loading}{\reset@font\mtcSSfont 3}{subsection.0.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.1.1}Live Load}{\reset@font\mtcSSSfont 3}{subsubsection.0.3.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.1.2}Dead Load}{\reset@font\mtcSSSfont 5}{subsubsection.0.3.1.2}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode References}{\reset@font\mtcSfont 6}{section*.1}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Appendices}{\reset@font\mtcSfont 7}{section*.2}}
 \tf@toc=\write5
@@ -1454,35 +1456,35 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] (Intro.tex) [2
 
 ] (detaildesigncalculation.tex
-Overfull \hbox (4.8228pt too wide) in alignment at lines 4--8
+Overfull \hbox (4.8228pt too wide) in alignment at lines 5--9
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 8--12
+Overfull \hbox (4.8228pt too wide) in alignment at lines 9--13
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 12--14
+Overfull \hbox (4.8228pt too wide) in alignment at lines 13--15
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 14--15
+Overfull \hbox (4.8228pt too wide) in alignment at lines 15--16
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 15--32
+Overfull \hbox (4.8228pt too wide) in alignment at lines 16--33
  [] [] [] [] 
  []
 
-detaildesigncalculation.tex:32: ignored: Infinite glue shrinkage found in box being split [3
+detaildesigncalculation.tex:33: ignored: Infinite glue shrinkage found in box being split [3
 
 ]
 DEBUG LT@output: leftmark=3.\ Detailed Design Calculations, rightmark=3.\ Detailed Design Calculations
-detaildesigncalculation.tex:70: ignored: Infinite glue shrinkage found in box being split [4]
+detaildesigncalculation.tex:71: ignored: Infinite glue shrinkage found in box being split [4]
 DEBUG LT@output: leftmark=3.\ Detailed Design Calculations, rightmark=3.\ Detailed Design Calculations
 ) [5] [6
 
@@ -1519,12 +1521,12 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 40794 strings out of 402982
- 824638 string characters out of 5448060
- 1477165 words of memory out of 5000000
- 68902 multiletter control sequences out of 15000+600000
+ 40797 strings out of 402982
+ 824700 string characters out of 5448060
+ 1477164 words of memory out of 5000000
+ 68905 multiletter control sequences out of 15000+600000
  635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,12n,118p,1074b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (14 pages, 103092 bytes).
+Output written on main-project01.xdv (14 pages, 103612 bytes).

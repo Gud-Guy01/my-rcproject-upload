@@ -33,7 +33,8 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \contentsline {section}{\numberline {3}Detailed Design Calculations}{3}{section.0.3}%
-\contentsline {subsection}{\numberline {3.1}Load}{3}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {3.1}Loading}{3}{subsection.0.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Live Load}{3}{subsubsection.0.3.1.1}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
@@ -50,6 +51,7 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
+\contentsline {subsubsection}{\numberline {3.1.2}Dead Load}{5}{subsubsection.0.3.1.2}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
