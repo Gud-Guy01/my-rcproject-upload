@@ -26,7 +26,12 @@
 \subsection{Convert Area Loads to Line Load on Beams}
 Slabs distribute their load to beam depending on slab span direction and support condition (EN 1992-1-1:2023, Cl. 5.3.2 \cite{EN1992-1-1-2023(1)}; IStructE Manual, Cl. 3.2).
 \subsubsection*{The Tributary Width Method [IStructE Manual, Cl. 3.2]:}
-For a one-way slab, load goes to the beams on the short sides:
+For a \textbf{one-way slab}, load goes to the beams on the short sides:
+\begin{center}
+\begin{tcolorbox}[colback=white]
+Beam Line Load (kN/m) = Floor Load (kN/m2) \(\times\) Tributary Width (m)
+\end{tcolorbox}
+\end{center}
 \clearpage
 \section{Introduction}
 \input{Intro.tex}
