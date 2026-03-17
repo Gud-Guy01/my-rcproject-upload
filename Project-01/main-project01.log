@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 05:59
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 06:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1663,23 +1663,26 @@ ont 1}{subsection.0.1.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
 e \numberline {1.2}Apply ULS and SLS Load Combinations}{\reset@font\mtcSSfont 1
 }{subsection.0.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {1.3}Beam Support Conditions}{\reset@font\mtcSSfont 2}{subsection
+.0.1.3}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {2}Introduction}{\reset@font\mtcSfont 2}{section.0.2}}
+umberline {2}Introduction}{\reset@font\mtcSfont 3}{section.0.2}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {3}Detailed Design Calculations}{\reset@font\mtcSfont 3}{section.0.3}
+umberline {3}Detailed Design Calculations}{\reset@font\mtcSfont 4}{section.0.3}
 }
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {3.1}Loading}{\reset@font\mtcSSfont 3}{subsection.0.3.1}}
+e \numberline {3.1}Loading}{\reset@font\mtcSSfont 4}{subsection.0.3.1}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leave
-vmode \numberline {3.1.1}Live Load}{\reset@font\mtcSSSfont 3}{subsubsection.0.3
+vmode \numberline {3.1.1}Live Load}{\reset@font\mtcSSSfont 4}{subsubsection.0.3
 .1.1}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leave
-vmode \numberline {3.1.2}Dead Load}{\reset@font\mtcSSSfont 5}{subsubsection.0.3
+vmode \numberline {3.1.2}Dead Load}{\reset@font\mtcSSSfont 6}{subsubsection.0.3
 .1.2}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Re
-ferences}{\reset@font\mtcSfont 6}{section*.2}}
+ferences}{\reset@font\mtcSfont 7}{section*.3}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Ap
-pendices}{\reset@font\mtcSfont 7}{section*.3}}
+pendices}{\reset@font\mtcSfont 8}{section*.4}}
 \tf@toc=\write5
 \openout5 = `main-project01.toc'.
 
@@ -1818,12 +1821,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-) [1
+)
+Overfull \hbox (66.52867pt too wide) in paragraph at lines 56--64
+ [][] 
+ []
+
+[1
 
 
 
-] (Intro.tex)
-[2
+] [2] (Intro.tex) [3
 
 ] (detaildesigncalculation.tex
 Overfull \hbox (4.8228pt too wide) in alignment at lines 5--9
@@ -1851,16 +1858,16 @@ Overfull \hbox (4.8228pt too wide) in alignment at lines 16--33
  []
 
 detaildesigncalculation.tex:33: ignored: Infinite glue shrinkage found in box b
-eing split [3
+eing split [4
 
 ]
 DEBUG LT@output: leftmark=3.\ Detailed Design Calculations, rightmark=3.\ Detai
 led Design Calculations
 detaildesigncalculation.tex:71: ignored: Infinite glue shrinkage found in box b
-eing split [4]
+eing split [5]
 DEBUG LT@output: leftmark=3.\ Detailed Design Calculations, rightmark=3.\ Detai
 led Design Calculations
-) [5] [6
+) [6] [7
 
 ]
 Package minitoc Info: I0009
@@ -1884,7 +1891,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main-project01.log file.
 
-[7
+[8
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -1895,12 +1902,12 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 41003 strings out of 402982
- 828411 string characters out of 5448060
- 1479938 words of memory out of 5000000
- 69108 multiletter control sequences out of 15000+600000
+ 41004 strings out of 402982
+ 828416 string characters out of 5448060
+ 1478938 words of memory out of 5000000
+ 69109 multiletter control sequences out of 15000+600000
  635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,14n,118p,1074b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (14 pages, 126056 bytes).
+Output written on main-project01.xdv (15 pages, 138760 bytes).

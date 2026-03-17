@@ -48,6 +48,21 @@ For a \textbf{two-way slab}, load distributes in both directions using yield lin
     Quasi-permanent (for long-term deflection)
     \[\sum_{i}G_{k,i} + \sum_{j}\varphi_{2,j} Q_{k,j} + (P_k)\]
 \end{itemize}
+\subsection{Beam Support Conditions}
+The support condition effects bending moments, shear forces, and reinforcement layout (EN 1992-1-1:2023, Cl. 5.3.2.2 \cite{EN1992-1-1-2023(1)}; IStructE Manual, Cl. 4.2):
+\begin{table}[H]
+\centering
+\caption{Beam support condition}
+\begin{tabular}{LLL}
+\toprule
+\textbf{Support Type}     & \textbf{Description}          & \textbf{Moment at Support} \\\midrule
+\textbf{Simply supported} & Beam sits on wall/pad         & Zero moment at ends        \\
+\textbf{Continuous beam}  & Multiple spans, monolithic    & Hogging moment at supports \\
+\textbf{Fixed end}        & Fully restrained (rare in RC) & Full fixity moment         \\
+\textbf{Partially fixed}  & Column/beam junction          & Partial moment transfer \\ \bottomrule
+\end{tabular}
+\end{table}
+\noindent In real RC buildings: Most beams are continuous over columns, this is the most common and important case (EN 1992-1-1:2023, Cl. 5.3.2 \cite{EN1992-1-1-2023(1)}; IStructE Manual, Cl. 4.2).
 \clearpage
 \section{Introduction}
 \input{Intro.tex}
