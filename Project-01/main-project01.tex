@@ -39,6 +39,15 @@ For a \textbf{two-way slab}, load distributes in both directions using yield lin
     \item Short span beam take triangular load
     \item Long span beam take trapezoidal load
 \end{itemize}
+\subsection{Apply ULS and SLS Load Combinations}
+\begin{itemize}
+    \item ULS (Ultimate Limit State) - for stength design
+    \[1.35 G_k + 1.5 Q_k\]
+    \item SLS (serviceability Limit State) - for deflection/crack check \\[2mm]
+    Chearacteristic Combinations: \[\sum_{i}G_{k,i} + Q_{k,1} + \sum_{j>1} \varphi_{0,j} Q_{k,j} + (P_k)\]
+    Quasi-permanent (for long-term deflection)
+    \[\sum_{i}G_{k,i} + \sum_{j}\varphi_{2,j} Q_{k,j} + (P_k)\]
+\end{itemize}
 \clearpage
 \section{Introduction}
 \input{Intro.tex}
