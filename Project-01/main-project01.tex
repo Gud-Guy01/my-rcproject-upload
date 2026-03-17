@@ -53,6 +53,7 @@ The support condition effects bending moments, shear forces, and reinforcement l
 \begin{table}[H]
 \centering
 \caption{Beam support condition}
+\resizebox{\linewidth}{!}{
 \begin{tabular}{LLL}
 \toprule
 \textbf{Support Type}     & \textbf{Description}          & \textbf{Moment at Support} \\\midrule
@@ -60,7 +61,18 @@ The support condition effects bending moments, shear forces, and reinforcement l
 \textbf{Continuous beam}  & Multiple spans, monolithic    & Hogging moment at supports \\
 \textbf{Fixed end}        & Fully restrained (rare in RC) & Full fixity moment         \\
 \textbf{Partially fixed}  & Column/beam junction          & Partial moment transfer \\ \bottomrule
-\end{tabular}
+\end{tabular}}
+\end{table}
+\begin{table}[H]
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tabular}{LLLL}
+\textbf{Support Type} & \textbf{Rotation Allowed} & \textbf{Moment at Support} & \textbf{Typical Structure} \\
+Simply Supported      & Yes                       & 0                          & Beam on columns            \\
+Continuous            & Small rotation            & Negative moment            & Multi-span floor beam      \\
+Fixed                 & No rotation               & Maximum moment             & Cantilever                 \\
+Partially Fixed       & Limited rotation          & Partial moment             & Beam-column joint
+\end{tabular}}
 \end{table}
 \noindent In real RC buildings: Most beams are continuous over columns, this is the most common and important case (EN 1992-1-1:2023, Cl. 5.3.2 \cite{EN1992-1-1-2023(1)}; IStructE Manual, Cl. 4.2).
 \clearpage
