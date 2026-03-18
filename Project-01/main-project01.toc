@@ -74,6 +74,7 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
+\contentsline {section}{References}{7}{section*.6}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
@@ -82,16 +83,7 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
-\contentsline {section}{References}{8}{section*.6}%
-\xpg@aux {}{english}
-\xpg@aux {}{english}
-\xpg@aux {}{english}
-\xpg@aux {}{english}
-\xpg@aux {}{english}
-\xpg@aux {}{english}
-\xpg@aux {}{english}
-\xpg@aux {}{english}
-\contentsline {section}{Appendices}{9}{section*.7}%
+\contentsline {section}{Appendices}{8}{section*.7}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}

@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1773838874.52993 "main-project01.xdv" "main-project01.pdf" "main-project01" 1773838875.12305 0
-  "main-project01.xdv" 1773838874 178568 b93aa3817d33a1dcf2e4a158cf0e9805 "xelatex"
+["xdvipdfmx"] 1773839038.67522 "main-project01.xdv" "main-project01.pdf" "main-project01" 1773839039.26302 0
+  "main-project01.xdv" 1773839038 177068 6bc9b9e30c596efbb8c61d3a9ed1885c "xelatex"
   (generated)
   "main-project01.pdf"
   (rewritten before read)
-["xelatex"] 1773838870.65549 "c:/Drive D/overleaf/RC Projects/Project-01/main-project01.tex" "main-project01.xdv" "main-project01" 1773838875.10207 0
+["xelatex"] 1773839035.35719 "c:/Drive D/overleaf/RC Projects/Project-01/main-project01.tex" "main-project01.xdv" "main-project01" 1773839039.23319 0
   "../Structure4all.tex" 1773838869 11102 4d195dab94d61da008071383cb066e2f ""
   "C:/Users/GooDGuy/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1772554966 27177916 94eef3718ad1bee72652c58dee9dceeb ""
   "C:/Users/GooDGuy/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136747054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -443,16 +443,16 @@
   "C:/Users/GooDGuy/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "Intro.tex" 1772710795 23 a468e9cb450e77901b8ee1d26b02e8a3 ""
   "c:/Drive D/overleaf/RC Projects/Project-01/main-project01.tex" 1773838356 3487 784419e82be0b5e3858812f6e0e7be14 ""
-  "detaildesigncalculation.tex" 1773804864 13545 27d06253e5ee09531ebb4c7f7e5807f4 ""
+  "detaildesigncalculation.tex" 1773839030 13530 64dc26a7d42dc39cdb4f97c816ab4a8c ""
   "headerfooter-project01.tex" 1772811386 3358 7b6fc8fb04f36ba18f58f176845e44d8 ""
   "howtodesign.tex" 1773809595 6153 40091429aeaddefb7f3e734ac4691dce ""
-  "main-project01.aux" 1773838874 7920 f73678393a8b557f645b62334b50c8ee "xelatex"
-  "main-project01.lof" 1773838873 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "main-project01.lot" 1773838874 769 edc0a55cf54c07ac97bc2c09fe13d992 "xelatex"
-  "main-project01.mtc" 1773838872 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "main-project01.mtc0" 1773838872 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "main-project01.aux" 1773839038 7608 f4dea54f0a7fe0c738747e4a8e5bed2d "xelatex"
+  "main-project01.lof" 1773839037 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "main-project01.lot" 1773839038 769 13b7714e2a56b0eb3fa61314fb6055de "xelatex"
+  "main-project01.mtc" 1773839037 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "main-project01.mtc0" 1773839037 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
   "main-project01.tex" 1773838356 3487 784419e82be0b5e3858812f6e0e7be14 ""
-  "main-project01.toc" 1773838874 3104 1f523b4fc30d3f839d174af96ecbe3ef "xelatex"
+  "main-project01.toc" 1773839038 2936 d4af19db89b27fa942d32c4ef21e807b "xelatex"
   "substructure-project01.tex" 1772815433 2315 7bfe85e7713df55ed0a41fb347077e91 ""
   (generated)
   "main-project01.aux"

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 20:01
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 20:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1723,9 +1723,9 @@ vmode \numberline {3.1.1}Live Load}{\reset@font\mtcSSSfont 5}{subsubsection.0.3
 vmode \numberline {3.1.2}Dead Load}{\reset@font\mtcSSSfont 6}{subsubsection.0.3
 .1.2}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Re
-ferences}{\reset@font\mtcSfont 8}{section*.6}}
+ferences}{\reset@font\mtcSfont 7}{section*.6}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Ap
-pendices}{\reset@font\mtcSfont 9}{section*.7}}
+pendices}{\reset@font\mtcSfont 8}{section*.7}}
 \tf@toc=\write5
 \openout5 = `main-project01.toc'.
 
@@ -1874,16 +1874,9 @@ Underfull \vbox (badness 1946) has occurred while \output is active []
  [2])
 [3] (Intro.tex) [4
 
-] (detaildesigncalculation.tex
-Underfull \vbox (badness 4713) has occurred while \output is active []
+] (detaildesigncalculation.tex [5
 
- [5
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6])
-[7]
+]) [6]
 Underfull \hbox (badness 10000) in paragraph at lines 84--91
 []\TU/Arial(0)/m/n/10 Institution of Structural Engineers (IStructE), \TU/Arial
 (0)/m/it/10 Manual for the Design
@@ -1901,7 +1894,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--91
 [] [][][][][][][] [] [][][] [] [][][][][][][] []
  []
 
-[8
+[7
 
 ]
 Package minitoc Info: I0009
@@ -1925,7 +1918,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main-project01.log file.
 
-[9
+[8
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -1942,6 +1935,6 @@ Here is how much of TeX's memory you used:
  69143 multiletter control sequences out of 15000+600000
  632237 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,14n,118p,1074b,2076s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,14n,118p,1074b,2078s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (16 pages, 178568 bytes).
+Output written on main-project01.xdv (15 pages, 177068 bytes).
