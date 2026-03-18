@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 09:44
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 09:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1492,32 +1492,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'american'.
- (main-project01.aux
-
-LaTeX Warning: Label `EN1992-1-1-2023(1)' multiply defined.
-
-
-LaTeX Warning: Label `EN1991-1-1-2025(2)' multiply defined.
-
-
-LaTeX Warning: Label `EN1991-1-1-2002(3)' multiply defined.
-
-
-LaTeX Warning: Label `EN1991-1-4-2005(4)' multiply defined.
-
-
-LaTeX Warning: Label `EN1990-2002(5)' multiply defined.
-
-
-LaTeX Warning: Label `IStructE2006(6)' multiply defined.
-
-
-LaTeX Warning: Label `Reynolds2008(7)' multiply defined.
-
-
-LaTeX Warning: Label `EN1991-1-3-2003(8)' multiply defined.
-
-)
+ (main-project01.aux)
 \openout1 = `main-project01.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -1706,10 +1681,8 @@ vmode \numberline {3.1.2}Dead Load}{\reset@font\mtcSSSfont 6}{subsubsection.0.3
 .1.2}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Re
 ferences}{\reset@font\mtcSfont 7}{section*.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Re
-ferences}{\reset@font\mtcSfont 7}{section*.4}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Ap
-pendices}{\reset@font\mtcSfont 9}{section*.5}}
+pendices}{\reset@font\mtcSfont 8}{section*.5}}
 \tf@toc=\write5
 \openout5 = `main-project01.toc'.
 
@@ -1892,7 +1865,7 @@ DEBUG LT@output: leftmark=3.\ Detailed Design Calculations, rightmark=3.\ Detai
 led Design Calculations
 ) [6] [7
 
-] [8]
+]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main-project01.maf file.
@@ -1914,7 +1887,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main-project01.log file.
 
-[9
+[8
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -1923,18 +1896,14 @@ enddocument/afterlastpage (AED): lastpage setting LastPage.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 41009 strings out of 402982
- 828485 string characters out of 5448060
+ 41006 strings out of 402982
+ 828443 string characters out of 5448060
  1478939 words of memory out of 5000000
- 69114 multiletter control sequences out of 15000+600000
+ 69111 multiletter control sequences out of 15000+600000
  635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,14n,118p,1074b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (16 pages, 167580 bytes).
+Output written on main-project01.xdv (15 pages, 145620 bytes).
