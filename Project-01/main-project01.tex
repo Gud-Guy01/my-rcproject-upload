@@ -8,11 +8,10 @@
 \input{../Structure4all.tex}
 %font edit
 \usepackage{silence}
-\setmainfont{Arial}
-\setsansfont{Arial}
-\setmonofont{Consolas}
-\setmathrm{Arial}
-\usepackage{sansmathfonts}        % ← best looking sans-serif math in pdflatex
+\usepackage[no-math]{fontspec}     % ← crucial: prevents fontspec from setting math font
+\setmainfont{Arial}                % or your exact font name
+\usepackage{mathastext}    % load AFTER fontspec + no-math
+
 \input{headerfooter-project01.tex}
 
 %------------------------%
@@ -28,6 +27,7 @@
 \input{howtodesign.tex}
 \clearpage
 \section{Introduction}
+hello \( y = ax + b = 2 + 3\)
 \input{Intro.tex}
 
 \clearpage
