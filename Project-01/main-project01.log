@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 11:34
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 11:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1669,6 +1669,9 @@ e \numberline {1.3}Beam Support Conditions}{\reset@font\mtcSSfont 2}{subsection
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
 e \numberline {1.4}Design Workflow}{\reset@font\mtcSSfont 2}{subsection.0.1.4}}
 
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {1.5}The Key Distinction: what are we Designing}{\reset@font\mtcS
+Sfont 3}{subsection.0.1.5}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
 umberline {2}Introduction}{\reset@font\mtcSfont 4}{section.0.2}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
@@ -1683,9 +1686,9 @@ vmode \numberline {3.1.1}Live Load}{\reset@font\mtcSSSfont 5}{subsubsection.0.3
 vmode \numberline {3.1.2}Dead Load}{\reset@font\mtcSSSfont 7}{subsubsection.0.3
 .1.2}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Re
-ferences}{\reset@font\mtcSfont 8}{section*.4}}
+ferences}{\reset@font\mtcSfont 8}{section*.5}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Ap
-pendices}{\reset@font\mtcSfont 9}{section*.5}}
+pendices}{\reset@font\mtcSfont 9}{section*.6}}
 \tf@toc=\write5
 \openout5 = `main-project01.toc'.
 
@@ -1925,12 +1928,12 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 41016 strings out of 402982
- 828609 string characters out of 5448060
+ 41017 strings out of 402982
+ 828615 string characters out of 5448060
  1478939 words of memory out of 5000000
- 69116 multiletter control sequences out of 15000+600000
+ 69117 multiletter control sequences out of 15000+600000
  635733 words of font info for 94 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,14n,118p,1074b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (16 pages, 165676 bytes).
+Output written on main-project01.xdv (16 pages, 172460 bytes).
