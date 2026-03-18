@@ -26,6 +26,7 @@
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \contentsline {subsection}{\numberline {1.3}Beam Support Conditions}{2}{subsection.0.1.3}%
+\contentsline {subsection}{\numberline {1.4}Design Workflow}{2}{subsection.0.1.4}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {}{english}

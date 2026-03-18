@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 11:11
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 11:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1492,7 +1492,8 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'american'.
- (main-project01.aux)
+
+No file main-project01.aux.
 \openout1 = `main-project01.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -1572,7 +1573,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 17.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1631,7 +1631,11 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 ))
 \c@lstlisting=\count440
 Package hyperref Info: Link coloring ON on input line 17.
-\Etoc@tf=\read4
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+No file main-project01.toc.
 \c@minilofdepth=\count441
 \c@minilotdepth=\count442
 \c@partlofdepth=\count443
@@ -1646,43 +1650,16 @@ Package minitoc(hints) Info: I0047
 (minitoc(hints))             See the minitoc package documentation 
 (minitoc(hints))             for specific precautions.
 
-
 Package minitoc(hints) Warning: W0099
 (minitoc(hints))                --- The titlesec package is loaded. 
 (minitoc(hints))                It is incompatible 
 (minitoc(hints))                with the minitoc package.
 
-Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main-project01.toc on input line 
-17.
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {1}How to Design}{\reset@font\mtcSfont 1}{section.0.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {1.1}Convert Area Loads to Line Load on Beams}{\reset@font\mtcSSf
-ont 1}{subsection.0.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {1.2}Apply ULS and SLS Load Combinations}{\reset@font\mtcSSfont 1
-}{subsection.0.1.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {1.3}Beam Support Conditions}{\reset@font\mtcSSfont 2}{subsection
-.0.1.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {2}Introduction}{\reset@font\mtcSfont 3}{section.0.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {3}Detailed Design Calculations}{\reset@font\mtcSfont 4}{section.0.3}
-}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {3.1}Loading}{\reset@font\mtcSSfont 4}{subsection.0.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leave
-vmode \numberline {3.1.1}Live Load}{\reset@font\mtcSSSfont 4}{subsubsection.0.3
-.1.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leave
-vmode \numberline {3.1.2}Dead Load}{\reset@font\mtcSSSfont 6}{subsubsection.0.3
-.1.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Re
-ferences}{\reset@font\mtcSfont 7}{section*.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Ap
-pendices}{\reset@font\mtcSfont 8}{section*.5}}
+
+Package minitoc Warning: W0010
+(minitoc)                No file main-project01.toc. 
+(minitoc)                MINITOCS NOT PREPARED on input line 17.
+
 \tf@toc=\write5
 \openout5 = `main-project01.toc'.
 
@@ -1758,33 +1735,22 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 \tf@toc=\write6
 \openout6 = `main-project01.toc'.
 
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 33.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+ [1
 
 
-(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
-
-
-(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-[1
-
-
-] (main-project01.lof)
+]
+No file main-project01.lof.
 \tf@lof=\write7
 \openout7 = `main-project01.lof'.
 
- [2
+[2
 
-] (main-project01.lot)
+]
+No file main-project01.lot.
 \tf@lot=\write8
 \openout8 = `main-project01.lot'.
 
- [3
+[3
 
 ] [4
 
@@ -1821,72 +1787,233 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-) [1
+)
+
+LaTeX Warning: Citation `EN1992-1-1-2023(1)' on page 1 undefined on input line 
+27.
+
+
+LaTeX Warning: Citation `IStructE2006(6)' on page 1 undefined on input line 27.
 
 
 
-] [2]
-(Intro.tex) [3
+LaTeX Warning: Citation `IStructE2006(6)' on page 1 undefined on input line 28.
+
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Citation `EN1992-1-1-2023(1)' on page 1 undefined on input line 
+38.
+
+
+LaTeX Warning: Citation `IStructE2006(6)' on page 1 undefined on input line 38.
+
+
+
+LaTeX Warning: Citation `EN1992-1-1-2023(1)' on page 1 undefined on input line 
+54.
+
+
+LaTeX Warning: Citation `IStructE2006(6)' on page 1 undefined on input line 54.
+
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 78.
+
+[1
+
+
+
+]
+
+LaTeX Warning: Citation `IStructE2006(6)' on page 2 undefined on input line 80.
+
+
+c:/Drive D/overleaf/RC Projects/Project-01/main-project01.tex:86: Missing $ ins
+erted.
+<inserted text> 
+                $
+l.86 STEP 3:  Gather G_
+                       k — permanent loads
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Drive D/overleaf/RC Projects/Project-01/main-project01.tex:117: Missing $ in
+serted.
+<inserted text> 
+                $
+l.117 \clearpage
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (110.84125pt too wide) in paragraph at lines 82--117
+\TU/lmr/m/n/12 two-way) ↓ STEP 3: Gather G$[][][]\OML/cmm/m/it/12 permanentload
+s\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 EN\OT1/cmr/m/n/12 1991 \OMS/cmsy/m/n/12 ^^@ 
+\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 1 : 2002\OML/cmm/m/it/12
+ ; AnnexA; TableA:\OT1/cmr/m/n/12 1[3])[]\OML/cmm/m/it/12 STEP\OT1/cmr/m/n/12 4
+ :
+ []
+
+
+Overfull \hbox (61.13896pt too wide) in paragraph at lines 82--117
+\OML/cmm/m/it/12 ApplyULScombinationw[]d \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 :\
+OT1/cmr/m/n/12 25\OML/cmm/m/it/12 Gk \OT1/cmr/m/n/12 + 1\OML/cmm/m/it/12 :\OT1/
+cmr/m/n/12 5\OML/cmm/m/it/12 Qk\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 EN\OT1/cmr/m/n
+/12 1990 : 2002\OML/cmm/m/it/12 ; Cl:\OT1/cmr/m/n/12 6\OML/cmm/m/it/12 :\OT1/cm
+r/m/n/12 4\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ; Exp:\OT1/cmr/m/
+n/12 6\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 10\OML/cmm/m/it/12 b\OT1/cmr/m/n/12 [5]
+)[]\OML/cmm/m/it/12 STEP\OT1/cmr/m/n/12 6 :
+ []
+
+
+Overfull \hbox (67.77391pt too wide) in paragraph at lines 82--117
+\OML/cmm/m/it/12 Converttobeamlineloadw\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 kN\OT1
+/cmr/m/n/12 /\OML/cmm/m/it/12 m\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 w[]d[]tribu
+tarywidth\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 IStructEManual; Ch:\OT1/cmr/m/n/12 4
+[6])[]\OML/cmm/m/it/12 STEP\OT1/cmr/m/n/12 7 :
+ []
+
+
+Overfull \hbox (144.08435pt too wide) in paragraph at lines 82--117
+\OML/cmm/m/it/12 Calculatebendingmomentsandshear\OT1/cmr/m/n/12 (\OML/cmm/m/it/
+12 IStructEManual; Ch:\OT1/cmr/m/n/12 4[6])(\OML/cmm/m/it/12 Eurocode\OT1/cmr/m
+/n/12 2\OML/cmm/m/it/12 ; StructuralAnalysis\OT1/cmr/m/n/12 [1])[]\OML/cmm/m/it
+/12 STEP\OT1/cmr/m/n/12 8 :
+ []
+
+
+Overfull \hbox (294.85304pt too wide) in paragraph at lines 82--117
+\OML/cmm/m/it/12 SizebeamusingL\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 dratio\OT1/cmr
+/m/n/12 (\OML/cmm/m/it/12 Eurocode\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; Deflectio
+nSection\OT1/cmr/m/n/12 [1])[]\OML/cmm/m/it/12 STEP\OT1/cmr/m/n/12 9 : \OML/cmm
+/m/it/12 Designreinforcement\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Eurocode\OT1/cmr/
+m/n/12 2\OML/cmm/m/it/12 ; ULSDesignSection\OT1/cmr/m/n/12 [1])[]\OML/cmm/m/it/
+12 STEP\OT1/cmr/m/n/12 10 :
+ []
+
+
+Overfull \hbox (100.30452pt too wide) in paragraph at lines 82--117
+\OML/cmm/m/it/12 CheckSLS[]deflectionandcracking\OT1/cmr/m/n/12 (\OML/cmm/m/it/
+12 EN\OT1/cmr/m/n/12 1990 : 2002\OML/cmm/m/it/12 ; Cl:\OT1/cmr/m/n/12 6\OML/cmm
+/m/it/12 :\OT1/cmr/m/n/12 5[5])(\OML/cmm/m/it/12 Eurocode\OT1/cmr/m/n/12 2\OML/
+cmm/m/it/12 ; SLSSection\OT1/cmr/m/n/12 [1])[]\OML/cmm/m/it/12 STEP\OT1/cmr/m/n
+/12 11 :
+ []
+
+
+Overfull \hbox (32.02965pt too wide) in paragraph at lines 82--117
+\OML/cmm/m/it/12 Detailandproducedrawings\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Euro
+code\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; DetailingSection\OT1/cmr/m/n/12 [1])(\O
+ML/cmm/m/it/12 IStructEManual; Ch:\OT1/cmr/m/n/12 4[6])$[] 
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 117.
+
+[2] (Intro.tex)
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 121.
+
+[3
 
 ] (detaildesigncalculation.tex
-Overfull \hbox (4.8228pt too wide) in alignment at lines 5--9
- [] [] [] [] 
- []
+
+LaTeX Warning: Citation `EN1991-1-1-2002(3)' on page 4 undefined on input line 
+3.
 
 
-Overfull \hbox (4.8228pt too wide) in alignment at lines 9--13
- [] [] [] [] 
- []
+LaTeX Warning: Reference `tab:imposedload' on page 4 undefined on input line 3.
 
-
-Overfull \hbox (4.8228pt too wide) in alignment at lines 13--15
- [] [] [] [] 
- []
-
-
-Overfull \hbox (4.8228pt too wide) in alignment at lines 15--16
- [] [] [] [] 
- []
 
 
 Overfull \hbox (4.8228pt too wide) in alignment at lines 16--33
  [] [] [] [] 
  []
 
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 3.1 on input line 33.
+
 detaildesigncalculation.tex:33: ignored: Infinite glue shrinkage found in box b
-eing split [4
+eing split
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 33.
+
+[4
 
 ]
 DEBUG LT@output: leftmark=3.\ Detailed Design Calculations, rightmark=3.\ Detai
 led Design Calculations
+
+LaTeX Warning: Reference `tab:imposedloadsecondfl' on page 5 undefined on input
+ line 35.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 3.2 on input line 71.
+
 detaildesigncalculation.tex:71: ignored: Infinite glue shrinkage found in box b
-eing split [5]
+eing split
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 71.
+
+[5]
 DEBUG LT@output: leftmark=3.\ Detailed Design Calculations, rightmark=3.\ Detai
 led Design Calculations
-) [6]
-Underfull \hbox (badness 2134) in paragraph at lines 140--147
+
+LaTeX Warning: Citation `EN1990-2002(5)' on page 6 undefined on input line 73.
+
+
+LaTeX Warning: Citation `EN1991-1-1-2002(3)' on page 6 undefined on input line 
+74.
+
+
+LaTeX Warning: Citation `EN1991-1-1-2025(2)' on page 6 undefined on input line 
+74.
+
+)
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 125.
+
+[6]
+Underfull \hbox (badness 2134) in paragraph at lines 176--183
 []\TU/lmr/m/n/12 Institution of Structural Engineers (IStructE), \TU/lmr/m/it/1
 2 Manual for the Design
  []
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 140--147
+Underfull \hbox (badness 3965) in paragraph at lines 176--183
 \TU/lmr/m/it/12 of Concrete Building Structures to Eurocode 2\TU/lmr/m/n/12 , 2
 nd ed., IStructE,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--147
+Underfull \hbox (badness 10000) in paragraph at lines 176--183
 \TU/lmr/m/n/12 London, 2006. [Online]. Available: [][]$[][][][][][] [] [] [] []
 [][][][][][] [] [][][] [] [][][][][][][] []
  []
 
 
-Overfull \hbox (16.55615pt too wide) in paragraph at lines 140--147
+Overfull \hbox (16.55615pt too wide) in paragraph at lines 176--183
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][
 ][] 
  []
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 188.
 
 [7
 
@@ -1912,6 +2039,12 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main-project01.log file.
 
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 197.
+
 [8
 
 ] 
@@ -1921,14 +2054,24 @@ enddocument/afterlastpage (AED): lastpage setting LastPage.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package lastpage Warning: Rerun to get the references right on input line 197.
+
  ) 
 Here is how much of TeX's memory you used:
- 41009 strings out of 402982
- 828492 string characters out of 5448060
+ 40980 strings out of 402982
+ 827911 string characters out of 5448060
  1478939 words of memory out of 5000000
- 69112 multiletter control sequences out of 15000+600000
- 635733 words of font info for 94 fonts, out of 8000000 for 9000
+ 69093 multiletter control sequences out of 15000+600000
+ 632894 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,14n,118p,1074b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,14n,118p,1074b,2177s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (15 pages, 151912 bytes).
+Output written on main-project01.xdv (15 pages, 130244 bytes).

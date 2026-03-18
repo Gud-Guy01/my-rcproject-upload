@@ -78,6 +78,42 @@ Partially Fixed       & Limited rotation          & Partial moment             &
 \end{table}
 \noindent In reinforced concrete buildings, beams are almost always continuous over columns because they are cast monolithically
 (IStructE Manual, Chapter 4, Cl. 4.2 \cite{IStructE2006(6)}).
+\subsection{Design Workflow}
+STEP 1:  Establish building layout and use
+                    ↓
+STEP 2:  Identify slab type (one-way / two-way)
+                    ↓
+STEP 3:  Gather G_k — permanent loads
+         (EN 1991-1-1:2002, Annex A, Table A.1 [3])
+                    ↓
+STEP 4:  Gather Q_k — variable loads
+         (EN 1991-1-1:2002, Cl. 6.3.1, Table 6.2 [3])
+                    ↓
+STEP 5:  Apply ULS combination
+         w_Ed = 1.25Gk + 1.5Qk
+         (EN 1990:2002, Cl. 6.4.3, Exp. 6.10b [5])
+                    ↓
+STEP 6:  Convert to beam line load
+         w (kN/m) = w_Ed × tributary width
+         (IStructE Manual, Ch. 4 [6])
+                    ↓
+STEP 7:  Calculate bending moments and shear
+         (IStructE Manual, Ch. 4 [6])
+         (Eurocode 2, Structural Analysis [1])
+                    ↓
+STEP 8:  Size beam using L/d ratio
+         (Eurocode 2, Deflection Section [1])
+                    ↓
+STEP 9:  Design reinforcement
+         (Eurocode 2, ULS Design Section [1])
+                    ↓
+STEP 10: Check SLS — deflection and cracking
+         (EN 1990:2002, Cl. 6.5 [5])
+         (Eurocode 2, SLS Section [1])
+                    ↓
+STEP 11: Detail and produce drawings
+         (Eurocode 2, Detailing Section [1])
+         (IStructE Manual, Ch. 4 [6])
 \clearpage
 \section{Introduction}
 \input{Intro.tex}
