@@ -890,6 +890,9 @@ INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.t
 INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 OUTPUT main-project01.lot
+INPUT .\howtodesign.tex
+INPUT .\howtodesign.tex
+INPUT howtodesign.tex
 INPUT .\Intro.tex
 INPUT .\Intro.tex
 INPUT Intro.tex

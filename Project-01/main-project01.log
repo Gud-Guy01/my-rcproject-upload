@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 11:25
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 11:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1824,12 +1824,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-) [1
+) (howtodesign.tex [1
 
 
 
-] [2] [3]
-(Intro.tex) [4
+] [2]) [3] (Intro.tex) [4
 
 ] (detaildesigncalculation.tex
 Overfull \hbox (4.8228pt too wide) in alignment at lines 5--9
@@ -1867,25 +1866,25 @@ eing split [6]
 DEBUG LT@output: leftmark=3.\ Detailed Design Calculations, rightmark=3.\ Detai
 led Design Calculations
 ) [7]
-Underfull \hbox (badness 2134) in paragraph at lines 178--185
+Underfull \hbox (badness 2134) in paragraph at lines 83--90
 []\TU/lmr/m/n/12 Institution of Structural Engineers (IStructE), \TU/lmr/m/it/1
 2 Manual for the Design
  []
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 178--185
+Underfull \hbox (badness 3965) in paragraph at lines 83--90
 \TU/lmr/m/it/12 of Concrete Building Structures to Eurocode 2\TU/lmr/m/n/12 , 2
 nd ed., IStructE,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--185
+Underfull \hbox (badness 10000) in paragraph at lines 83--90
 \TU/lmr/m/n/12 London, 2006. [Online]. Available: [][]$[][][][][][] [] [] [] []
 [][][][][][] [] [][][] [] [][][][][][][] []
  []
 
 
-Overfull \hbox (16.55615pt too wide) in paragraph at lines 178--185
+Overfull \hbox (16.55615pt too wide) in paragraph at lines 83--90
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][
 ][] 
@@ -1926,12 +1925,12 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 41010 strings out of 402982
- 828498 string characters out of 5448060
+ 41016 strings out of 402982
+ 828609 string characters out of 5448060
  1478939 words of memory out of 5000000
- 69113 multiletter control sequences out of 15000+600000
+ 69116 multiletter control sequences out of 15000+600000
  635733 words of font info for 94 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,14n,118p,1074b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (16 pages, 167156 bytes).
+Output written on main-project01.xdv (16 pages, 165676 bytes).
