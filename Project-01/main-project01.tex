@@ -24,8 +24,8 @@
     \item Building Load contains : \textbf{gravity} and \textbf{lateral} Loads.
 \end{itemize}
 \subsection{Convert Area Loads to Line Load on Beams}
-Slabs distribute their load to beam depending on slab span direction and support condition (EN 1992-1-1:2023, Cl. 5.3.2 \cite{EN1992-1-1-2023(1)}; IStructE Manual, Cl. 3.2).
-\subsubsection*{The Tributary Width Method [IStructE Manual, Cl. 3.2]:}
+Slabs distribute their load to beam depending on slab span direction and support condition (Eurocode 2, Section on Slabs \cite{EN1992-1-1-2023(1)}; IStructE Manual, Chapter 4 \cite{IStructE2006(6)}).
+\subsubsection*{The Tributary Width Method (IStructE Manual, Chapter 4 \cite{IStructE2006(6)}):}
 For a \textbf{one-way slab}, load goes to the beams on the short sides:
 \begin{center}
 \begin{tcolorbox}[colback=white]
@@ -34,7 +34,8 @@ Beam Line Load (kN/m) = Floor Load (kN/m2) \(\times\) Tributary Width (m)
 \end{center}
 \textbf{Tributary Width} = half the slab span on each side of the beam [IStructE Manual, Cl. 3.2]. \\[2mm]
 \textbf{Example}: If Slab spans 5m between two beams, so each beam take \(5/2 = 2.5m\) tribuyary width. And if floor load is 10kN/m2, then beam line load is \( 10 \times 2.5 = 25 kN/m\) \\[2mm]
-For a \textbf{two-way slab}, load distributes in both directions using yield line theory or the simplified  triangular/trapezoidal method (EN 1992-1-1:2023, Cl. 5.3.2 \cite{EN1992-1-1-2023(1)}; Reynolds \& Steedman, Ch. 8):
+For a \textbf{two-way slab}, load distributes in both directions
+(Eurocode 2, Section on Two-Way Slabs \cite{EN1992-1-1-2023(1)}; IStructE Manual, Chapter 5 \cite{IStructE2006(6)}):
 \begin{itemize}
     \item Short span beam take triangular load
     \item Long span beam take trapezoidal load
@@ -49,7 +50,8 @@ For a \textbf{two-way slab}, load distributes in both directions using yield lin
     \[\sum_{i}G_{k,i} + \sum_{j}\varphi_{2,j} Q_{k,j} + (P_k)\]
 \end{itemize}
 \subsection{Beam Support Conditions}
-The support condition effects bending moments, shear forces, and reinforcement layout (EN 1992-1-1:2023, Cl. 5.3.2.2 \cite{EN1992-1-1-2023(1)}; IStructE Manual, Cl. 4.2):
+Support conditions determine the bending moment diagram shape and therefore where reinforcement must be placed
+(Eurocode 2, Section on Structural Analysis \cite{EN1992-1-1-2023(1)}; IStructE Manual, Chapter 4 \cite{IStructE2006(6)}):
 \begin{table}[H]
 \centering
 \caption{Beam support condition}
@@ -74,7 +76,8 @@ Fixed                 & No rotation               & Maximum moment             &
 Partially Fixed       & Limited rotation          & Partial moment             & Beam-column joint
 \end{tabular}}
 \end{table}
-\noindent In real RC buildings: Most beams are continuous over columns, this is the most common and important case (EN 1992-1-1:2023, Cl. 5.3.2 \cite{EN1992-1-1-2023(1)}; IStructE Manual, Cl. 4.2).
+\noindent In reinforced concrete buildings, beams are almost always continuous over columns because they are cast monolithically
+(IStructE Manual, Chapter 4, Cl. 4.2 \cite{IStructE2006(6)}).
 \clearpage
 \section{Introduction}
 \input{Intro.tex}

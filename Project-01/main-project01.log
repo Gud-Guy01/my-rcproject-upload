@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 10:34
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 11:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1864,25 +1864,25 @@ eing split [5]
 DEBUG LT@output: leftmark=3.\ Detailed Design Calculations, rightmark=3.\ Detai
 led Design Calculations
 ) [6]
-Underfull \hbox (badness 2134) in paragraph at lines 137--144
+Underfull \hbox (badness 2134) in paragraph at lines 140--147
 []\TU/lmr/m/n/12 Institution of Structural Engineers (IStructE), \TU/lmr/m/it/1
 2 Manual for the Design
  []
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 137--144
+Underfull \hbox (badness 3965) in paragraph at lines 140--147
 \TU/lmr/m/it/12 of Concrete Building Structures to Eurocode 2\TU/lmr/m/n/12 , 2
 nd ed., IStructE,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--144
+Underfull \hbox (badness 10000) in paragraph at lines 140--147
 \TU/lmr/m/n/12 London, 2006. [Online]. Available: [][]$[][][][][][] [] [] [] []
 [][][][][][] [] [][][] [] [][][][][][][] []
  []
 
 
-Overfull \hbox (16.55615pt too wide) in paragraph at lines 137--144
+Overfull \hbox (16.55615pt too wide) in paragraph at lines 140--147
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][
 ][] 
@@ -1931,4 +1931,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  89i,14n,118p,1074b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (15 pages, 151344 bytes).
+Output written on main-project01.xdv (15 pages, 151912 bytes).
