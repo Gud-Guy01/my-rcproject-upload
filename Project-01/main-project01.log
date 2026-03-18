@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 20:03
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  18 MAR 2026 20:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1463,8 +1463,11 @@ File: english.mld 2006/01/13
 )
 (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
 File: english.mld 2006/01/13
-))) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/silence\silence.s
-ty
+)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.st
+y
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/silence\silence.st
+y
 Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error mes
 sages
 \sl@Save=\count430
@@ -1686,6 +1689,7 @@ Package minitoc(hints) Warning: W0099
 (minitoc(hints))                It is incompatible 
 (minitoc(hints))                with the minitoc package.
 
+Couldn't patch \deferred@thm@head!
 Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM main-project01.toc on input line 
 18.
@@ -1705,7 +1709,7 @@ e \numberline {1.4}Design Workflow}{\reset@font\mtcSSfont 2}{subsection.0.1.4}}
 
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
 e \numberline {1.5}The Key Distinction: what are we Designing}{\reset@font\mtcS
-Sfont 2}{subsection.0.1.5}}
+Sfont 3}{subsection.0.1.5}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
 e \numberline {1.6}The Unit Journey}{\reset@font\mtcSSfont 3}{subsection.0.1.6}
 }
@@ -1720,12 +1724,12 @@ e \numberline {3.1}Loading}{\reset@font\mtcSSfont 5}{subsection.0.3.1}}
 vmode \numberline {3.1.1}Live Load}{\reset@font\mtcSSSfont 5}{subsubsection.0.3
 .1.1}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leave
-vmode \numberline {3.1.2}Dead Load}{\reset@font\mtcSSSfont 6}{subsubsection.0.3
+vmode \numberline {3.1.2}Dead Load}{\reset@font\mtcSSSfont 7}{subsubsection.0.3
 .1.2}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Re
-ferences}{\reset@font\mtcSfont 7}{section*.6}}
+ferences}{\reset@font\mtcSfont 8}{section*.6}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Ap
-pendices}{\reset@font\mtcSfont 8}{section*.7}}
+pendices}{\reset@font\mtcSfont 9}{section*.7}}
 \tf@toc=\write5
 \openout5 = `main-project01.toc'.
 
@@ -1868,15 +1872,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
+] [2]) [3] (Intro.tex) [4
+
+] (detaildesigncalculation.tex
+detaildesigncalculation.tex:33: ignored: Infinite glue shrinkage found in box b
+eing split [5
+
 ]
-Underfull \vbox (badness 1946) has occurred while \output is active []
-
- [2])
-[3] (Intro.tex) [4
-
-] (detaildesigncalculation.tex [5
-
-]) [6]
+DEBUG LT@output: leftmark=3.\ Detailed Design Calculations, rightmark=3.\ Detai
+led Design Calculations
+detaildesigncalculation.tex:70: ignored: Infinite glue shrinkage found in box b
+eing split [6]
+DEBUG LT@output: leftmark=3.\ Detailed Design Calculations, rightmark=3.\ Detai
+led Design Calculations
+) [7]
 Underfull \hbox (badness 10000) in paragraph at lines 84--91
 []\TU/Arial(0)/m/n/10 Institution of Structural Engineers (IStructE), \TU/Arial
 (0)/m/it/10 Manual for the Design
@@ -1894,7 +1903,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--91
 [] [][][][][][][] [] [][][] [] [][][][][][][] []
  []
 
-[7
+[8
 
 ]
 Package minitoc Info: I0009
@@ -1918,7 +1927,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main-project01.log file.
 
-[8
+[9
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -1929,12 +1938,12 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 41051 strings out of 402982
- 830207 string characters out of 5448060
- 1485663 words of memory out of 5000000
- 69143 multiletter control sequences out of 15000+600000
+ 41083 strings out of 402982
+ 830971 string characters out of 5448060
+ 1481331 words of memory out of 5000000
+ 69173 multiletter control sequences out of 15000+600000
  632237 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,14n,118p,1074b,2078s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,14n,118p,1248b,2127s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main-project01.xdv (15 pages, 177068 bytes).
+Output written on main-project01.xdv (16 pages, 182808 bytes).
